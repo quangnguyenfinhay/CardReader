@@ -766,7 +766,8 @@ public class DataGroup12 : IDCardReader.DataGroup {
 public class NotImplementedDG : IDCardReader.DataGroup {
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers public class IDCardReaderManager : ObjectiveC.NSObject {
+@objc @_inheritsConvenienceInitializers @available(iOS 13.0, *)
+public class IDCardReaderManager : ObjectiveC.NSObject {
   public static let shared: IDCardReader.IDCardReaderManager
   public func setup(appId: Swift.String, license: Swift.String, logLevel: IDCardReader.LogLevel = .debug, isSanbox: Swift.Bool = true)
   public func setLocalizeTexts(requestPresentCard: Swift.String? = nil, authenticating: Swift.String? = nil, reading: Swift.String? = nil, errorReading: Swift.String? = nil, successReading: Swift.String? = nil)

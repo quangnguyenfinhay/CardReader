@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/IDCardReader-Swift.h</key>
 		<data>
-		vbMyGzyVUYGmkXYtRbH0KuFi7Ws=
+		e3t+aVtJdH0FTISnp15Eidvb5OY=
 		</data>
 		<key>Headers/IDCardReader.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/IDCardReader.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Nl+92staZS3f3WX6DLBNNx1XpSg=
+		jZpANfOtIZbh48aXf3/4rpwRSSU=
 		</data>
 		<key>Modules/IDCardReader.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		WiNodMu52yQYfJ8tBegt1UhY1Sg=
+		Ch8nhFhKrDRIehAnjnt574d57ig=
 		</data>
 		<key>Modules/IDCardReader.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/IDCardReader.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		WiNodMu52yQYfJ8tBegt1UhY1Sg=
+		Ch8nhFhKrDRIehAnjnt574d57ig=
 		</data>
 		<key>Modules/IDCardReader.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		GC0jwbTbYvih7OJ7Ep2AX9zgeXQ=
+		ylVbBsHI7LI8wMMJtacnzGumr0I=
 		</data>
 		<key>Modules/IDCardReader.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Nl+92staZS3f3WX6DLBNNx1XpSg=
+		jZpANfOtIZbh48aXf3/4rpwRSSU=
 		</data>
 		<key>Modules/IDCardReader.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		eMDi4nX/WB9xSr7uoPL9YG/hzKE=
+		vr1atIUhSX2Q68lCU8Ye7dVxci0=
 		</data>
 		<key>Modules/IDCardReader.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/IDCardReader.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		eMDi4nX/WB9xSr7uoPL9YG/hzKE=
+		vr1atIUhSX2Q68lCU8Ye7dVxci0=
 		</data>
 		<key>Modules/IDCardReader.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		PB49aKN4BKal9fW7R4FpFmrfIjU=
+		qgdehmKlvS7jGJL6m23YL5yXyg0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,7 +71,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2ms3YCy3Hax93+zxEiaJu1DeOCPd7qWq2vlo1tpVg3g=
+			B5aYVm5wFwppHYEAqpOSg4QKofcFdBTjp8sb81fSRVA=
 			</data>
 		</dict>
 		<key>Headers/IDCardReader.h</key>
@@ -85,14 +85,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EAmHxX8bNOR6OjfApjC2vSZX61kOxSSE8Lvsb4gKx1g=
+			vgk10tqBafvtaVvQjVWTcD3gf7jPoowWKTtPIg/cBXA=
 			</data>
 		</dict>
 		<key>Modules/IDCardReader.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			akrfiMYpyUqtRSozLv3h3qHFhrOyanSVXcuj8QSpcKs=
+			f9RoeRJtbO9/b9RVwD58+FndtWdQ1Wh8/j6NOznANeQ=
 			</data>
 		</dict>
 		<key>Modules/IDCardReader.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -106,28 +106,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			akrfiMYpyUqtRSozLv3h3qHFhrOyanSVXcuj8QSpcKs=
+			f9RoeRJtbO9/b9RVwD58+FndtWdQ1Wh8/j6NOznANeQ=
 			</data>
 		</dict>
 		<key>Modules/IDCardReader.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lijhSF9dal/feZIQibDwcLfQ3OAfTHq2EJ/TVnge0Jc=
+			QCvmIEQlHs19F6ctrbDJAC8RBU2w9sc3phQJa/UFkqg=
 			</data>
 		</dict>
 		<key>Modules/IDCardReader.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EAmHxX8bNOR6OjfApjC2vSZX61kOxSSE8Lvsb4gKx1g=
+			vgk10tqBafvtaVvQjVWTcD3gf7jPoowWKTtPIg/cBXA=
 			</data>
 		</dict>
 		<key>Modules/IDCardReader.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dgPW3MQyT+RK4duCxXH89bOsp0YsSCjIkQ5v6xNgKdg=
+			9Gs0eQ3TxBWElPoz2bCIqygDEFyb9OIK1OP+afJzrEo=
 			</data>
 		</dict>
 		<key>Modules/IDCardReader.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -141,14 +141,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dgPW3MQyT+RK4duCxXH89bOsp0YsSCjIkQ5v6xNgKdg=
+			9Gs0eQ3TxBWElPoz2bCIqygDEFyb9OIK1OP+afJzrEo=
 			</data>
 		</dict>
 		<key>Modules/IDCardReader.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HyfdnaskCTtfpHBm3oJ8OXEBUX02AyorqwNVJR5CvcQ=
+			LsYlBvjdMU0zz7E/dUzy0DQYCulQVzN7XXWbe6I51lI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

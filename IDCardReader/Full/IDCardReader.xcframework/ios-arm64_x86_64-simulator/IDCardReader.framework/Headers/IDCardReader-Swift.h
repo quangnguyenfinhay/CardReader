@@ -309,7 +309,7 @@ SWIFT_CLASS("_TtC12IDCardReader18ARLivenessDetector")
 
 
 
-SWIFT_CLASS("_TtC12IDCardReader19IDCardReaderManager")
+SWIFT_CLASS("_TtC12IDCardReader19IDCardReaderManager") SWIFT_AVAILABILITY(ios,introduced=13.0)
 @interface IDCardReaderManager : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -644,7 +644,7 @@ SWIFT_CLASS("_TtC12IDCardReader18ARLivenessDetector")
 
 
 
-SWIFT_CLASS("_TtC12IDCardReader19IDCardReaderManager")
+SWIFT_CLASS("_TtC12IDCardReader19IDCardReaderManager") SWIFT_AVAILABILITY(ios,introduced=13.0)
 @interface IDCardReaderManager : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end

@@ -283,7 +283,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if defined(__OBJC__)
 
 
-SWIFT_CLASS("_TtC12IDCardReader19IDCardReaderManager")
+SWIFT_CLASS("_TtC12IDCardReader19IDCardReaderManager") SWIFT_AVAILABILITY(ios,introduced=13.0)
 @interface IDCardReaderManager : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
