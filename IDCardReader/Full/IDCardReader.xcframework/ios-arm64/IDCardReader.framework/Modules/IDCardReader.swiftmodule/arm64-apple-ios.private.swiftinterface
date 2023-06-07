@@ -857,6 +857,7 @@ public struct IDCardRawData {
 }
 public struct IDCardInformationResponse : ObjectMapper.Mappable {
   public var status: Swift.Int
+  public var code: Swift.String
   public var message: Swift.String
   public var requestId: Swift.String
   public var faceString: Swift.String
@@ -889,6 +890,7 @@ public struct IDCardInformation : ObjectMapper.Mappable {
 }
 public struct IDCardValidationResponse : ObjectMapper.Mappable {
   public var status: Swift.Int
+  public var code: Swift.String
   public var message: Swift.String
   public var data: IDCardReader.IDCardValidationData?
   public init?(map: ObjectMapper.Map)
@@ -896,6 +898,7 @@ public struct IDCardValidationResponse : ObjectMapper.Mappable {
 }
 public struct IDCardValidationData : ObjectMapper.Mappable {
   public var status: Swift.Int
+  public var code: Swift.String
   public var result: Swift.Bool
   public var message: Swift.String
   public var time: Swift.Int
@@ -904,6 +907,7 @@ public struct IDCardValidationData : ObjectMapper.Mappable {
 }
 public struct FaceValidationResponse : ObjectMapper.Mappable {
   public var status: Swift.Int
+  public var code: Swift.String
   public var message: Swift.String
   public var requestId: Swift.String
   public var resultCode: Swift.Int
@@ -915,6 +919,7 @@ public struct FaceValidationResponse : ObjectMapper.Mappable {
 }
 public struct ConfignResponse : ObjectMapper.Mappable {
   public var status: Swift.Int
+  public var code: Swift.String
   public var message: Swift.String
   public var data: IDCardReader.ConfigData?
   public init?(map: ObjectMapper.Map)
@@ -930,6 +935,28 @@ public struct ConfigData : ObjectMapper.Mappable {
   public var data: IDCardReader.IDCardInformation?
   public init?(map: ObjectMapper.Map)
   public mutating func mapping(map: ObjectMapper.Map)
+}
+public enum CardValidationError : Swift.Error {
+  case badParameter
+  case badResponse(Swift.String, Swift.String)
+  case missingParameter
+  case licenseOrAppNotFound
+  case licenseExpired
+  case merchantNotFound
+  case invalidSignature
+  case appIdNotFound
+  case merchantAccountNotFound
+  case merchantAccountLocked
+  case noPermission
+  case duplicateUniqueData
+  case dataNotFound
+  case ipBlocked
+  case systemMaintenance
+  case transactionNotFound
+  case systemBusy
+  case noMatchedCard
+  case checkCertFailed
+  case unknowError
 }
 extension IDCardReader.LogLevel : Swift.Equatable {}
 extension IDCardReader.LogLevel : Swift.Hashable {}

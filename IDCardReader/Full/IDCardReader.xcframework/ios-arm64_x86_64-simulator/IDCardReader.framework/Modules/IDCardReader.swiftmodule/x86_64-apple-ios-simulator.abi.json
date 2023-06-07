@@ -20669,6 +20669,92 @@
           },
           {
             "kind": "Var",
+            "name": "code",
+            "printedName": "code",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IDCardReader0A19InformationResponseV4codeSSvp",
+            "mangledName": "$s12IDCardReader0A19InformationResponseV4codeSSvp",
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader0A19InformationResponseV4codeSSvg",
+                "mangledName": "$s12IDCardReader0A19InformationResponseV4codeSSvg",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader0A19InformationResponseV4codeSSvs",
+                "mangledName": "$s12IDCardReader0A19InformationResponseV4codeSSvs",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader0A19InformationResponseV4codeSSvM",
+                "mangledName": "$s12IDCardReader0A19InformationResponseV4codeSSvM",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "message",
             "printedName": "message",
             "children": [
@@ -22942,6 +23028,92 @@
           },
           {
             "kind": "Var",
+            "name": "code",
+            "printedName": "code",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IDCardReader0A18ValidationResponseV4codeSSvp",
+            "mangledName": "$s12IDCardReader0A18ValidationResponseV4codeSSvp",
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader0A18ValidationResponseV4codeSSvg",
+                "mangledName": "$s12IDCardReader0A18ValidationResponseV4codeSSvg",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader0A18ValidationResponseV4codeSSvs",
+                "mangledName": "$s12IDCardReader0A18ValidationResponseV4codeSSvs",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader0A18ValidationResponseV4codeSSvM",
+                "mangledName": "$s12IDCardReader0A18ValidationResponseV4codeSSvM",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "message",
             "printedName": "message",
             "children": [
@@ -23309,6 +23481,92 @@
                 "declKind": "Accessor",
                 "usr": "s:12IDCardReader0A14ValidationDataV6statusSivM",
                 "mangledName": "$s12IDCardReader0A14ValidationDataV6statusSivM",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "code",
+            "printedName": "code",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IDCardReader0A14ValidationDataV4codeSSvp",
+            "mangledName": "$s12IDCardReader0A14ValidationDataV4codeSSvp",
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader0A14ValidationDataV4codeSSvg",
+                "mangledName": "$s12IDCardReader0A14ValidationDataV4codeSSvg",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader0A14ValidationDataV4codeSSvs",
+                "mangledName": "$s12IDCardReader0A14ValidationDataV4codeSSvs",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader0A14ValidationDataV4codeSSvM",
+                "mangledName": "$s12IDCardReader0A14ValidationDataV4codeSSvM",
                 "moduleName": "IDCardReader",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -23745,6 +24003,92 @@
                 "declKind": "Accessor",
                 "usr": "s:12IDCardReader22FaceValidationResponseV6statusSivM",
                 "mangledName": "$s12IDCardReader22FaceValidationResponseV6statusSivM",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "code",
+            "printedName": "code",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IDCardReader22FaceValidationResponseV4codeSSvp",
+            "mangledName": "$s12IDCardReader22FaceValidationResponseV4codeSSvp",
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader22FaceValidationResponseV4codeSSvg",
+                "mangledName": "$s12IDCardReader22FaceValidationResponseV4codeSSvg",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader22FaceValidationResponseV4codeSSvs",
+                "mangledName": "$s12IDCardReader22FaceValidationResponseV4codeSSvs",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader22FaceValidationResponseV4codeSSvM",
+                "mangledName": "$s12IDCardReader22FaceValidationResponseV4codeSSvM",
                 "moduleName": "IDCardReader",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -24482,6 +24826,92 @@
                 "declKind": "Accessor",
                 "usr": "s:12IDCardReader15ConfignResponseV6statusSivM",
                 "mangledName": "$s12IDCardReader15ConfignResponseV6statusSivM",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "code",
+            "printedName": "code",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IDCardReader15ConfignResponseV4codeSSvp",
+            "mangledName": "$s12IDCardReader15ConfignResponseV4codeSSvp",
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader15ConfignResponseV4codeSSvg",
+                "mangledName": "$s12IDCardReader15ConfignResponseV4codeSSvg",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader15ConfignResponseV4codeSSvs",
+                "mangledName": "$s12IDCardReader15ConfignResponseV4codeSSvs",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader15ConfignResponseV4codeSSvM",
+                "mangledName": "$s12IDCardReader15ConfignResponseV4codeSSvM",
                 "moduleName": "IDCardReader",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -25486,6 +25916,802 @@
             "printedName": "BaseMappable",
             "usr": "s:12ObjectMapper12BaseMappableP",
             "mangledName": "$s12ObjectMapper12BaseMappableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CardValidationError",
+        "printedName": "CardValidationError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "badParameter",
+            "printedName": "badParameter",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.CardValidationError.Type) -> IDCardReader.CardValidationError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardValidationError",
+                    "printedName": "IDCardReader.CardValidationError",
+                    "usr": "s:12IDCardReader19CardValidationErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.CardValidationError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardValidationError",
+                        "printedName": "IDCardReader.CardValidationError",
+                        "usr": "s:12IDCardReader19CardValidationErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader19CardValidationErrorO12badParameteryA2CmF",
+            "mangledName": "$s12IDCardReader19CardValidationErrorO12badParameteryA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Var",
+            "name": "badResponse",
+            "printedName": "badResponse",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.CardValidationError.Type) -> (Swift.String, Swift.String) -> IDCardReader.CardValidationError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, Swift.String) -> IDCardReader.CardValidationError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardValidationError",
+                        "printedName": "IDCardReader.CardValidationError",
+                        "usr": "s:12IDCardReader19CardValidationErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.String, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.CardValidationError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardValidationError",
+                        "printedName": "IDCardReader.CardValidationError",
+                        "usr": "s:12IDCardReader19CardValidationErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader19CardValidationErrorO11badResponseyACSS_SStcACmF",
+            "mangledName": "$s12IDCardReader19CardValidationErrorO11badResponseyACSS_SStcACmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Var",
+            "name": "missingParameter",
+            "printedName": "missingParameter",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.CardValidationError.Type) -> IDCardReader.CardValidationError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardValidationError",
+                    "printedName": "IDCardReader.CardValidationError",
+                    "usr": "s:12IDCardReader19CardValidationErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.CardValidationError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardValidationError",
+                        "printedName": "IDCardReader.CardValidationError",
+                        "usr": "s:12IDCardReader19CardValidationErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader19CardValidationErrorO16missingParameteryA2CmF",
+            "mangledName": "$s12IDCardReader19CardValidationErrorO16missingParameteryA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Var",
+            "name": "licenseOrAppNotFound",
+            "printedName": "licenseOrAppNotFound",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.CardValidationError.Type) -> IDCardReader.CardValidationError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardValidationError",
+                    "printedName": "IDCardReader.CardValidationError",
+                    "usr": "s:12IDCardReader19CardValidationErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.CardValidationError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardValidationError",
+                        "printedName": "IDCardReader.CardValidationError",
+                        "usr": "s:12IDCardReader19CardValidationErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader19CardValidationErrorO20licenseOrAppNotFoundyA2CmF",
+            "mangledName": "$s12IDCardReader19CardValidationErrorO20licenseOrAppNotFoundyA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Var",
+            "name": "licenseExpired",
+            "printedName": "licenseExpired",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.CardValidationError.Type) -> IDCardReader.CardValidationError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardValidationError",
+                    "printedName": "IDCardReader.CardValidationError",
+                    "usr": "s:12IDCardReader19CardValidationErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.CardValidationError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardValidationError",
+                        "printedName": "IDCardReader.CardValidationError",
+                        "usr": "s:12IDCardReader19CardValidationErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader19CardValidationErrorO14licenseExpiredyA2CmF",
+            "mangledName": "$s12IDCardReader19CardValidationErrorO14licenseExpiredyA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Var",
+            "name": "merchantNotFound",
+            "printedName": "merchantNotFound",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.CardValidationError.Type) -> IDCardReader.CardValidationError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardValidationError",
+                    "printedName": "IDCardReader.CardValidationError",
+                    "usr": "s:12IDCardReader19CardValidationErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.CardValidationError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardValidationError",
+                        "printedName": "IDCardReader.CardValidationError",
+                        "usr": "s:12IDCardReader19CardValidationErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader19CardValidationErrorO16merchantNotFoundyA2CmF",
+            "mangledName": "$s12IDCardReader19CardValidationErrorO16merchantNotFoundyA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidSignature",
+            "printedName": "invalidSignature",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.CardValidationError.Type) -> IDCardReader.CardValidationError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardValidationError",
+                    "printedName": "IDCardReader.CardValidationError",
+                    "usr": "s:12IDCardReader19CardValidationErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.CardValidationError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardValidationError",
+                        "printedName": "IDCardReader.CardValidationError",
+                        "usr": "s:12IDCardReader19CardValidationErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader19CardValidationErrorO16invalidSignatureyA2CmF",
+            "mangledName": "$s12IDCardReader19CardValidationErrorO16invalidSignatureyA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Var",
+            "name": "appIdNotFound",
+            "printedName": "appIdNotFound",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.CardValidationError.Type) -> IDCardReader.CardValidationError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardValidationError",
+                    "printedName": "IDCardReader.CardValidationError",
+                    "usr": "s:12IDCardReader19CardValidationErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.CardValidationError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardValidationError",
+                        "printedName": "IDCardReader.CardValidationError",
+                        "usr": "s:12IDCardReader19CardValidationErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader19CardValidationErrorO13appIdNotFoundyA2CmF",
+            "mangledName": "$s12IDCardReader19CardValidationErrorO13appIdNotFoundyA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Var",
+            "name": "merchantAccountNotFound",
+            "printedName": "merchantAccountNotFound",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.CardValidationError.Type) -> IDCardReader.CardValidationError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardValidationError",
+                    "printedName": "IDCardReader.CardValidationError",
+                    "usr": "s:12IDCardReader19CardValidationErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.CardValidationError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardValidationError",
+                        "printedName": "IDCardReader.CardValidationError",
+                        "usr": "s:12IDCardReader19CardValidationErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader19CardValidationErrorO23merchantAccountNotFoundyA2CmF",
+            "mangledName": "$s12IDCardReader19CardValidationErrorO23merchantAccountNotFoundyA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Var",
+            "name": "merchantAccountLocked",
+            "printedName": "merchantAccountLocked",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.CardValidationError.Type) -> IDCardReader.CardValidationError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardValidationError",
+                    "printedName": "IDCardReader.CardValidationError",
+                    "usr": "s:12IDCardReader19CardValidationErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.CardValidationError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardValidationError",
+                        "printedName": "IDCardReader.CardValidationError",
+                        "usr": "s:12IDCardReader19CardValidationErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader19CardValidationErrorO21merchantAccountLockedyA2CmF",
+            "mangledName": "$s12IDCardReader19CardValidationErrorO21merchantAccountLockedyA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Var",
+            "name": "noPermission",
+            "printedName": "noPermission",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.CardValidationError.Type) -> IDCardReader.CardValidationError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardValidationError",
+                    "printedName": "IDCardReader.CardValidationError",
+                    "usr": "s:12IDCardReader19CardValidationErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.CardValidationError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardValidationError",
+                        "printedName": "IDCardReader.CardValidationError",
+                        "usr": "s:12IDCardReader19CardValidationErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader19CardValidationErrorO12noPermissionyA2CmF",
+            "mangledName": "$s12IDCardReader19CardValidationErrorO12noPermissionyA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Var",
+            "name": "duplicateUniqueData",
+            "printedName": "duplicateUniqueData",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.CardValidationError.Type) -> IDCardReader.CardValidationError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardValidationError",
+                    "printedName": "IDCardReader.CardValidationError",
+                    "usr": "s:12IDCardReader19CardValidationErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.CardValidationError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardValidationError",
+                        "printedName": "IDCardReader.CardValidationError",
+                        "usr": "s:12IDCardReader19CardValidationErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader19CardValidationErrorO19duplicateUniqueDatayA2CmF",
+            "mangledName": "$s12IDCardReader19CardValidationErrorO19duplicateUniqueDatayA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Var",
+            "name": "dataNotFound",
+            "printedName": "dataNotFound",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.CardValidationError.Type) -> IDCardReader.CardValidationError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardValidationError",
+                    "printedName": "IDCardReader.CardValidationError",
+                    "usr": "s:12IDCardReader19CardValidationErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.CardValidationError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardValidationError",
+                        "printedName": "IDCardReader.CardValidationError",
+                        "usr": "s:12IDCardReader19CardValidationErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader19CardValidationErrorO12dataNotFoundyA2CmF",
+            "mangledName": "$s12IDCardReader19CardValidationErrorO12dataNotFoundyA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Var",
+            "name": "ipBlocked",
+            "printedName": "ipBlocked",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.CardValidationError.Type) -> IDCardReader.CardValidationError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardValidationError",
+                    "printedName": "IDCardReader.CardValidationError",
+                    "usr": "s:12IDCardReader19CardValidationErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.CardValidationError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardValidationError",
+                        "printedName": "IDCardReader.CardValidationError",
+                        "usr": "s:12IDCardReader19CardValidationErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader19CardValidationErrorO9ipBlockedyA2CmF",
+            "mangledName": "$s12IDCardReader19CardValidationErrorO9ipBlockedyA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Var",
+            "name": "systemMaintenance",
+            "printedName": "systemMaintenance",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.CardValidationError.Type) -> IDCardReader.CardValidationError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardValidationError",
+                    "printedName": "IDCardReader.CardValidationError",
+                    "usr": "s:12IDCardReader19CardValidationErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.CardValidationError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardValidationError",
+                        "printedName": "IDCardReader.CardValidationError",
+                        "usr": "s:12IDCardReader19CardValidationErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader19CardValidationErrorO17systemMaintenanceyA2CmF",
+            "mangledName": "$s12IDCardReader19CardValidationErrorO17systemMaintenanceyA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Var",
+            "name": "transactionNotFound",
+            "printedName": "transactionNotFound",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.CardValidationError.Type) -> IDCardReader.CardValidationError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardValidationError",
+                    "printedName": "IDCardReader.CardValidationError",
+                    "usr": "s:12IDCardReader19CardValidationErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.CardValidationError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardValidationError",
+                        "printedName": "IDCardReader.CardValidationError",
+                        "usr": "s:12IDCardReader19CardValidationErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader19CardValidationErrorO19transactionNotFoundyA2CmF",
+            "mangledName": "$s12IDCardReader19CardValidationErrorO19transactionNotFoundyA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Var",
+            "name": "systemBusy",
+            "printedName": "systemBusy",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.CardValidationError.Type) -> IDCardReader.CardValidationError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardValidationError",
+                    "printedName": "IDCardReader.CardValidationError",
+                    "usr": "s:12IDCardReader19CardValidationErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.CardValidationError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardValidationError",
+                        "printedName": "IDCardReader.CardValidationError",
+                        "usr": "s:12IDCardReader19CardValidationErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader19CardValidationErrorO10systemBusyyA2CmF",
+            "mangledName": "$s12IDCardReader19CardValidationErrorO10systemBusyyA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Var",
+            "name": "noMatchedCard",
+            "printedName": "noMatchedCard",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.CardValidationError.Type) -> IDCardReader.CardValidationError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardValidationError",
+                    "printedName": "IDCardReader.CardValidationError",
+                    "usr": "s:12IDCardReader19CardValidationErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.CardValidationError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardValidationError",
+                        "printedName": "IDCardReader.CardValidationError",
+                        "usr": "s:12IDCardReader19CardValidationErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader19CardValidationErrorO09noMatchedC0yA2CmF",
+            "mangledName": "$s12IDCardReader19CardValidationErrorO09noMatchedC0yA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Var",
+            "name": "checkCertFailed",
+            "printedName": "checkCertFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.CardValidationError.Type) -> IDCardReader.CardValidationError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardValidationError",
+                    "printedName": "IDCardReader.CardValidationError",
+                    "usr": "s:12IDCardReader19CardValidationErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.CardValidationError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardValidationError",
+                        "printedName": "IDCardReader.CardValidationError",
+                        "usr": "s:12IDCardReader19CardValidationErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader19CardValidationErrorO15checkCertFailedyA2CmF",
+            "mangledName": "$s12IDCardReader19CardValidationErrorO15checkCertFailedyA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Var",
+            "name": "unknowError",
+            "printedName": "unknowError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.CardValidationError.Type) -> IDCardReader.CardValidationError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardValidationError",
+                    "printedName": "IDCardReader.CardValidationError",
+                    "usr": "s:12IDCardReader19CardValidationErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.CardValidationError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardValidationError",
+                        "printedName": "IDCardReader.CardValidationError",
+                        "usr": "s:12IDCardReader19CardValidationErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader19CardValidationErrorO06unknowE0yA2CmF",
+            "mangledName": "$s12IDCardReader19CardValidationErrorO06unknowE0yA2CmF",
+            "moduleName": "IDCardReader"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12IDCardReader19CardValidationErrorO",
+        "mangledName": "$s12IDCardReader19CardValidationErrorO",
+        "moduleName": "IDCardReader",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       }
@@ -40006,759 +41232,752 @@
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2709,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "StringLiteral",
-      "offset": 2891,
-      "length": 23,
-      "value": "\"MRZ key is: \""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "StringLiteral",
-      "offset": 2913,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 3109,
+      "offset": 2903,
       "length": 3,
-      "value": "100"
+      "value": "400"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 3143,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3175,
-      "length": 3,
-      "value": "-99"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3205,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3701,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3732,
-      "length": 3,
-      "value": "-99"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3766,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "StringLiteral",
-      "offset": 3878,
-      "length": 16,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "StringLiteral",
-      "offset": 3887,
-      "length": 1,
-      "value": "\" %.d%%\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4202,
-      "length": 3,
-      "value": "-99"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4255,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4377,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "StringLiteral",
-      "offset": 4689,
-      "length": 17,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "StringLiteral",
-      "offset": 4698,
-      "length": 1,
-      "value": "\" %.0f%%\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4749,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5209,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "StringLiteral",
-      "offset": 5375,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "StringLiteral",
-      "offset": 5493,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "Array",
-      "offset": 5578,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "StringLiteral",
-      "offset": 5948,
-      "length": 5,
-      "value": "\"hex\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "StringLiteral",
-      "offset": 5974,
-      "length": 12,
-      "value": "\"face_image\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "StringLiteral",
-      "offset": 5997,
-      "length": 6,
-      "value": "\"cert\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "StringLiteral",
-      "offset": 6158,
-      "length": 6,
-      "value": "\"POST\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "StringLiteral",
-      "offset": 6190,
-      "length": 18,
-      "value": "\"application\/json\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "StringLiteral",
-      "offset": 6230,
-      "length": 14,
-      "value": "\"Content-Type\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "StringLiteral",
-      "offset": 6298,
-      "length": 7,
-      "value": "\"appid\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "StringLiteral",
-      "offset": 6332,
-      "length": 5,
-      "value": "\"ios\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "StringLiteral",
-      "offset": 6359,
-      "length": 12,
-      "value": "\"devicetype\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "StringLiteral",
-      "offset": 6576,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "StringLiteral",
-      "offset": 6635,
-      "length": 11,
-      "value": "\"signature\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "StringLiteral",
-      "offset": 6746,
-      "length": 70,
-      "value": "\"Response \""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "StringLiteral",
-      "offset": 6815,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "Dictionary",
-      "offset": 7022,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "StringLiteral",
-      "offset": 7068,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7536,
+      "offset": 2926,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 7791,
+      "offset": 3019,
+      "length": 3,
+      "value": "400"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3272,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 7825,
+      "offset": 3306,
       "length": 12,
       "value": "\"dd\/MM\/yyyy\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 8064,
+      "offset": 3545,
       "length": 8,
       "value": "\"yyMMdd\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 8841,
+      "offset": 4321,
+      "length": 3,
+      "value": "400"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4349,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4447,
+      "length": 3,
+      "value": "400"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4815,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 9231,
+      "offset": 4997,
+      "length": 23,
+      "value": "\"MRZ key is: \""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "StringLiteral",
+      "offset": 5019,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5215,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5249,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5281,
+      "length": 3,
+      "value": "-99"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5311,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5807,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5838,
+      "length": 3,
+      "value": "-99"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5872,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "StringLiteral",
+      "offset": 5984,
+      "length": 16,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "StringLiteral",
+      "offset": 5993,
+      "length": 1,
+      "value": "\" %.d%%\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6308,
+      "length": 3,
+      "value": "-99"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6361,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6483,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "StringLiteral",
+      "offset": 6795,
+      "length": 17,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "StringLiteral",
+      "offset": 6804,
+      "length": 1,
+      "value": "\" %.0f%%\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6855,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7315,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "StringLiteral",
+      "offset": 7481,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "StringLiteral",
+      "offset": 7599,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "Array",
+      "offset": 7684,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "StringLiteral",
+      "offset": 8059,
+      "length": 5,
+      "value": "\"hex\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "StringLiteral",
+      "offset": 8085,
+      "length": 12,
+      "value": "\"face_image\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "StringLiteral",
+      "offset": 8108,
+      "length": 6,
+      "value": "\"cert\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "StringLiteral",
+      "offset": 8269,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "StringLiteral",
+      "offset": 8301,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "StringLiteral",
+      "offset": 8341,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "StringLiteral",
+      "offset": 8409,
+      "length": 7,
+      "value": "\"appid\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "StringLiteral",
+      "offset": 8443,
+      "length": 5,
+      "value": "\"ios\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "StringLiteral",
+      "offset": 8470,
+      "length": 12,
+      "value": "\"devicetype\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "StringLiteral",
+      "offset": 8687,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "StringLiteral",
+      "offset": 8746,
+      "length": 11,
+      "value": "\"signature\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "StringLiteral",
+      "offset": 8857,
+      "length": 70,
+      "value": "\"Response \""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "StringLiteral",
+      "offset": 8926,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "Dictionary",
+      "offset": 9133,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "StringLiteral",
+      "offset": 9179,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "StringLiteral",
+      "offset": 9462,
       "length": 12,
       "value": "\"request_id\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 9400,
+      "offset": 9631,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 9432,
+      "offset": 9663,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 9472,
+      "offset": 9703,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 9540,
+      "offset": 9771,
       "length": 7,
       "value": "\"appid\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 9574,
+      "offset": 9805,
       "length": 5,
       "value": "\"ios\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 9601,
+      "offset": 9832,
       "length": 12,
       "value": "\"devicetype\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 9818,
+      "offset": 10049,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 9877,
+      "offset": 10108,
       "length": 11,
       "value": "\"signature\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 9988,
+      "offset": 10219,
       "length": 70,
       "value": "\"Response \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 10057,
+      "offset": 10288,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "Dictionary",
-      "offset": 10256,
+      "offset": 10487,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 10475,
+      "offset": 10706,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 10507,
+      "offset": 10738,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 10547,
+      "offset": 10778,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 10615,
+      "offset": 10846,
       "length": 7,
       "value": "\"appid\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 10649,
+      "offset": 10880,
       "length": 5,
       "value": "\"ios\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 10676,
+      "offset": 10907,
       "length": 12,
       "value": "\"devicetype\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 10788,
+      "offset": 11019,
       "length": 70,
       "value": "\"Response \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 10857,
+      "offset": 11088,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "Dictionary",
-      "offset": 11038,
+      "offset": 11269,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 11177,
+      "offset": 11408,
       "length": 12,
       "value": "\"image_card\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 11204,
+      "offset": 11435,
       "length": 12,
       "value": "\"image_live\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 11372,
+      "offset": 11603,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 11404,
+      "offset": 11635,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 11444,
+      "offset": 11675,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 11512,
+      "offset": 11743,
       "length": 7,
       "value": "\"appid\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 11546,
+      "offset": 11777,
       "length": 5,
       "value": "\"ios\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 11573,
+      "offset": 11804,
       "length": 12,
       "value": "\"devicetype\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 11781,
+      "offset": 12012,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 11840,
+      "offset": 12071,
       "length": 11,
       "value": "\"signature\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 11951,
+      "offset": 12182,
       "length": 70,
       "value": "\"Response \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 12020,
+      "offset": 12251,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "Dictionary",
-      "offset": 12215,
+      "offset": 12446,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 12296,
+      "offset": 12527,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 12321,
+      "offset": 12552,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 12345,
+      "offset": 12576,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 12415,
+      "offset": 12646,
       "length": 9,
       "value": "\"card_id\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 12440,
+      "offset": 12671,
       "length": 12,
       "value": "\"image_live\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 12490,
+      "offset": 12721,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 12516,
+      "offset": 12747,
       "length": 13,
       "value": "\"image_live1\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 12581,
+      "offset": 12812,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 12607,
+      "offset": 12838,
       "length": 13,
       "value": "\"image_live2\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 12672,
+      "offset": 12903,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 12698,
+      "offset": 12929,
       "length": 13,
       "value": "\"image_live3\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 12887,
+      "offset": 13118,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 12919,
+      "offset": 13150,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 12959,
+      "offset": 13190,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 13027,
+      "offset": 13258,
       "length": 7,
       "value": "\"appid\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 13061,
+      "offset": 13292,
       "length": 5,
       "value": "\"ios\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 13088,
+      "offset": 13319,
       "length": 12,
       "value": "\"devicetype\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 13127,
+      "offset": 13358,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 13192,
+      "offset": 13423,
       "length": 12,
       "value": "\"readCardId\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 13410,
+      "offset": 13641,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 13469,
+      "offset": 13700,
       "length": 11,
       "value": "\"signature\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 13580,
+      "offset": 13811,
       "length": 70,
       "value": "\"Response \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 13649,
+      "offset": 13880,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "Dictionary",
-      "offset": 13844,
+      "offset": 14075,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 13944,
+      "offset": 14175,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 13969,
+      "offset": 14200,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 13994,
+      "offset": 14225,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "StringLiteral",
-      "offset": 14018,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "StringLiteral",
-      "offset": 14088,
-      "length": 9,
-      "value": "\"card_id\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "StringLiteral",
-      "offset": 14108,
-      "length": 12,
-      "value": "\"image_live\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "StringLiteral",
-      "offset": 14158,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "StringLiteral",
-      "offset": 14184,
-      "length": 13,
-      "value": "\"image_live1\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
@@ -40770,483 +41989,518 @@
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 14275,
+      "offset": 14319,
+      "length": 9,
+      "value": "\"card_id\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "StringLiteral",
+      "offset": 14339,
+      "length": 12,
+      "value": "\"image_live\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "StringLiteral",
+      "offset": 14389,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "StringLiteral",
+      "offset": 14415,
+      "length": 13,
+      "value": "\"image_live1\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "StringLiteral",
+      "offset": 14480,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "StringLiteral",
+      "offset": 14506,
       "length": 13,
       "value": "\"image_live2\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 14340,
+      "offset": 14571,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 14366,
+      "offset": 14597,
       "length": 13,
       "value": "\"image_live3\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 14549,
+      "offset": 14780,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 14581,
+      "offset": 14812,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 14621,
+      "offset": 14852,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 14689,
+      "offset": 14920,
       "length": 7,
       "value": "\"appid\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 14723,
+      "offset": 14954,
       "length": 5,
       "value": "\"ios\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 14750,
+      "offset": 14981,
       "length": 12,
       "value": "\"devicetype\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 14789,
+      "offset": 15020,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 14854,
+      "offset": 15085,
       "length": 12,
       "value": "\"readCardId\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 15072,
+      "offset": 15303,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 15131,
+      "offset": 15362,
       "length": 11,
       "value": "\"signature\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 15242,
+      "offset": 15473,
       "length": 70,
       "value": "\"Response \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 15311,
+      "offset": 15542,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "Dictionary",
-      "offset": 15506,
+      "offset": 15737,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 15774,
+      "offset": 16005,
       "length": 18,
       "value": "\"citizen_identify\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 15802,
+      "offset": 16033,
       "length": 16,
       "value": "\"date_of_expiry\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 15976,
+      "offset": 16207,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 16008,
+      "offset": 16239,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 16048,
+      "offset": 16279,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 16116,
+      "offset": 16347,
       "length": 7,
       "value": "\"appid\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 16150,
+      "offset": 16381,
       "length": 5,
       "value": "\"ios\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 16177,
+      "offset": 16408,
       "length": 12,
       "value": "\"devicetype\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 16394,
+      "offset": 16625,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 16453,
+      "offset": 16684,
       "length": 11,
       "value": "\"signature\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 16564,
+      "offset": 16795,
       "length": 70,
       "value": "\"Response \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 16633,
+      "offset": 16864,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "Dictionary",
-      "offset": 16815,
+      "offset": 17046,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 16982,
+      "offset": 17213,
       "length": 5,
       "value": "\"hex\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 17008,
+      "offset": 17239,
       "length": 6,
       "value": "\"cert\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 17029,
+      "offset": 17260,
       "length": 18,
       "value": "\"citizen_identify\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 17200,
+      "offset": 17431,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 17232,
+      "offset": 17463,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 17272,
+      "offset": 17503,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 17340,
+      "offset": 17571,
       "length": 7,
       "value": "\"appid\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 17374,
+      "offset": 17605,
       "length": 5,
       "value": "\"ios\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 17401,
+      "offset": 17632,
       "length": 12,
       "value": "\"devicetype\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 17618,
+      "offset": 17849,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 17677,
+      "offset": 17908,
       "length": 11,
       "value": "\"signature\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 17788,
+      "offset": 18019,
       "length": 70,
       "value": "\"Response \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 17857,
+      "offset": 18088,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "Dictionary",
-      "offset": 18064,
+      "offset": 18295,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 18110,
+      "offset": 18341,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 18778,
+      "offset": 19009,
       "length": 22,
       "value": "\"License is not valid\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 19141,
+      "offset": 19372,
       "length": 27,
       "value": "\"Error loading private key\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 19313,
+      "offset": 19544,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 19797,
+      "offset": 20028,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 20564,
+      "offset": 20795,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 20615,
+      "offset": 20846,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 20667,
+      "offset": 20898,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 20890,
+      "offset": 21121,
       "length": 80,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 20899,
+      "offset": 21130,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 20918,
+      "offset": 21149,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 20924,
+      "offset": 21155,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 20944,
+      "offset": 21175,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 20950,
+      "offset": 21181,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 20969,
+      "offset": 21200,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 21190,
+      "offset": 21421,
       "length": 3,
       "value": "\"<\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "Dictionary",
-      "offset": 21368,
+      "offset": 21599,
       "length": 443,
       "value": "[(\"0\", \"0\"), (\"1\", \"1\"), (\"2\", \"2\"), (\"3\", \"3\"), (\"4\", \"4\"), (\"5\", \"5\"), (\"6\", \"6\"), (\"7\", \"7\"), (\"8\", \"8\"), (\"9\", \"9\"), (\"<\", \"0\"), (\" \", \"0\"), (\"A\", \"10\"), (\"B\", \"11\"), (\"C\", \"12\"), (\"D\", \"13\"), (\"E\", \"14\"), (\"F\", \"15\"), (\"G\", \"16\"), (\"H\", \"17\"), (\"I\", \"18\"), (\"J\", \"19\"), (\"K\", \"20\"), (\"L\", \"21\"), (\"M\", \"22\"), (\"N\", \"23\"), (\"O\", \"24\"), (\"P\", \"25\"), (\"Q\", \"26\"), (\"R\", \"27\"), (\"S\", \"28\"), (\"T\", \"29\"), (\"U\", \"30\"), (\"V\", \"31\"), (\"W\", \"32\"), (\"X\", \"33\"), (\"Y\", \"34\"), (\"Z\", \"35\")]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 21839,
+      "offset": 22070,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 21857,
+      "offset": 22088,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "Array",
-      "offset": 21893,
+      "offset": 22124,
       "length": 9,
       "value": "[7, 3, 1]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 21979,
+      "offset": 22210,
       "length": 6,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 21984,
+      "offset": 22215,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 22045,
+      "offset": 22276,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 22145,
+      "offset": 22376,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 22150,
+      "offset": 22381,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 22193,
+      "offset": 22424,
       "length": 2,
       "value": "10"
     },
@@ -41890,576 +43144,765 @@
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 1044,
+      "offset": 733,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "StringLiteral",
+      "offset": 1092,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 1085,
+      "offset": 1133,
+      "length": 6,
+      "value": "\"code\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "StringLiteral",
+      "offset": 1172,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 1127,
+      "offset": 1214,
       "length": 12,
       "value": "\"request_id\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 1172,
+      "offset": 1259,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 1281,
+      "offset": 1368,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 1332,
+      "offset": 1419,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 1376,
+      "offset": 1463,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 1420,
+      "offset": 1507,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 1464,
+      "offset": 1551,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 1508,
+      "offset": 1595,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 1552,
+      "offset": 1639,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 1596,
+      "offset": 1683,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 1640,
+      "offset": 1727,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 1684,
+      "offset": 1771,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 1735,
+      "offset": 1822,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 1786,
+      "offset": 1873,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 1837,
+      "offset": 1924,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 1888,
+      "offset": 1975,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 1939,
+      "offset": 2026,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 1989,
+      "offset": 2076,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 2039,
+      "offset": 2126,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 2205,
+      "offset": 2292,
       "length": 18,
       "value": "\"citizen_identify\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 2268,
+      "offset": 2355,
       "length": 22,
       "value": "\"old_citizen_identify\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 2335,
+      "offset": 2422,
       "length": 11,
       "value": "\"full_name\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 2391,
+      "offset": 2478,
       "length": 15,
       "value": "\"date_of_birth\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 2451,
+      "offset": 2538,
       "length": 16,
       "value": "\"date_of_expiry\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 2512,
+      "offset": 2599,
       "length": 8,
       "value": "\"gender\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 2565,
+      "offset": 2652,
       "length": 13,
       "value": "\"nationality\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 2623,
+      "offset": 2710,
       "length": 8,
       "value": "\"ethnic\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 2676,
+      "offset": 2763,
       "length": 10,
       "value": "\"religion\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 2731,
+      "offset": 2818,
       "length": 17,
       "value": "\"place_of_origin\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 2793,
+      "offset": 2880,
       "length": 20,
       "value": "\"place_of_residence\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 2858,
+      "offset": 2945,
       "length": 25,
       "value": "\"personal_identification\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 2928,
+      "offset": 3015,
       "length": 13,
       "value": "\"dateProvide\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 2986,
+      "offset": 3073,
       "length": 13,
       "value": "\"father_name\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 3044,
+      "offset": 3131,
       "length": 13,
       "value": "\"mother_name\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 3102,
+      "offset": 3189,
       "length": 14,
       "value": "\"partner_name\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 3161,
+      "offset": 3248,
       "length": 12,
       "value": "\"face_image\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
-      "offset": 3290,
+      "offset": 3377,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 3337,
+      "offset": 3416,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 3539,
+      "offset": 3464,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "StringLiteral",
+      "offset": 3666,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 3580,
+      "offset": 3707,
+      "length": 6,
+      "value": "\"code\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "StringLiteral",
+      "offset": 3746,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 3622,
+      "offset": 3788,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
-      "offset": 3723,
+      "offset": 3889,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "StringLiteral",
+      "offset": 3928,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "BooleanLiteral",
-      "offset": 3762,
+      "offset": 3968,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 3805,
+      "offset": 4011,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
-      "offset": 3845,
+      "offset": 4051,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 4003,
+      "offset": 4211,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 4046,
+      "offset": 4254,
       "length": 8,
       "value": "\"result\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 4089,
+      "offset": 4297,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 4133,
+      "offset": 4341,
       "length": 6,
       "value": "\"time\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "StringLiteral",
+      "offset": 4382,
+      "length": 6,
+      "value": "\"code\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
-      "offset": 4255,
+      "offset": 4504,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 4302,
+      "offset": 4551,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 4355,
+      "offset": 4599,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "StringLiteral",
+      "offset": 4652,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
-      "offset": 4403,
+      "offset": 4700,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 4450,
+      "offset": 4747,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "BooleanLiteral",
-      "offset": 4484,
+      "offset": 4781,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "Dictionary",
-      "offset": 4528,
+      "offset": 4825,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 4683,
+      "offset": 4980,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 4724,
+      "offset": 5021,
+      "length": 6,
+      "value": "\"code\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "StringLiteral",
+      "offset": 5060,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 4775,
+      "offset": 5111,
       "length": 12,
       "value": "\"request_id\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 4829,
+      "offset": 5165,
       "length": 18,
       "value": "\"data.result_code\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 4880,
+      "offset": 5216,
       "length": 25,
       "value": "\"data.verify_result_text\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 4938,
+      "offset": 5274,
       "length": 9,
       "value": "\"success\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 4980,
+      "offset": 5316,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
-      "offset": 5083,
+      "offset": 5419,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 5130,
+      "offset": 5466,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 5327,
+      "offset": 5514,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "StringLiteral",
+      "offset": 5711,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 5368,
+      "offset": 5752,
+      "length": 6,
+      "value": "\"code\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "StringLiteral",
+      "offset": 5791,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 5410,
+      "offset": 5833,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "BooleanLiteral",
-      "offset": 5504,
+      "offset": 5927,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "BooleanLiteral",
-      "offset": 5550,
+      "offset": 5973,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "BooleanLiteral",
-      "offset": 5594,
+      "offset": 6017,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "BooleanLiteral",
-      "offset": 5640,
+      "offset": 6063,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "BooleanLiteral",
-      "offset": 5683,
+      "offset": 6106,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "BooleanLiteral",
-      "offset": 5725,
+      "offset": 6148,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 5941,
+      "offset": 6364,
       "length": 19,
       "value": "\"isActiveTurnRight\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 6002,
+      "offset": 6425,
       "length": 18,
       "value": "\"isActiveTurnLeft\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 6062,
+      "offset": 6485,
       "length": 16,
       "value": "\"isActiveFaceUp\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 6120,
+      "offset": 6543,
       "length": 18,
       "value": "\"isActiveFaceDown\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 6180,
+      "offset": 6603,
       "length": 15,
       "value": "\"isActiveSmile\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 6237,
+      "offset": 6660,
       "length": 14,
       "value": "\"isActiveWink\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "StringLiteral",
+      "offset": 7366,
+      "length": 5,
+      "value": "\"001\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "StringLiteral",
+      "offset": 7459,
+      "length": 5,
+      "value": "\"002\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "StringLiteral",
+      "offset": 7556,
+      "length": 5,
+      "value": "\"003\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "StringLiteral",
+      "offset": 7647,
+      "length": 5,
+      "value": "\"004\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "StringLiteral",
+      "offset": 7740,
+      "length": 5,
+      "value": "\"005\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "StringLiteral",
+      "offset": 7833,
+      "length": 5,
+      "value": "\"006\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "StringLiteral",
+      "offset": 7923,
+      "length": 5,
+      "value": "\"007\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "StringLiteral",
+      "offset": 8023,
+      "length": 5,
+      "value": "\"008\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "StringLiteral",
+      "offset": 8121,
+      "length": 5,
+      "value": "\"009\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "StringLiteral",
+      "offset": 8210,
+      "length": 5,
+      "value": "\"010\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "StringLiteral",
+      "offset": 8306,
+      "length": 5,
+      "value": "\"011\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "StringLiteral",
+      "offset": 8395,
+      "length": 5,
+      "value": "\"012\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "StringLiteral",
+      "offset": 8481,
+      "length": 5,
+      "value": "\"013\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "StringLiteral",
+      "offset": 8575,
+      "length": 5,
+      "value": "\"014\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "StringLiteral",
+      "offset": 8671,
+      "length": 5,
+      "value": "\"015\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "StringLiteral",
+      "offset": 8758,
+      "length": 17,
+      "value": "\"NO_MATCHED_CARD\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "StringLiteral",
+      "offset": 8860,
+      "length": 18,
+      "value": "\"ERROR_CHECK_CERT\""
     }
   ]
 }
