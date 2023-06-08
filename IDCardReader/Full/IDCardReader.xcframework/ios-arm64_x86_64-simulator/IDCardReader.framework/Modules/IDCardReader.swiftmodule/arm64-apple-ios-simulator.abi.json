@@ -26722,1855 +26722,1855 @@
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 305,
+      "offset": 328,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 352,
+      "offset": 375,
       "length": 3,
       "value": "0x1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 398,
+      "offset": 421,
       "length": 3,
       "value": "0x2"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 445,
+      "offset": 468,
       "length": 3,
       "value": "0x3"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 503,
+      "offset": 526,
       "length": 3,
       "value": "224"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 753,
+      "offset": 776,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 1268,
+      "offset": 1291,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1316,
+      "offset": 1339,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1428,
+      "offset": 1451,
       "length": 96,
       "value": "\"Performing Chip Authentication - number of public keys found - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1523,
+      "offset": 1546,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1636,
+      "offset": 1659,
       "length": 34,
       "value": "\"ChipAuthentication not supported\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1714,
+      "offset": 1737,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 2659,
+      "offset": 2682,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 2891,
+      "offset": 2914,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 3069,
+      "offset": 3092,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3392,
+      "offset": 3415,
       "length": 66,
       "value": "\"No ChipAuthenticationInfo - guessing its id-CA-ECDH-3DES-CBC-CBC\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3611,
+      "offset": 3634,
       "length": 64,
       "value": "\"No ChipAuthenticationInfo - guessing its id-CA-DH-3DES-CBC-CBC\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3775,
+      "offset": 3798,
       "length": 110,
       "value": "\"No ChipAuthenticationInfo and unsupported ChipAuthenticationPublicKeyInfo public key OID \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3884,
+      "offset": 3907,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "StringLiteral",
-      "offset": 4562,
+      "offset": 4585,
       "length": 43,
       "value": "\"Public Key successfully sent to passport!\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 5106,
+      "offset": 5129,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 5126,
+      "offset": 5149,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5470,
+      "offset": 5493,
       "length": 47,
       "value": "\"Unable to get public key data from public key\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5570,
+      "offset": 5593,
       "length": 8,
       "value": "\"DESede\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "Array",
-      "offset": 5626,
+      "offset": 5649,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 5726,
+      "offset": 5749,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 5767,
+      "offset": 5790,
       "length": 4,
       "value": "0x84"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 5842,
+      "offset": 5865,
       "length": 4,
       "value": "0x91"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6005,
+      "offset": 6028,
       "length": 5,
       "value": "\"AES\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 6133,
+      "offset": 6156,
       "length": 4,
       "value": "0x80"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6402,
+      "offset": 6425,
       "length": 45,
       "value": "\"Cipher Algorithm \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6432,
+      "offset": 6455,
       "length": 3,
       "value": "\" not supported\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 7565,
+      "offset": 7588,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "StringLiteral",
-      "offset": 7622,
+      "offset": 7645,
       "length": 8,
       "value": "\"DESede\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "StringLiteral",
-      "offset": 7657,
+      "offset": 7680,
       "length": 53,
       "value": "\"Restarting secure messaging using DESede encryption\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "StringLiteral",
-      "offset": 7897,
+      "offset": 7920,
       "length": 5,
       "value": "\"AES\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "StringLiteral",
-      "offset": 7929,
+      "offset": 7952,
       "length": 50,
       "value": "\"Restarting secure messaging using AES encryption\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8167,
+      "offset": 8190,
       "length": 90,
       "value": "\"Not restarting secure messaging as unsupported cipher algorithm requested - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8256,
+      "offset": 8279,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8318,
+      "offset": 8341,
       "length": 43,
       "value": "\"Unsupported cipher algorithm \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8360,
+      "offset": 8383,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8536,
+      "offset": 8559,
       "length": 8,
       "value": "\"DESede\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8561,
+      "offset": 8584,
       "length": 9,
       "value": "\"AES-128\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8592,
+      "offset": 8615,
       "length": 6,
       "value": "\"SHA1\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8633,
+      "offset": 8656,
       "length": 5,
       "value": "\"AES\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 8655,
+      "offset": 8678,
       "length": 3,
       "value": "128"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8680,
+      "offset": 8703,
       "length": 6,
       "value": "\"SHA1\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8721,
+      "offset": 8744,
       "length": 9,
       "value": "\"AES-256\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8748,
+      "offset": 8771,
       "length": 9,
       "value": "\"AES-192\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8779,
+      "offset": 8802,
       "length": 8,
       "value": "\"SHA256\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8822,
+      "offset": 8845,
       "length": 5,
       "value": "\"AES\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 8845,
+      "offset": 8868,
       "length": 3,
       "value": "192"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 8865,
+      "offset": 8888,
       "length": 3,
       "value": "256"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8891,
+      "offset": 8914,
       "length": 8,
       "value": "\"SHA256\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8974,
+      "offset": 8997,
       "length": 44,
       "value": "\"Unsupported cipher algorithm or key length\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 9415,
+      "offset": 9438,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 689,
+      "offset": 712,
       "length": 18,
       "value": "\"PACEHandlerError\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 833,
+      "offset": 856,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 894,
+      "offset": 917,
       "length": 4,
       "value": "0x02"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 982,
+      "offset": 1005,
       "length": 4,
       "value": "0x03"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 1070,
+      "offset": 1093,
       "length": 4,
       "value": "0x04"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1199,
+      "offset": 1222,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1234,
+      "offset": 1257,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "Array",
-      "offset": 1297,
+      "offset": 1320,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 1338,
+      "offset": 1361,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1375,
+      "offset": 1398,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 1418,
+      "offset": 1441,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1508,
+      "offset": 1531,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1548,
+      "offset": 1571,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1588,
+      "offset": 1611,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 1625,
+      "offset": 1648,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1857,
+      "offset": 1880,
       "length": 20,
       "value": "\"PACE not supported\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1944,
+      "offset": 1967,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 2112,
+      "offset": 2135,
       "length": 20,
       "value": "\"PACE not supported\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 2172,
+      "offset": 2195,
       "length": 57,
       "value": "\"Performing PACE with \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 2228,
+      "offset": 2251,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 2961,
+      "offset": 2984,
       "length": 27,
       "value": "\"doPace - inpit parameters\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3011,
+      "offset": 3034,
       "length": 22,
       "value": "\"paceOID - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3032,
+      "offset": 3055,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3056,
+      "offset": 3079,
       "length": 34,
       "value": "\"parameterSpec - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3089,
+      "offset": 3112,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3113,
+      "offset": 3136,
       "length": 31,
       "value": "\"mappingType - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3143,
+      "offset": 3166,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3167,
+      "offset": 3190,
       "length": 32,
       "value": "\"agreementAlg - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3198,
+      "offset": 3221,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3222,
+      "offset": 3245,
       "length": 26,
       "value": "\"cipherAlg - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3247,
+      "offset": 3270,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3271,
+      "offset": 3294,
       "length": 26,
       "value": "\"digestAlg - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3296,
+      "offset": 3319,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3320,
+      "offset": 3343,
       "length": 26,
       "value": "\"keyLength - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3345,
+      "offset": 3368,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3369,
+      "offset": 3392,
       "length": 23,
       "value": "\"keyLength - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3391,
+      "offset": 3414,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3415,
+      "offset": 3438,
       "length": 49,
       "value": "\"paceKey - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 3457,
+      "offset": 3480,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3463,
+      "offset": 3486,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 4091,
+      "offset": 4114,
       "length": 17,
       "value": "\"PACE SUCCESSFUL\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 4441,
+      "offset": 4464,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 4470,
+      "offset": 4493,
       "length": 34,
       "value": "\"PACEHandler: \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 4492,
+      "offset": 4515,
       "length": 1,
       "value": "\" - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 4503,
+      "offset": 4526,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 4526,
+      "offset": 4549,
       "length": 52,
       "value": "\"   OpenSSLError: \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 4577,
+      "offset": 4600,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 4606,
+      "offset": 4629,
       "length": 21,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 4615,
+      "offset": 4638,
       "length": 1,
       "value": "\" - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 4626,
+      "offset": 4649,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5423,
+      "offset": 5446,
       "length": 21,
       "value": "\"Doing PACE Step1...\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "Array",
-      "offset": 5519,
+      "offset": 5542,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 5531,
+      "offset": 5554,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 5631,
+      "offset": 5654,
       "length": 4,
       "value": "0x80"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5677,
+      "offset": 5700,
       "length": 64,
       "value": "\"Encrypted nonce - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 5734,
+      "offset": 5757,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5740,
+      "offset": 5763,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5810,
+      "offset": 5833,
       "length": 8,
       "value": "\"DESede\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 5860,
+      "offset": 5883,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 5870,
+      "offset": 5893,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6007,
+      "offset": 6030,
       "length": 5,
       "value": "\"AES\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 6054,
+      "offset": 6077,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 6064,
+      "offset": 6087,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6277,
+      "offset": 6300,
       "length": 65,
       "value": "\"Decrypted nonce - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 6334,
+      "offset": 6357,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6341,
+      "offset": 6364,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6777,
+      "offset": 6800,
       "length": 21,
       "value": "\"Doing PACE Step2...\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6885,
+      "offset": 6908,
       "length": 34,
       "value": "\"   Using General Mapping (GM)...\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 7047,
+      "offset": 7070,
       "length": 37,
       "value": "\"   Using Integrated Mapping (IM)...\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 7240,
+      "offset": 7263,
       "length": 9,
       "value": "\"Step2GM\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 7251,
+      "offset": 7274,
       "length": 26,
       "value": "\"Unsupported Mapping Type\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 7826,
+      "offset": 7849,
       "length": 9,
       "value": "\"Step2GM\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 7837,
+      "offset": 7860,
       "length": 43,
       "value": "\"Unable to get public key from mapping key\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 7913,
+      "offset": 7936,
       "length": 79,
       "value": "\"public mapping key - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 7985,
+      "offset": 8008,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 7991,
+      "offset": 8014,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8014,
+      "offset": 8037,
       "length": 42,
       "value": "\"Sending public mapping key to passport..\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 8091,
+      "offset": 8114,
       "length": 4,
       "value": "0x81"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 8219,
+      "offset": 8242,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 8287,
+      "offset": 8310,
       "length": 4,
       "value": "0x82"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8353,
+      "offset": 8376,
       "length": 39,
       "value": "\"Received passports public mapping key\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8415,
+      "offset": 8438,
       "length": 84,
       "value": "\"   public mapping key - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 8492,
+      "offset": 8515,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8498,
+      "offset": 8521,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8723,
+      "offset": 8746,
       "length": 9,
       "value": "\"Step2GM\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8734,
+      "offset": 8757,
       "length": 40,
       "value": "\"Unable to convert picc nonce to bignum\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8948,
+      "offset": 8971,
       "length": 4,
       "value": "\"DH\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8978,
+      "offset": 9001,
       "length": 28,
       "value": "\"Doing DH Mapping agreement\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 9201,
+      "offset": 9224,
       "length": 6,
       "value": "\"ECDH\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 9233,
+      "offset": 9256,
       "length": 30,
       "value": "\"Doing ECDH Mapping agreement\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 9490,
+      "offset": 9513,
       "length": 9,
       "value": "\"Step2GM\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 9501,
+      "offset": 9524,
       "length": 33,
       "value": "\"Unsupported agreement algorithm\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 9839,
+      "offset": 9862,
       "length": 9,
       "value": "\"Step2IM\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 9850,
+      "offset": 9873,
       "length": 24,
       "value": "\"IM not yet implemented\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 10414,
+      "offset": 10437,
       "length": 33,
       "value": "\"Doing PACE Step3 - Key Exchange\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 10847,
+      "offset": 10870,
       "length": 13,
       "value": "\"Step3 KeyEx\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 10862,
+      "offset": 10885,
       "length": 42,
       "value": "\"Unable to get create ephermeral key pair\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 10945,
+      "offset": 10968,
       "length": 30,
       "value": "\"Generated Ephemeral key pair\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 11241,
+      "offset": 11264,
       "length": 13,
       "value": "\"Step3 KeyEx\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 11256,
+      "offset": 11279,
       "length": 51,
       "value": "\"Unable to get public key from ephermeral key pair\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 11341,
+      "offset": 11364,
       "length": 65,
       "value": "\"Ephemeral public key - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 11399,
+      "offset": 11422,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 11405,
+      "offset": 11428,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 11460,
+      "offset": 11483,
       "length": 42,
       "value": "\"Sending ephemeral public key to passport\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 11537,
+      "offset": 11560,
       "length": 4,
       "value": "0x83"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 11648,
+      "offset": 11671,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 11713,
+      "offset": 11736,
       "length": 4,
       "value": "0x84"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 11947,
+      "offset": 11970,
       "length": 13,
       "value": "\"Step3 KeyEx\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 11962,
+      "offset": 11985,
       "length": 42,
       "value": "\"Unable to decode passports ephemeral key\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 12039,
+      "offset": 12062,
       "length": 100,
       "value": "\"Received passports ephemeral public key - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 12132,
+      "offset": 12155,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 12138,
+      "offset": 12161,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 13244,
+      "offset": 13267,
       "length": 35,
       "value": "\"Doing PACE Step4 Key Agreement...\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 13301,
+      "offset": 13324,
       "length": 28,
       "value": "\"Computing shared secret...\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 13470,
+      "offset": 13493,
       "length": 60,
       "value": "\"Shared secret - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 13523,
+      "offset": 13546,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 13529,
+      "offset": 13552,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 13552,
+      "offset": 13575,
       "length": 50,
       "value": "\"Deriving ksEnc and ksMac keys from shared secret\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 13936,
+      "offset": 13959,
       "length": 47,
       "value": "\"encKey - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 13976,
+      "offset": 13999,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 13982,
+      "offset": 14005,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 14006,
+      "offset": 14029,
       "length": 47,
       "value": "\"macKey - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 14046,
+      "offset": 14069,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 14052,
+      "offset": 14075,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 14125,
+      "offset": 14148,
       "length": 33,
       "value": "\"Generating authentication token\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 14332,
+      "offset": 14355,
       "length": 20,
       "value": "\"Step3 KeyAgreement\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 14354,
+      "offset": 14377,
       "length": 68,
       "value": "\"Unable to generate authentication token using passports public key\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 14456,
+      "offset": 14479,
       "length": 40,
       "value": "\"authentication token - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 14495,
+      "offset": 14518,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 14518,
+      "offset": 14541,
       "length": 32,
       "value": "\"Sending auth token to passport\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 14585,
+      "offset": 14608,
       "length": 4,
       "value": "0x85"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 14699,
+      "offset": 14722,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 14820,
+      "offset": 14843,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 14830,
+      "offset": 14853,
       "length": 4,
       "value": "0x86"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 14861,
+      "offset": 14884,
       "length": 67,
       "value": "\"Was expecting tag 0x86, found: \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 14918,
+      "offset": 14941,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 14927,
+      "offset": 14950,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 15130,
+      "offset": 15153,
       "length": 69,
       "value": "\"Expecting authentication token from passport - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 15198,
+      "offset": 15221,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 15242,
+      "offset": 15265,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 15273,
+      "offset": 15296,
       "length": 60,
       "value": "\"Received authentication token from passport - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 15332,
+      "offset": 15355,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 15411,
+      "offset": 15434,
       "length": 95,
       "value": "\"Error PICC Token mismatch!\npicToken - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 15463,
+      "offset": 15486,
       "length": 1,
       "value": "\"\nexpectedPICCToken - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 15505,
+      "offset": 15528,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 15561,
+      "offset": 15584,
       "length": 20,
       "value": "\"Step3 KeyAgreement\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 15583,
+      "offset": 15606,
       "length": 95,
       "value": "\"Error PICC Token mismatch!\npicToken - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 15635,
+      "offset": 15658,
       "length": 1,
       "value": "\"\nexpectedPICCToken - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 15677,
+      "offset": 15700,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 15719,
+      "offset": 15742,
       "length": 50,
       "value": "\"Auth token from passport matches expected token!\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 16709,
+      "offset": 16732,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 16766,
+      "offset": 16789,
       "length": 8,
       "value": "\"DESede\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 16801,
+      "offset": 16824,
       "length": 53,
       "value": "\"Restarting secure messaging using DESede encryption\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 17040,
+      "offset": 17063,
       "length": 5,
       "value": "\"AES\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 17072,
+      "offset": 17095,
       "length": 50,
       "value": "\"Restarting secure messaging using AES encryption\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 17338,
+      "offset": 17361,
       "length": 15,
       "value": "\"PACECompleted\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 17355,
+      "offset": 17378,
       "length": 90,
       "value": "\"Not restarting secure messaging as unsupported cipher algorithm requested - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 17444,
+      "offset": 17467,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 18252,
+      "offset": 18275,
       "length": 30,
       "value": "\"Unable to get DH mapping key\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 18572,
+      "offset": 18595,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 19052,
+      "offset": 19075,
       "length": 67,
       "value": "\"Unable to get initialise ephemeral parameters from DH mapping key\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 19477,
+      "offset": 19500,
       "length": 23,
       "value": "\"Unable to create bn_g\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 19642,
+      "offset": 19665,
       "length": 24,
       "value": "\"Unable to create new_g\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 19916,
+      "offset": 19939,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 19977,
+      "offset": 20000,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 20063,
+      "offset": 20086,
       "length": 35,
       "value": "\"Failed to generate new parameters\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 20201,
+      "offset": 20224,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 20287,
+      "offset": 20310,
       "length": 34,
       "value": "\"Unable to set DH pqg paramerters\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 20495,
+      "offset": 20518,
       "length": 35,
       "value": "\"Unable to create ephemeral params\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 20610,
+      "offset": 20633,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 20741,
+      "offset": 20764,
       "length": 36,
       "value": "\"Unable to set ephemeral parameters\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 21614,
+      "offset": 21637,
       "length": 24,
       "value": "\"Unable to get EC group\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 21820,
+      "offset": 21843,
       "length": 31,
       "value": "\"Unable to create order bignum\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 22032,
+      "offset": 22055,
       "length": 34,
       "value": "\"Unable to create cofactor bignum\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 22181,
+      "offset": 22204,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 22249,
+      "offset": 22272,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 22344,
+      "offset": 22367,
       "length": 44,
       "value": "\"Unable to get order or cofactor from group\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 22923,
+      "offset": 22946,
       "length": 100,
       "value": "\"Failed to compute new shared secret mapping point from mapping key and passport public mapping key\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 23310,
+      "offset": 23333,
       "length": 46,
       "value": "\"Unable to create new mapping generator point\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 23596,
+      "offset": 23619,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 23663,
+      "offset": 23686,
       "length": 49,
       "value": "\"Failed to map nonce to get new generator params\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 23930,
+      "offset": 23953,
       "length": 35,
       "value": "\"Unable to create ephemeral params\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 24193,
+      "offset": 24216,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 24274,
+      "offset": 24297,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 24321,
+      "offset": 24344,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 24380,
+      "offset": 24403,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 24514,
+      "offset": 24537,
       "length": 42,
       "value": "\"Unable to configure new ephemeral params\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 25239,
+      "offset": 25262,
       "length": 8,
       "value": "\"DESede\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 25379,
+      "offset": 25402,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 25422,
+      "offset": 25445,
       "length": 33,
       "value": "\"Generating Authentication Token\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 25479,
+      "offset": 25502,
       "length": 69,
       "value": "\"EncodedPubKey = \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 25541,
+      "offset": 25564,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 25547,
+      "offset": 25570,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 25572,
+      "offset": 25595,
       "length": 48,
       "value": "\"macKey = \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 25613,
+      "offset": 25636,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 25619,
+      "offset": 25642,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 25691,
+      "offset": 25714,
       "length": 8,
       "value": "\"DESede\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 25853,
+      "offset": 25876,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 25857,
+      "offset": 25880,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 25882,
+      "offset": 25905,
       "length": 64,
       "value": "\"Generated authToken = \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 25939,
+      "offset": 25962,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 25945,
+      "offset": 25968,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 26446,
+      "offset": 26469,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 26555,
+      "offset": 26578,
       "length": 64,
       "value": "\"PACEHandler: encodePublicKey() - Unable to get public key data\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
-      "offset": 26681,
+      "offset": 26704,
       "length": 31,
       "value": "\"Unable to get public key data\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 26879,
+      "offset": 26902,
       "length": 4,
       "value": "0x84"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 26919,
+      "offset": 26942,
       "length": 4,
       "value": "0x86"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 27187,
+      "offset": 27210,
       "length": 6,
       "value": "0x7F49"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 28667,
+      "offset": 28690,
       "length": 1,
       "value": "0"
     },
@@ -32112,490 +32112,490 @@
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "Array",
-      "offset": 258,
+      "offset": 281,
       "length": 9,
       "value": "[0, 0, 0, 1]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "Array",
-      "offset": 293,
+      "offset": 316,
       "length": 9,
       "value": "[0, 0, 0, 2]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "Array",
-      "offset": 341,
+      "offset": 364,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "Array",
-      "offset": 377,
+      "offset": 400,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "Array",
-      "offset": 409,
+      "offset": 432,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "Array",
-      "offset": 440,
+      "offset": 463,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "Array",
-      "offset": 475,
+      "offset": 498,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 884,
+      "offset": 907,
       "length": 50,
       "value": "\"BACHandler - deriving Document Basic Access Keys\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1214,
+      "offset": 1237,
       "length": 40,
       "value": "\"BACHandler - Getting initial challenge\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1341,
+      "offset": 1364,
       "length": 25,
       "value": "\"DATA - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1365,
+      "offset": 1388,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1397,
+      "offset": 1420,
       "length": 42,
       "value": "\"BACHandler - Doing mutual authentication\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1630,
+      "offset": 1653,
       "length": 27,
       "value": "\"DATA - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1656,
+      "offset": 1679,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 1698,
+      "offset": 1721,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1977,
+      "offset": 2000,
       "length": 23,
       "value": "\"BACHandler - complete\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 2170,
+      "offset": 2193,
       "length": 72,
       "value": "\"Calculate the Basic Access Keys (Kenc and Kmac) using TR-SAC 1.01, 4.2\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 2965,
+      "offset": 2988,
       "length": 45,
       "value": "\"Calculate the SHA-1 hash of MRZ_information\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3032,
+      "offset": 3055,
       "length": 21,
       "value": "\"\tMRZ KEY - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3052,
+      "offset": 3075,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3152,
+      "offset": 3175,
       "length": 47,
       "value": "\"\tsha1(MRZ_information): \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3198,
+      "offset": 3221,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 3243,
+      "offset": 3266,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 3247,
+      "offset": 3270,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3272,
+      "offset": 3295,
       "length": 54,
       "value": "\"Take the most significant 16 bytes to form the Kseed\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3348,
+      "offset": 3371,
       "length": 34,
       "value": "\"\tKseed: \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3381,
+      "offset": 3404,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 4290,
+      "offset": 4313,
       "length": 54,
       "value": "\"Request an 8 byte random number from the MRTD's chip\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 4366,
+      "offset": 4389,
       "length": 13,
       "value": "\"\tRND.ICC: \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 4497,
+      "offset": 4520,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 4544,
+      "offset": 4567,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 4577,
+      "offset": 4600,
       "length": 48,
       "value": "\"Generate an 8 byte random and a 16 byte random\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 4647,
+      "offset": 4670,
       "length": 36,
       "value": "\"\tRND.IFD: \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 4682,
+      "offset": 4705,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 4706,
+      "offset": 4729,
       "length": 34,
       "value": "\"\tRND.Kifd: \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 4739,
+      "offset": 4762,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 4821,
+      "offset": 4844,
       "length": 39,
       "value": "\"Concatenate RND.IFD, RND.ICC and Kifd\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 4882,
+      "offset": 4905,
       "length": 24,
       "value": "\"\tS: \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 4905,
+      "offset": 4928,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "Array",
-      "offset": 4944,
+      "offset": 4967,
       "length": 24,
       "value": "[0, 0, 0, 0, 0, 0, 0, 0]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5065,
+      "offset": 5088,
       "length": 60,
       "value": "\"Encrypt S with TDES key Kenc as calculated in Appendix 5.2\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5147,
+      "offset": 5170,
       "length": 30,
       "value": "\"\tEifd: \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5176,
+      "offset": 5199,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 5264,
+      "offset": 5287,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5289,
+      "offset": 5312,
       "length": 72,
       "value": "\"Compute MAC over eifd with TDES key Kmac as calculated in-Appendix 5.2\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5383,
+      "offset": 5406,
       "length": 30,
       "value": "\"\tMifd: \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5412,
+      "offset": 5435,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5505,
+      "offset": 5528,
       "length": 48,
       "value": "\"Construct command data for MUTUAL AUTHENTICATE\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5575,
+      "offset": 5598,
       "length": 38,
       "value": "\"\tcmd_data: \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5612,
+      "offset": 5635,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6156,
+      "offset": 6179,
       "length": 113,
       "value": "\"Decrypt and verify received data and compare received RND.IFD with generated RND.IFD \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6268,
+      "offset": 6291,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 6360,
+      "offset": 6383,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 6364,
+      "offset": 6387,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "Array",
-      "offset": 6374,
+      "offset": 6397,
       "length": 17,
       "value": "[0, 0, 0, 0, 0, 0, 0, 0]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 6440,
+      "offset": 6463,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 6445,
+      "offset": 6468,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6520,
+      "offset": 6543,
       "length": 32,
       "value": "\"Calculate XOR of Kifd and Kicc\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6574,
+      "offset": 6597,
       "length": 32,
       "value": "\"\tKseed: \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6605,
+      "offset": 6628,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6977,
+      "offset": 7000,
       "length": 61,
       "value": "\"Calculate Session Keys (KSenc and KSmac) using Appendix 5.1\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 7060,
+      "offset": 7083,
       "length": 32,
       "value": "\"\tKSenc: \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 7091,
+      "offset": 7114,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 7115,
+      "offset": 7138,
       "length": 32,
       "value": "\"\tKSmac: \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 7146,
+      "offset": 7169,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 7214,
+      "offset": 7237,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 7239,
+      "offset": 7262,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 7263,
+      "offset": 7286,
       "length": 33,
       "value": "\"Calculate Send Sequence Counter\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 7318,
+      "offset": 7341,
       "length": 28,
       "value": "\"\tSSC: \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "StringLiteral",
-      "offset": 7345,
+      "offset": 7368,
       "length": 3,
       "value": "\"\""
     },
@@ -32637,903 +32637,903 @@
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 1169,
+      "offset": 1192,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 1173,
+      "offset": 1196,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 1337,
+      "offset": 1360,
       "length": 11,
       "value": "\"\t\tSSC: \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 1480,
+      "offset": 1503,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 1490,
+      "offset": 1513,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 1519,
+      "offset": 1542,
       "length": 24,
       "value": "\"\tIncrement SSC with 1\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 1565,
+      "offset": 1588,
       "length": 11,
       "value": "\"\t\tSSC: \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "Array",
-      "offset": 1690,
+      "offset": 1713,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "Array",
-      "offset": 1722,
+      "offset": 1745,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 1752,
+      "offset": 1775,
       "length": 23,
       "value": "\"Concatenate CmdHeader\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 1825,
+      "offset": 1848,
       "length": 11,
       "value": "\" and DO87\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 1950,
+      "offset": 1973,
       "length": 4,
       "value": "0x22"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 1996,
+      "offset": 2019,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 2040,
+      "offset": 2063,
       "length": 3,
       "value": "256"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "BooleanLiteral",
-      "offset": 2046,
+      "offset": 2069,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 2073,
+      "offset": 2096,
       "length": 11,
       "value": "\" and DO97\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 2239,
+      "offset": 2262,
       "length": 7,
       "value": "\"\tM: \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 2294,
+      "offset": 2317,
       "length": 18,
       "value": "\"Compute MAC of M\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 2399,
+      "offset": 2422,
       "length": 41,
       "value": "\"\tConcatenate SSC and M and add padding\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 2462,
+      "offset": 2485,
       "length": 9,
       "value": "\"\t\tN: \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 2579,
+      "offset": 2602,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 2611,
+      "offset": 2634,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 2615,
+      "offset": 2638,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 2649,
+      "offset": 2672,
       "length": 33,
       "value": "\"\tCompute MAC over N with KSmac\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 2704,
+      "offset": 2727,
       "length": 10,
       "value": "\"\t\tCC: \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 3041,
+      "offset": 3064,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "Array",
-      "offset": 3070,
+      "offset": 3093,
       "length": 6,
       "value": "[0x00]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 3099,
+      "offset": 3122,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 3213,
+      "offset": 3236,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 3217,
+      "offset": 3240,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 3443,
+      "offset": 3466,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "Array",
-      "offset": 3478,
+      "offset": 3501,
       "length": 11,
       "value": "[0x00, 0x00]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "Array",
-      "offset": 3536,
+      "offset": 3559,
       "length": 6,
       "value": "[0x00]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 3573,
+      "offset": 3596,
       "length": 35,
       "value": "\"Construct and send protected APDU\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 3630,
+      "offset": 3653,
       "length": 19,
       "value": "\"\tProtectedAPDU: \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "BooleanLiteral",
-      "offset": 3934,
+      "offset": 3957,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "Array",
-      "offset": 3969,
+      "offset": 3992,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "Array",
-      "offset": 4005,
+      "offset": 4028,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "Array",
-      "offset": 4037,
+      "offset": 4060,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 4095,
+      "offset": 4118,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 4212,
+      "offset": 4235,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 4222,
+      "offset": 4245,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 4251,
+      "offset": 4274,
       "length": 24,
       "value": "\"\tIncrement SSC with 1\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 4297,
+      "offset": 4320,
       "length": 11,
       "value": "\"\t\tSSC: \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 4407,
+      "offset": 4430,
       "length": 4,
       "value": "0x90"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 4428,
+      "offset": 4451,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 4551,
+      "offset": 4574,
       "length": 38,
       "value": "\"Receive response APDU of MRTD's chip\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 4611,
+      "offset": 4634,
       "length": 11,
       "value": "\"\tRAPDU: \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 4754,
+      "offset": 4777,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 4760,
+      "offset": 4783,
       "length": 4,
       "value": "0x87"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 4836,
+      "offset": 4859,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 4865,
+      "offset": 4888,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 4919,
+      "offset": 4942,
       "length": 3,
       "value": "0x1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 5047,
+      "offset": 5070,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 5130,
+      "offset": 5153,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "BooleanLiteral",
-      "offset": 5228,
+      "offset": 5251,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 5370,
+      "offset": 5393,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 5408,
+      "offset": 5431,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 5445,
+      "offset": 5468,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 5466,
+      "offset": 5489,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "BooleanLiteral",
-      "offset": 5485,
+      "offset": 5508,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 5515,
+      "offset": 5538,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 5521,
+      "offset": 5544,
       "length": 4,
       "value": "0x99"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 5534,
+      "offset": 5557,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 5540,
+      "offset": 5563,
       "length": 4,
       "value": "0x02"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "Array",
-      "offset": 5631,
+      "offset": 5654,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 5778,
+      "offset": 5801,
       "length": 4,
       "value": "0x8E"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 5847,
+      "offset": 5870,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 5897,
+      "offset": 5920,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 5910,
+      "offset": 5933,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 6051,
+      "offset": 6074,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 6082,
+      "offset": 6105,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 6109,
+      "offset": 6132,
       "length": 8,
       "value": "\" DO'87\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 6160,
+      "offset": 6183,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 6187,
+      "offset": 6210,
       "length": 8,
       "value": "\" DO'99\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 6234,
+      "offset": 6257,
       "length": 37,
       "value": "\"Verify RAPDU CC by computing MAC of\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 6386,
+      "offset": 6409,
       "length": 23,
       "value": "\"\tConcatenate SSC and\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 6418,
+      "offset": 6441,
       "length": 18,
       "value": "\" and add padding\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 6462,
+      "offset": 6485,
       "length": 9,
       "value": "\"\t\tK: \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 6527,
+      "offset": 6550,
       "length": 26,
       "value": "\"\tCompute MAC with KSmac\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 6653,
+      "offset": 6676,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 6690,
+      "offset": 6713,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 6694,
+      "offset": 6717,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 6736,
+      "offset": 6759,
       "length": 10,
       "value": "\"\t\tCC: \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 6838,
+      "offset": 6861,
       "length": 42,
       "value": "\"\tCompare CC with data of DO'8E of RAPDU\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 6906,
+      "offset": 6929,
       "length": 57,
       "value": "\"\t\t\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 6929,
+      "offset": 6952,
       "length": 2,
       "value": "\"  == \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 6953,
+      "offset": 6976,
       "length": 1,
       "value": "\" ? \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 6962,
+      "offset": 6985,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "Array",
-      "offset": 7230,
+      "offset": 7253,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 7261,
+      "offset": 7284,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "Array",
-      "offset": 7421,
+      "offset": 7444,
       "length": 17,
       "value": "[0, 0, 0, 0, 0, 0, 0, 0]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 7580,
+      "offset": 7603,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 7590,
+      "offset": 7613,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 7850,
+      "offset": 7873,
       "length": 34,
       "value": "\"Decrypt data of DO'87 with KSenc\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 7910,
+      "offset": 7933,
       "length": 19,
       "value": "\"\tDecryptedData: \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 7990,
+      "offset": 8013,
       "length": 82,
       "value": "\"Unprotected APDU: [\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 8030,
+      "offset": 8053,
       "length": 1,
       "value": "\"] \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 8051,
+      "offset": 8074,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 8071,
+      "offset": 8094,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 8224,
+      "offset": 8247,
       "length": 40,
       "value": "\"Mask class byte and pad command header\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 8289,
+      "offset": 8312,
       "length": 4,
       "value": "0x0c"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 8396,
+      "offset": 8419,
       "length": 15,
       "value": "\"\tCmdHeader: \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "Array",
-      "offset": 8545,
+      "offset": 8568,
       "length": 6,
       "value": "[0x01]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "Array",
-      "offset": 8605,
+      "offset": 8628,
       "length": 6,
       "value": "[0x87]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 8670,
+      "offset": 8693,
       "length": 13,
       "value": "\"Build DO'87\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 8705,
+      "offset": 8728,
       "length": 10,
       "value": "\"\tDO87: \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "Array",
-      "offset": 9136,
+      "offset": 9159,
       "length": 17,
       "value": "[0, 0, 0, 0, 0, 0, 0, 0]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 9283,
+      "offset": 9306,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 9293,
+      "offset": 9316,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 9483,
+      "offset": 9506,
       "length": 10,
       "value": "\"Pad data\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 9515,
+      "offset": 9538,
       "length": 10,
       "value": "\"\tData: \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 9573,
+      "offset": 9596,
       "length": 25,
       "value": "\"Encrypt data with KSenc\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 9620,
+      "offset": 9643,
       "length": 19,
       "value": "\"\tEncryptedData: \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 9760,
+      "offset": 9783,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 10070,
+      "offset": 10093,
       "length": 4,
       "value": "0x8E"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 10120,
+      "offset": 10143,
       "length": 13,
       "value": "\"Build DO'8E\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 10155,
+      "offset": 10178,
       "length": 29,
       "value": "\"\tDO8E: \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 10183,
+      "offset": 10206,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 10371,
+      "offset": 10394,
       "length": 3,
       "value": "256"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 10384,
+      "offset": 10407,
       "length": 5,
       "value": "65536"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "Array",
-      "offset": 10413,
+      "offset": 10436,
       "length": 6,
       "value": "[0x00]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "IntegerLiteral",
-      "offset": 10428,
+      "offset": 10451,
       "length": 3,
       "value": "256"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "Array",
-      "offset": 10434,
+      "offset": 10457,
       "length": 6,
       "value": "[0x00]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "Array",
-      "offset": 10443,
+      "offset": 10466,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "Array",
-      "offset": 10498,
+      "offset": 10521,
       "length": 6,
       "value": "[0x97]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 10561,
+      "offset": 10584,
       "length": 13,
       "value": "\"Build DO'97\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 10596,
+      "offset": 10619,
       "length": 16,
       "value": "\"\tDO97: \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessaging.swift",
       "kind": "StringLiteral",
-      "offset": 10611,
+      "offset": 10634,
       "length": 2,
       "value": "\"\""
     },
@@ -37362,903 +37362,903 @@
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 339,
+      "offset": 362,
       "length": 4,
       "value": "0xA0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 793,
+      "offset": 816,
       "length": 4,
       "value": "0xA0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 834,
+      "offset": 857,
       "length": 4,
       "value": "0xA0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 1257,
+      "offset": 1280,
       "length": 2,
       "value": "00"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 1278,
+      "offset": 1301,
       "length": 4,
       "value": "0x84"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 1297,
+      "offset": 1320,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 1313,
+      "offset": 1336,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 1354,
+      "offset": 1377,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 1606,
+      "offset": 1629,
       "length": 2,
       "value": "00"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 1627,
+      "offset": 1650,
       "length": 4,
       "value": "0x88"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 1646,
+      "offset": 1669,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 1662,
+      "offset": 1685,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 1706,
+      "offset": 1729,
       "length": 3,
       "value": "256"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 1909,
+      "offset": 1932,
       "length": 2,
       "value": "00"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 1930,
+      "offset": 1953,
       "length": 4,
       "value": "0x82"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 1949,
+      "offset": 1972,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 1965,
+      "offset": 1988,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 2007,
+      "offset": 2030,
       "length": 3,
       "value": "256"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 2661,
+      "offset": 2684,
       "length": 2,
       "value": "00"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 2682,
+      "offset": 2705,
       "length": 4,
       "value": "0x22"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 2701,
+      "offset": 2724,
       "length": 4,
       "value": "0x41"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 2720,
+      "offset": 2743,
       "length": 4,
       "value": "0xA6"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 2762,
+      "offset": 2785,
       "length": 3,
       "value": "256"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 3440,
+      "offset": 3463,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 3494,
+      "offset": 3517,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 3536,
+      "offset": 3559,
       "length": 4,
       "value": "0x84"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 3583,
+      "offset": 3606,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 3699,
+      "offset": 3722,
       "length": 2,
       "value": "00"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 3720,
+      "offset": 3743,
       "length": 4,
       "value": "0x22"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 3739,
+      "offset": 3762,
       "length": 4,
       "value": "0x41"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 3758,
+      "offset": 3781,
       "length": 4,
       "value": "0xA4"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 3806,
+      "offset": 3829,
       "length": 3,
       "value": "256"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 3892,
+      "offset": 3915,
       "length": 2,
       "value": "00"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 3913,
+      "offset": 3936,
       "length": 4,
       "value": "0x22"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 3932,
+      "offset": 3955,
       "length": 4,
       "value": "0x41"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 3951,
+      "offset": 3974,
       "length": 4,
       "value": "0xA4"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 4003,
+      "offset": 4026,
       "length": 3,
       "value": "256"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 4239,
+      "offset": 4262,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 4283,
+      "offset": 4306,
       "length": 4,
       "value": "0x83"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 4420,
+      "offset": 4443,
       "length": 2,
       "value": "00"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 4441,
+      "offset": 4464,
       "length": 4,
       "value": "0x22"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 4460,
+      "offset": 4483,
       "length": 4,
       "value": "0xC1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 4479,
+      "offset": 4502,
       "length": 4,
       "value": "0xA4"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 4527,
+      "offset": 4550,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 5208,
+      "offset": 5231,
       "length": 3,
       "value": "256"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 5294,
+      "offset": 5317,
       "length": 4,
       "value": "0x7C"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 5689,
+      "offset": 5712,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 5696,
+      "offset": 5719,
       "length": 4,
       "value": "0x10"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 5752,
+      "offset": 5775,
       "length": 4,
       "value": "0x86"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 5912,
+      "offset": 5935,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 5931,
+      "offset": 5954,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 6141,
+      "offset": 6164,
       "length": 4,
       "value": "0x7c"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 6338,
+      "offset": 6361,
       "length": 4,
       "value": "0x67"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 6351,
+      "offset": 6374,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 6555,
+      "offset": 6578,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 6574,
+      "offset": 6597,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 6623,
+      "offset": 6646,
       "length": 3,
       "value": "256"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 6732,
+      "offset": 6755,
       "length": 4,
       "value": "0x7c"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "Array",
-      "offset": 7142,
+      "offset": 7165,
       "length": 41,
       "value": "[0x00, 0xB0, 0x00, 0x00, 0x00, 0x00, 0x04]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 7612,
+      "offset": 7635,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 7616,
+      "offset": 7639,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 7683,
+      "offset": 7706,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "StringLiteral",
-      "offset": 7775,
+      "offset": 7798,
       "length": 57,
       "value": "\"TagReader - Number of data bytes to read - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "StringLiteral",
-      "offset": 7831,
+      "offset": 7854,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 7921,
+      "offset": 7944,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 7963,
+      "offset": 7986,
       "length": 3,
       "value": "256"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 8141,
+      "offset": 8164,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 8197,
+      "offset": 8220,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "StringLiteral",
-      "offset": 8226,
+      "offset": 8249,
       "length": 75,
       "value": "\"TagReader - data bytes remaining: \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "StringLiteral",
-      "offset": 8273,
+      "offset": 8296,
       "length": 1,
       "value": "\", will read : \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "StringLiteral",
-      "offset": 8300,
+      "offset": 8323,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 8376,
+      "offset": 8399,
       "length": 2,
       "value": "00"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 8413,
+      "offset": 8436,
       "length": 4,
       "value": "0xB0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 8455,
+      "offset": 8478,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 8495,
+      "offset": 8518,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "StringLiteral",
-      "offset": 8671,
+      "offset": 8694,
       "length": 103,
       "value": "\"TagReader - got resp - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 8729,
+      "offset": 8752,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "StringLiteral",
-      "offset": 8735,
+      "offset": 8758,
       "length": 1,
       "value": "\", sw1 : \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "StringLiteral",
-      "offset": 8754,
+      "offset": 8777,
       "length": 1,
       "value": "\", sw2 : \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "StringLiteral",
-      "offset": 8773,
+      "offset": 8796,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "StringLiteral",
-      "offset": 8928,
+      "offset": 8951,
       "length": 56,
       "value": "\"TagReader - Amount of data left to read - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "StringLiteral",
-      "offset": 8983,
+      "offset": 9006,
       "length": 3,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10474,
-      "length": 4,
-      "value": "0x00"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
       "offset": 10497,
       "length": 4,
+      "value": "0x00"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10520,
+      "length": 4,
       "value": "0xA4"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 10516,
+      "offset": 10539,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 10535,
+      "offset": 10558,
       "length": 4,
       "value": "0x0C"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "Array",
-      "offset": 10552,
+      "offset": 10575,
       "length": 11,
       "value": "[0x3f, 0x00]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 10590,
+      "offset": 10613,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "Array",
-      "offset": 10745,
+      "offset": 10768,
       "length": 11,
       "value": "[0x01, 0x1C]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "StringLiteral",
-      "offset": 10969,
+      "offset": 10992,
       "length": 32,
       "value": "\"Re-selecting eMRTD Application\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 11072,
+      "offset": 11095,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 11095,
+      "offset": 11118,
       "length": 4,
       "value": "0xA4"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 11114,
+      "offset": 11137,
       "length": 4,
       "value": "0x04"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 11133,
+      "offset": 11156,
       "length": 4,
       "value": "0x0C"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "Array",
-      "offset": 11150,
+      "offset": 11173,
       "length": 42,
       "value": "[0xA0, 0x00, 0x00, 0x02, 0x47, 0x10, 0x01]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 11219,
+      "offset": 11242,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "Array",
-      "offset": 11426,
+      "offset": 11449,
       "length": 30,
       "value": "[0x00, 0xA4, 0x02, 0x0C, 0x02]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "StringLiteral",
-      "offset": 11661,
+      "offset": 11684,
       "length": 28,
       "value": "\"TagReader - sending \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "StringLiteral",
-      "offset": 11688,
+      "offset": 11711,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "StringLiteral",
-      "offset": 11825,
+      "offset": 11848,
       "length": 28,
       "value": "\"TagReader - [SM] \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "StringLiteral",
-      "offset": 11852,
+      "offset": 11875,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "StringLiteral",
-      "offset": 11967,
+      "offset": 11990,
       "length": 31,
       "value": "\"TagReader - Received response\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "StringLiteral",
-      "offset": 12209,
+      "offset": 12232,
       "length": 92,
       "value": "\"TagReader [SM - unprotected] \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 12271,
+      "offset": 12294,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "StringLiteral",
-      "offset": 12277,
+      "offset": 12300,
       "length": 1,
       "value": "\", sw1:0x%02x sw2:0x%02x\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "StringLiteral",
-      "offset": 12378,
+      "offset": 12401,
       "length": 87,
       "value": "\"TagReader [unprotected] \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 12435,
+      "offset": 12458,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "StringLiteral",
-      "offset": 12441,
+      "offset": 12464,
       "length": 1,
       "value": "\", sw1:0x%02x sw2:0x%02x\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 12541,
+      "offset": 12564,
       "length": 4,
       "value": "0x90"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 12560,
+      "offset": 12583,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "StringLiteral",
-      "offset": 12590,
+      "offset": 12613,
       "length": 77,
       "value": "\"Error reading tag: sw1 - 0x\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "StringLiteral",
-      "offset": 12637,
+      "offset": 12660,
       "length": 1,
       "value": "\", sw2 - 0x\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "StringLiteral",
-      "offset": 12666,
+      "offset": 12689,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 12746,
+      "offset": 12769,
       "length": 4,
       "value": "0x63"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 12765,
+      "offset": 12788,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "StringLiteral",
-      "offset": 12961,
+      "offset": 12984,
       "length": 21,
       "value": "\"reason: \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "StringLiteral",
-      "offset": 12981,
+      "offset": 13004,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "Dictionary",
-      "offset": 13264,
+      "offset": 13287,
       "length": 2724,
       "value": "[(0x62, [(0x00, \"No information given\"), (0x81, \"Part of returned data may be corrupted\"), (0x82, \"End of file\/record reached before reading Le bytes\"), (0x83, \"Selected file invalidated\"), (0x84, \"FCI not formatted according to ISO7816-4 section 5.1.5\")]), (0x63, [(0x81, \"File filled up by the last write\"), (0x82, \"Card Key not supported\"), (0x83, \"Reader Key not supported\"), (0x84, \"Plain transmission not supported\"), (0x85, \"Secured Transmission not supported\"), (0x86, \"Volatile memory not available\"), (0x87, \"Non Volatile memory not available\"), (0x88, \"Key number not valid\"), (0x89, \"Key length is not correct\"), (0xC, \"Counter provided by X (valued from 0 to 15) (exact meaning depending on the command)\")]), (0x65, [(0x00, \"No information given\"), (0x81, \"Memory failure\")]), (0x67, [(0x00, \"Wrong length\")]), (0x68, [(0x00, \"No information given\"), (0x81, \"Logical channel not supported\"), (0x82, \"Secure messaging not supported\"), (0x83, \"Last command of the chain expected\"), (0x84, \"Command chaining not supported\")]), (0x69, [(0x00, \"No information given\"), (0x81, \"Command incompatible with file structure\"), (0x82, \"Security status not satisfied\"), (0x83, \"Authentication method blocked\"), (0x84, \"Referenced data invalidated\"), (0x85, \"Conditions of use not satisfied\"), (0x86, \"Command not allowed (no current EF)\"), (0x87, \"Expected SM data objects missing\"), (0x88, \"SM data objects incorrect\")]), (0x6A, [(0x00, \"No information given\"), (0x80, \"Incorrect parameters in the data field\"), (0x81, \"Function not supported\"), (0x82, \"File not found\"), (0x83, \"Record not found\"), (0x84, \"Not enough memory space in the file\"), (0x85, \"Lc inconsistent with TLV structure\"), (0x86, \"Incorrect parameters P1-P2\"), (0x87, \"Lc inconsistent with P1-P2\"), (0x88, \"Referenced data not found\")]), (0x6B, [(0x00, \"Wrong parameter(s) P1-P2]\")]), (0x6D, [(0x00, \"Instruction code not supported or invalid\")]), (0x6E, [(0x00, \"Class not supported\")]), (0x6F, [(0x00, \"No precise diagnosis\")]), (0x90, [(0x00, \"Success\")])]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 16089,
+      "offset": 16112,
       "length": 4,
       "value": "0x61"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "StringLiteral",
-      "offset": 16115,
+      "offset": 16138,
       "length": 93,
       "value": "\"SW2 indicates the number of response bytes still available - (\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "StringLiteral",
-      "offset": 16184,
+      "offset": 16207,
       "length": 5,
       "value": "\" bytes still available)\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 16234,
+      "offset": 16257,
       "length": 4,
       "value": "0x64"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "StringLiteral",
-      "offset": 16260,
+      "offset": 16283,
       "length": 71,
       "value": "\"State of non-volatile memory unchanged (SW2=00, other values are RFU)\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 16357,
+      "offset": 16380,
       "length": 4,
       "value": "0x6C"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "StringLiteral",
-      "offset": 16383,
+      "offset": 16406,
       "length": 74,
       "value": "\"Wrong length Le: SW2 indicates the exact length - (exact length :\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "StringLiteral",
-      "offset": 16455,
+      "offset": 16478,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "StringLiteral",
-      "offset": 16593,
+      "offset": 16616,
       "length": 74,
       "value": "\"Unknown error - sw1: 0x\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "StringLiteral",
-      "offset": 16636,
+      "offset": 16659,
       "length": 1,
       "value": "\", sw2 - 0x\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "StringLiteral",
-      "offset": 16665,
+      "offset": 16688,
       "length": 1,
       "value": "\" \""
     },
@@ -42507,588 +42507,588 @@
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "Array",
-      "offset": 650,
+      "offset": 673,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 689,
+      "offset": 712,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 732,
+      "offset": 755,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 762,
+      "offset": 785,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 795,
+      "offset": 818,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 975,
+      "offset": 998,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 1335,
+      "offset": 1358,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 1387,
+      "offset": 1410,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 1623,
+      "offset": 1646,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "Array",
-      "offset": 2488,
+      "offset": 2511,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 2520,
+      "offset": 2543,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 2542,
+      "offset": 2565,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 2567,
+      "offset": 2590,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 3272,
+      "offset": 3295,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 3507,
+      "offset": 3530,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 3616,
+      "offset": 3639,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 3663,
+      "offset": 3686,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 237,
+      "offset": 260,
       "length": 14,
       "value": "\"IDCardReader.PassportReader\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 4651,
+      "offset": 4674,
       "length": 33,
       "value": "\"tagReaderSessionDidBecomeActive\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 4969,
+      "offset": 4992,
       "length": 73,
       "value": "\"tagReaderSession:didInvalidateWithError - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 5041,
+      "offset": 5064,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 5431,
+      "offset": 5454,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 5608,
+      "offset": 5631,
       "length": 100,
       "value": "\"tagReaderSession:didInvalidateWithError - Got NFCReaderError - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 5707,
+      "offset": 5730,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 5866,
+      "offset": 5889,
       "length": 31,
       "value": "\"     - User cancelled session\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 6024,
+      "offset": 6047,
       "length": 63,
       "value": "\"     - some other error - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 6086,
+      "offset": 6109,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 6227,
+      "offset": 6250,
       "length": 90,
       "value": "\"tagReaderSession:didInvalidateWithError - Received error - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 6316,
+      "offset": 6339,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 6558,
+      "offset": 6581,
       "length": 41,
       "value": "\"tagReaderSession:didDetect - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 6595,
+      "offset": 6618,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 6598,
+      "offset": 6621,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 6626,
+      "offset": 6649,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 6653,
+      "offset": 6676,
       "length": 54,
       "value": "\"tagReaderSession:more than 1 tag detected! - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 6706,
+      "offset": 6729,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 7136,
+      "offset": 7159,
       "length": 42,
       "value": "\"tagReaderSession:invalid tag detected!!!\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 7564,
+      "offset": 7587,
       "length": 61,
       "value": "\"tagReaderSession:connected to tag - starting authentication\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 7740,
+      "offset": 7763,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 9031,
+      "offset": 9054,
       "length": 31,
       "value": "\"Reading - try restart polling\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 9107,
+      "offset": 9130,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 9163,
+      "offset": 9186,
       "length": 64,
       "value": "\"Please tap your card again and hold it steady\nReconnecting...\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 9448,
+      "offset": 9471,
       "length": 75,
       "value": "\"tagReaderSession:failed to connect to tag - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 9522,
+      "offset": 9545,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 10392,
+      "offset": 10415,
       "length": 45,
       "value": "\"Read CardAccess - data \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 10436,
+      "offset": 10459,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 10575,
+      "offset": 10598,
       "length": 65,
       "value": "\"Starting Password Authenticated Connection Establishment (PACE)\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 10895,
+      "offset": 10918,
       "length": 16,
       "value": "\"PACE Succeeded\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 11009,
+      "offset": 11032,
       "length": 35,
       "value": "\"PACE Failed - falling back to BAC\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 11757,
+      "offset": 11780,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 12270,
+      "offset": 12293,
       "length": 34,
       "value": "\"Performing Active Authentication\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 12365,
+      "offset": 12388,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 12389,
+      "offset": 12412,
       "length": 71,
       "value": "\"Generated Active Authentication challange - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 12459,
+      "offset": 12482,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 12800,
+      "offset": 12823,
       "length": 37,
       "value": "\"Starting Basic Access Control (BAC)\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 13047,
+      "offset": 13070,
       "length": 39,
       "value": "\"Basic Access Control (BAC) - SUCCESS!\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 13381,
+      "offset": 13404,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 14698,
+      "offset": 14721,
       "length": 50,
       "value": "\"Chip Authentication failed - re-establishing BAC\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 15328,
+      "offset": 15351,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 15564,
+      "offset": 15587,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 15914,
+      "offset": 15937,
       "length": 23,
       "value": "\"Reading tag - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 15936,
+      "offset": 15959,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 15967,
+      "offset": 15990,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 16086,
+      "offset": 16109,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 16389,
+      "offset": 16412,
       "length": 33,
       "value": "\"TagError reading tag - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 16421,
+      "offset": 16444,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 16693,
+      "offset": 16716,
       "length": 19,
       "value": "\"ERROR - \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 16711,
+      "offset": 16734,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 16762,
+      "offset": 16785,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 16797,
+      "offset": 16820,
       "length": 21,
       "value": "\"Session invalidated\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 16832,
+      "offset": 16855,
       "length": 21,
       "value": "\"Class not supported\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 16867,
+      "offset": 16890,
       "length": 21,
       "value": "\"Tag connection lost\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 17125,
+      "offset": 17148,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 17299,
+      "offset": 17322,
       "length": 31,
       "value": "\"Security status not satisfied\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 17344,
+      "offset": 17367,
       "length": 16,
       "value": "\"File not found\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 17560,
+      "offset": 17583,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 17601,
+      "offset": 17624,
       "length": 27,
       "value": "\"SM data objects incorrect\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 17642,
+      "offset": 17665,
       "length": 21,
       "value": "\"Class not supported\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 17805,
+      "offset": 17828,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 17854,
+      "offset": 17877,
       "length": 14,
       "value": "\"Wrong length\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 17892,
+      "offset": 17915,
       "length": 13,
       "value": "\"End of file\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 18123,
+      "offset": 18146,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 18458,
+      "offset": 18481,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 18493,
+      "offset": 18516,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 18910,
+      "offset": 18933,
       "length": 4,
       "value": "true"
     },
