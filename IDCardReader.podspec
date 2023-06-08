@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.license          = { :type => 'MIT', :file => 'LICENSE' }
 
   spec.source            = { :http => 'https://github.com/trungnguyen1791/CardReader/releases/download/1.0.28/IDCardReader.zip' }
-  
+  spec.weak_frameworks = ['CoreNFC']
   # spec.ios.vendored_frameworks = 'IDCardReader.xcframework'
 
   spec.subspec 'Full' do |subspec|
