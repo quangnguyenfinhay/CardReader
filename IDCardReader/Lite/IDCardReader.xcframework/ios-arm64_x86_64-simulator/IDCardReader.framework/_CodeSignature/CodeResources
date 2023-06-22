@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/IDCardReader.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		tDnh3u9lPRDYdhcdCNF85zthH4g=
+		KeoxgTndTxkPex5M0IsDccrXwwY=
 		</data>
 		<key>Modules/IDCardReader.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/IDCardReader.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		uTCkXOEt//n9v4hNtm8t5Pmhrhs=
+		xdtcx6ujT+mDSAQO02DNVkbSouw=
 		</data>
 		<key>Modules/IDCardReader.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		tDnh3u9lPRDYdhcdCNF85zthH4g=
+		KeoxgTndTxkPex5M0IsDccrXwwY=
 		</data>
 		<key>Modules/IDCardReader.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/IDCardReader.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		MCSip0L1XJMH9GPjqKpDyua0PDk=
+		lryjnoJqOu7BJAoqtRgmtT/E0JY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -85,7 +85,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			j63obMENxXrbUumxg1gFhnlY7elCPlZ+ExPNITaFEmI=
+			xnSEAIQIIneE0WYKM0WEY1KHOAQZilSxFUq6XQRXeGc=
 			</data>
 		</dict>
 		<key>Modules/IDCardReader.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -113,14 +113,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/8x/6aGtKyjrzGxh5C9iq5c2hl9OEPtJm+3F4ZT+Q9U=
+			u4Ffe6CpXlaBGsSpsEnEz0nCQZQvF5f0IURfNogAans=
 			</data>
 		</dict>
 		<key>Modules/IDCardReader.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j63obMENxXrbUumxg1gFhnlY7elCPlZ+ExPNITaFEmI=
+			xnSEAIQIIneE0WYKM0WEY1KHOAQZilSxFUq6XQRXeGc=
 			</data>
 		</dict>
 		<key>Modules/IDCardReader.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -148,7 +148,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5QGn+nDEsnvccNai2NRSJLB8mwxnubbgmp0eKGXXwTc=
+			ieQnPIaRVpi3LMjPJeFib48RFVGYyS4abbih+ByRxIA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

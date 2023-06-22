@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IDCardReader
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IDCardReader
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import ARKit
 import ARVideoKit
@@ -425,12 +425,14 @@ public struct ImageAction {
   public var action: IDCardReader.LivenessAction?
   public var image: Swift.String?
 }
+@available(iOS 13.0, *)
 public protocol ARLivenessDetectorDelegate : ObjectiveC.NSObject {
   func arLiveness(liveness: IDCardReader.ARLivenessDetector, startLivenessAction action: IDCardReader.LivenessAction)
   func arLiveness(liveness: IDCardReader.ARLivenessDetector, didFail withError: IDCardReader.LivenessError)
   func arliveness(liveness: IDCardReader.ARLivenessDetector, didFinish verification: IDCardReader.FaceValidationResponse, base64Images: [IDCardReader.ImageAction], videoPath: Swift.String?)
 }
-@objc public class ARLivenessDetector : ObjectiveC.NSObject {
+@objc @available(iOS 13.0, *)
+public class ARLivenessDetector : ObjectiveC.NSObject {
   weak public var delegate: (any IDCardReader.ARLivenessDetectorDelegate)?
   public init(previewView: UIKit.UIView, debugging: Swift.Bool = true)
   public func getVerificationRequiresAndStartSession() throws
@@ -438,9 +440,11 @@ public protocol ARLivenessDetectorDelegate : ObjectiveC.NSObject {
   public func stopLiveness()
   @objc deinit
 }
+@available(iOS 13.0, *)
 extension IDCardReader.ARLivenessDetector : ARKit.ARSessionDelegate {
   @objc dynamic public func session(_ session: ARKit.ARSession, didUpdate anchors: [ARKit.ARAnchor])
 }
+@available(iOS 13.0, *)
 extension IDCardReader.ARLivenessDetector : ARKit.ARSCNViewDelegate {
   @objc dynamic public func renderer(_ renderer: any SceneKit.SCNSceneRenderer, didAdd node: SceneKit.SCNNode, for anchor: ARKit.ARAnchor)
   @objc dynamic public func renderer(_ renderer: any SceneKit.SCNSceneRenderer, didUpdate node: SceneKit.SCNNode, for anchor: ARKit.ARAnchor)

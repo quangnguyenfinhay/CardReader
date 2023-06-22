@@ -285,7 +285,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 
-SWIFT_CLASS("_TtC12IDCardReader18ARLivenessDetector")
+SWIFT_CLASS("_TtC12IDCardReader18ARLivenessDetector") SWIFT_AVAILABILITY(ios,introduced=13.0)
 @interface ARLivenessDetector : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
@@ -295,6 +295,7 @@ SWIFT_CLASS("_TtC12IDCardReader18ARLivenessDetector")
 @class ARSession;
 @class ARAnchor;
 
+SWIFT_AVAILABILITY(ios,introduced=13.0)
 @interface ARLivenessDetector (SWIFT_EXTENSION(IDCardReader)) <ARSessionDelegate>
 - (void)session:(ARSession * _Nonnull)session didUpdateAnchors:(NSArray<ARAnchor *> * _Nonnull)anchors;
 @end
@@ -302,6 +303,7 @@ SWIFT_CLASS("_TtC12IDCardReader18ARLivenessDetector")
 @protocol SCNSceneRenderer;
 @class SCNNode;
 
+SWIFT_AVAILABILITY(ios,introduced=13.0)
 @interface ARLivenessDetector (SWIFT_EXTENSION(IDCardReader)) <ARSCNViewDelegate>
 - (void)renderer:(id <SCNSceneRenderer> _Nonnull)renderer didAddNode:(SCNNode * _Nonnull)node forAnchor:(ARAnchor * _Nonnull)anchor;
 - (void)renderer:(id <SCNSceneRenderer> _Nonnull)renderer didUpdateNode:(SCNNode * _Nonnull)node forAnchor:(ARAnchor * _Nonnull)anchor;
@@ -620,7 +622,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 
-SWIFT_CLASS("_TtC12IDCardReader18ARLivenessDetector")
+SWIFT_CLASS("_TtC12IDCardReader18ARLivenessDetector") SWIFT_AVAILABILITY(ios,introduced=13.0)
 @interface ARLivenessDetector : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
@@ -630,6 +632,7 @@ SWIFT_CLASS("_TtC12IDCardReader18ARLivenessDetector")
 @class ARSession;
 @class ARAnchor;
 
+SWIFT_AVAILABILITY(ios,introduced=13.0)
 @interface ARLivenessDetector (SWIFT_EXTENSION(IDCardReader)) <ARSessionDelegate>
 - (void)session:(ARSession * _Nonnull)session didUpdateAnchors:(NSArray<ARAnchor *> * _Nonnull)anchors;
 @end
@@ -637,6 +640,7 @@ SWIFT_CLASS("_TtC12IDCardReader18ARLivenessDetector")
 @protocol SCNSceneRenderer;
 @class SCNNode;
 
+SWIFT_AVAILABILITY(ios,introduced=13.0)
 @interface ARLivenessDetector (SWIFT_EXTENSION(IDCardReader)) <ARSCNViewDelegate>
 - (void)renderer:(id <SCNSceneRenderer> _Nonnull)renderer didAddNode:(SCNNode * _Nonnull)node forAnchor:(ARAnchor * _Nonnull)anchor;
 - (void)renderer:(id <SCNSceneRenderer> _Nonnull)renderer didUpdateNode:(SCNNode * _Nonnull)node forAnchor:(ARAnchor * _Nonnull)anchor;
