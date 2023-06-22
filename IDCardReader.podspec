@@ -9,11 +9,10 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   spec.platform = :ios
   spec.ios.deployment_target = "11.0"
-  spec.license          = { :type => 'MIT', :file => 'LICENSE' }
 
   spec.source            = { :http => 'https://github.com/trungnguyen1791/CardReader/releases/download/1.0.29/IDCardReader.zip' }
   spec.weak_frameworks = ['CoreNFC']
-  # spec.ios.vendored_frameworks = 'IDCardReader.xcframework'
+  spec.default_subspecs = ["Full"]
 
   spec.subspec 'Full' do |subspec|
     subspec.vendored_frameworks = 'IDCardReader/Full/IDCardReader.xcframework'
@@ -30,11 +29,7 @@ Pod::Spec.new do |spec|
 
 
   spec.swift_version = "5.0"
-
-  
-
   spec.xcconfig          = { 'OTHER_LDFLAGS' => '-weak_framework CryptoKit -weak_framework CoreNFC -weak_framework CryptoTokenKit' }
-
   spec.pod_target_xcconfig = {
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
   }
