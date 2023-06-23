@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IDCardReader
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import ARKit
@@ -433,7 +433,7 @@ public protocol ARLivenessDetectorDelegate : ObjectiveC.NSObject {
 }
 @objc @available(iOS 13.0, *)
 public class ARLivenessDetector : ObjectiveC.NSObject {
-  weak public var delegate: (any IDCardReader.ARLivenessDetectorDelegate)?
+  weak public var delegate: IDCardReader.ARLivenessDetectorDelegate?
   public init(previewView: UIKit.UIView, debugging: Swift.Bool = true)
   public func getVerificationRequiresAndStartSession() throws
   public func startLiveness(verificationData: IDCardReader.ConfigData? = nil)
@@ -446,8 +446,8 @@ extension IDCardReader.ARLivenessDetector : ARKit.ARSessionDelegate {
 }
 @available(iOS 13.0, *)
 extension IDCardReader.ARLivenessDetector : ARKit.ARSCNViewDelegate {
-  @objc dynamic public func renderer(_ renderer: any SceneKit.SCNSceneRenderer, didAdd node: SceneKit.SCNNode, for anchor: ARKit.ARAnchor)
-  @objc dynamic public func renderer(_ renderer: any SceneKit.SCNSceneRenderer, didUpdate node: SceneKit.SCNNode, for anchor: ARKit.ARAnchor)
+  @objc dynamic public func renderer(_ renderer: SceneKit.SCNSceneRenderer, didAdd node: SceneKit.SCNNode, for anchor: ARKit.ARAnchor)
+  @objc dynamic public func renderer(_ renderer: SceneKit.SCNSceneRenderer, didUpdate node: SceneKit.SCNNode, for anchor: ARKit.ARAnchor)
 }
 @_hasMissingDesignatedInitializers @available(iOS 13, macOS 10.15, *)
 public class SecurityInfo {
@@ -708,7 +708,7 @@ public class NFCPassportModel {
   public var activeAuthenticationSignature: [Swift.UInt8] {
     get
   }
-  public var verificationErrors: [any Swift.Error] {
+  public var verificationErrors: [Swift.Error] {
     get
   }
   public var isPACESupported: Swift.Bool {
@@ -849,7 +849,7 @@ public class PassportReader : ObjectiveC.NSObject {
 @available(iOS 13, *)
 extension IDCardReader.PassportReader : CoreNFC.NFCTagReaderSessionDelegate {
   public func tagReaderSessionDidBecomeActive(_ session: CoreNFC.NFCTagReaderSession)
-  public func tagReaderSession(_ session: CoreNFC.NFCTagReaderSession, didInvalidateWithError error: any Swift.Error)
+  public func tagReaderSession(_ session: CoreNFC.NFCTagReaderSession, didInvalidateWithError error: Swift.Error)
   public func tagReaderSession(_ session: CoreNFC.NFCTagReaderSession, didDetect tags: [CoreNFC.NFCTag])
 }
 public struct IDCardRawData {

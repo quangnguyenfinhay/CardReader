@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/IDCardReader-Swift.h</key>
 		<data>
-		mb1LI3Lg/3LD0EXo55LFwzZHdTk=
+		hQnu1vg+k1YC4T79+gPH8Afw1pI=
 		</data>
 		<key>Headers/IDCardReader.h</key>
 		<data>
@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		jNGT0dyQ9RTy9Hwulnn8su06D44=
+		jj1/ysAQuKWtUplVHZzdtbPvDfE=
 		</data>
 		<key>Modules/IDCardReader.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		MZX8GrX4QsqMF04k+1a1tSPpfEk=
+		+0DbDCSZzX2CNtpj7XvV5DVgJtM=
 		</data>
 		<key>Modules/IDCardReader.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		iCpAeRJRULELR5dvQZcGBajjTGY=
+		ThqI2dwtBY4bJWRZjO224HX/SPc=
 		</data>
 		<key>Modules/IDCardReader.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		rF8Lye0I0M+lznF0g6cZcoLXHFw=
+		nqdFodpapR9E70/OysW69+vWehA=
 		</data>
 		<key>Modules/IDCardReader.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		iCpAeRJRULELR5dvQZcGBajjTGY=
+		ThqI2dwtBY4bJWRZjO224HX/SPc=
 		</data>
 		<key>Modules/IDCardReader.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		+JDC6ApxlM/BA1HhsYu3ecOBd9g=
+		H29txpvt4WH5WpSznk8on4ENfd4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7CVG4htR632Wo/S1Q/6VFmgl6NWe4okFDdVKdijfCG4=
+			rrc3o8ROvVcXrqMfYWG+YE5LQdjZRTTbMeVpR/B7dzg=
 			</data>
 		</dict>
 		<key>Headers/IDCardReader.h</key>
@@ -65,35 +65,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5AiWerR/kC7QZ6BQp9TF7d343CHhJ9MHb54qrQDm+Rw=
+			P+d6cdEeEnWRCbFjzp9u08sHsK6WqQeMzzK3iUKZ7wE=
 			</data>
 		</dict>
 		<key>Modules/IDCardReader.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ASNA1KbXPG9FZq3P5nBhdsHI/NnuSLowaruKSyaRdhc=
+			7SgDxbZJvI2mNW9AVr80YhohI0ivSZAIf4NnRH3S9ek=
 			</data>
 		</dict>
 		<key>Modules/IDCardReader.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9p/uqF1+rz8p3LXNo6Y1ZlIFTSDcqOIVPiP8hURO45g=
+			imG/VDG6z9fenlzyHH5a0c8iandZd3bG/iiw1KNZFts=
 			</data>
 		</dict>
 		<key>Modules/IDCardReader.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ASNA1KbXPG9FZq3P5nBhdsHI/NnuSLowaruKSyaRdhc=
+			7SgDxbZJvI2mNW9AVr80YhohI0ivSZAIf4NnRH3S9ek=
 			</data>
 		</dict>
 		<key>Modules/IDCardReader.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jPsrgLeTxW3mA6CmsXEhlaJIubcbDtjsKPyxB4zy190=
+			RSJPGJP6Nno4sBskrNoG/5zg6Tne2qtqzFBHfV4qqzc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
