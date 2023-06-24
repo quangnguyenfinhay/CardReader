@@ -64,6 +64,10 @@
 		<data>
 		5cBvWkViftgNLB5rNuBeffwEGSU=
 		</data>
+		<key>video.scnassets/vid.scn</key>
+		<data>
+		LAr1RTT4NcSnruW8sODZZfcX9zg=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -163,6 +167,13 @@
 			<key>hash2</key>
 			<data>
 			YqreDTLezJuUXbtzN8aNNSL6iqay7xi6PoTp/vq4fws=
+			</data>
+		</dict>
+		<key>video.scnassets/vid.scn</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0savPimMjVCCjU+dCh5ODI28KNUaVf5ezY9NtJyGUEM=
 			</data>
 		</dict>
 	</dict>
