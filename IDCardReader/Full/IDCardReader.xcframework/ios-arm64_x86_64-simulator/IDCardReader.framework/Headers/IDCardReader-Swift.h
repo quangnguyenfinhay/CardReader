@@ -275,6 +275,7 @@ SWIFT_AVAILABILITY(ios,introduced=13.0)
 
 SWIFT_AVAILABILITY(ios,introduced=13.0)
 @interface ARLivenessDetector (SWIFT_EXTENSION(IDCardReader)) <ARSCNViewDelegate>
+- (void)renderer:(id <SCNSceneRenderer> _Nonnull)renderer didRemoveNode:(SCNNode * _Nonnull)node forAnchor:(ARAnchor * _Nonnull)anchor;
 - (void)renderer:(id <SCNSceneRenderer> _Nonnull)renderer didAddNode:(SCNNode * _Nonnull)node forAnchor:(ARAnchor * _Nonnull)anchor;
 - (void)renderer:(id <SCNSceneRenderer> _Nonnull)renderer didUpdateNode:(SCNNode * _Nonnull)node forAnchor:(ARAnchor * _Nonnull)anchor;
 @end
@@ -582,6 +583,7 @@ SWIFT_AVAILABILITY(ios,introduced=13.0)
 
 SWIFT_AVAILABILITY(ios,introduced=13.0)
 @interface ARLivenessDetector (SWIFT_EXTENSION(IDCardReader)) <ARSCNViewDelegate>
+- (void)renderer:(id <SCNSceneRenderer> _Nonnull)renderer didRemoveNode:(SCNNode * _Nonnull)node forAnchor:(ARAnchor * _Nonnull)anchor;
 - (void)renderer:(id <SCNSceneRenderer> _Nonnull)renderer didAddNode:(SCNNode * _Nonnull)node forAnchor:(ARAnchor * _Nonnull)anchor;
 - (void)renderer:(id <SCNSceneRenderer> _Nonnull)renderer didUpdateNode:(SCNNode * _Nonnull)node forAnchor:(ARAnchor * _Nonnull)anchor;
 @end

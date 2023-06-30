@@ -421,6 +421,16 @@ public enum LivenessAction : Swift.Int {
     get
   }
 }
+public enum SensitivityThreshold : Swift.Int {
+  case low
+  case medium
+  case high
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
 public struct ImageAction {
   public var action: IDCardReader.LivenessAction?
   public var image: Swift.String?
@@ -434,7 +444,7 @@ public protocol ARLivenessDetectorDelegate : ObjectiveC.NSObject {
 @objc @available(iOS 13.0, *)
 public class ARLivenessDetector : ObjectiveC.NSObject {
   weak public var delegate: IDCardReader.ARLivenessDetectorDelegate?
-  public init(previewView: UIKit.UIView, debugging: Swift.Bool = true)
+  public init(previewView: UIKit.UIView, threshold: IDCardReader.SensitivityThreshold = .medium, delay: Swift.Double = 0, debugging: Swift.Bool = true)
   public func getVerificationRequiresAndStartSession() throws
   public func startLiveness(verificationData: IDCardReader.ConfigData? = nil)
   public func stopLiveness()
@@ -446,6 +456,7 @@ extension IDCardReader.ARLivenessDetector : ARKit.ARSessionDelegate {
 }
 @available(iOS 13.0, *)
 extension IDCardReader.ARLivenessDetector : ARKit.ARSCNViewDelegate {
+  @objc dynamic public func renderer(_ renderer: SceneKit.SCNSceneRenderer, didRemove node: SceneKit.SCNNode, for anchor: ARKit.ARAnchor)
   @objc dynamic public func renderer(_ renderer: SceneKit.SCNSceneRenderer, didAdd node: SceneKit.SCNNode, for anchor: ARKit.ARAnchor)
   @objc dynamic public func renderer(_ renderer: SceneKit.SCNSceneRenderer, didUpdate node: SceneKit.SCNNode, for anchor: ARKit.ARAnchor)
 }
@@ -992,6 +1003,9 @@ extension IDCardReader.DataGroupId : Swift.RawRepresentable {}
 extension IDCardReader.LivenessAction : Swift.Equatable {}
 extension IDCardReader.LivenessAction : Swift.Hashable {}
 extension IDCardReader.LivenessAction : Swift.RawRepresentable {}
+extension IDCardReader.SensitivityThreshold : Swift.Equatable {}
+extension IDCardReader.SensitivityThreshold : Swift.Hashable {}
+extension IDCardReader.SensitivityThreshold : Swift.RawRepresentable {}
 extension IDCardReader.PACEMappingType : Swift.Equatable {}
 extension IDCardReader.PACEMappingType : Swift.Hashable {}
 extension IDCardReader.PassportAuthenticationStatus : Swift.Equatable {}

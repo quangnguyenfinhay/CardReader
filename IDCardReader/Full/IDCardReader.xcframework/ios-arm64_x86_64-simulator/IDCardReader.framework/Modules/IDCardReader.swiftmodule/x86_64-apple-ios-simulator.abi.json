@@ -9763,6 +9763,242 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "SensitivityThreshold",
+        "printedName": "SensitivityThreshold",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "low",
+            "printedName": "low",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.SensitivityThreshold.Type) -> IDCardReader.SensitivityThreshold",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SensitivityThreshold",
+                    "printedName": "IDCardReader.SensitivityThreshold",
+                    "usr": "s:12IDCardReader20SensitivityThresholdO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.SensitivityThreshold.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SensitivityThreshold",
+                        "printedName": "IDCardReader.SensitivityThreshold",
+                        "usr": "s:12IDCardReader20SensitivityThresholdO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader20SensitivityThresholdO3lowyA2CmF",
+            "mangledName": "$s12IDCardReader20SensitivityThresholdO3lowyA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Var",
+            "name": "medium",
+            "printedName": "medium",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.SensitivityThreshold.Type) -> IDCardReader.SensitivityThreshold",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SensitivityThreshold",
+                    "printedName": "IDCardReader.SensitivityThreshold",
+                    "usr": "s:12IDCardReader20SensitivityThresholdO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.SensitivityThreshold.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SensitivityThreshold",
+                        "printedName": "IDCardReader.SensitivityThreshold",
+                        "usr": "s:12IDCardReader20SensitivityThresholdO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader20SensitivityThresholdO6mediumyA2CmF",
+            "mangledName": "$s12IDCardReader20SensitivityThresholdO6mediumyA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Var",
+            "name": "high",
+            "printedName": "high",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.SensitivityThreshold.Type) -> IDCardReader.SensitivityThreshold",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SensitivityThreshold",
+                    "printedName": "IDCardReader.SensitivityThreshold",
+                    "usr": "s:12IDCardReader20SensitivityThresholdO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.SensitivityThreshold.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SensitivityThreshold",
+                        "printedName": "IDCardReader.SensitivityThreshold",
+                        "usr": "s:12IDCardReader20SensitivityThresholdO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader20SensitivityThresholdO4highyA2CmF",
+            "mangledName": "$s12IDCardReader20SensitivityThresholdO4highyA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IDCardReader.SensitivityThreshold?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SensitivityThreshold",
+                    "printedName": "IDCardReader.SensitivityThreshold",
+                    "usr": "s:12IDCardReader20SensitivityThresholdO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12IDCardReader20SensitivityThresholdO8rawValueACSgSi_tcfc",
+            "mangledName": "$s12IDCardReader20SensitivityThresholdO8rawValueACSgSi_tcfc",
+            "moduleName": "IDCardReader",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IDCardReader20SensitivityThresholdO8rawValueSivp",
+            "mangledName": "$s12IDCardReader20SensitivityThresholdO8rawValueSivp",
+            "moduleName": "IDCardReader",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader20SensitivityThresholdO8rawValueSivg",
+                "mangledName": "$s12IDCardReader20SensitivityThresholdO8rawValueSivg",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12IDCardReader20SensitivityThresholdO",
+        "mangledName": "$s12IDCardReader20SensitivityThresholdO",
+        "moduleName": "IDCardReader",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "ImageAction",
         "printedName": "ImageAction",
         "children": [
@@ -10251,7 +10487,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(previewView:debugging:)",
+            "printedName": "init(previewView:threshold:delay:debugging:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -10267,6 +10503,20 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "SensitivityThreshold",
+                "printedName": "IDCardReader.SensitivityThreshold",
+                "hasDefaultArg": true,
+                "usr": "s:12IDCardReader20SensitivityThresholdO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "Bool",
                 "printedName": "Swift.Bool",
                 "hasDefaultArg": true,
@@ -10274,8 +10524,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12IDCardReader18ARLivenessDetectorC11previewView9debuggingACSo6UIViewC_Sbtcfc",
-            "mangledName": "$s12IDCardReader18ARLivenessDetectorC11previewView9debuggingACSo6UIViewC_Sbtcfc",
+            "usr": "s:12IDCardReader18ARLivenessDetectorC11previewView9threshold5delay9debuggingACSo6UIViewC_AA20SensitivityThresholdOSdSbtcfc",
+            "mangledName": "$s12IDCardReader18ARLivenessDetectorC11previewView9threshold5delay9debuggingACSo6UIViewC_AA20SensitivityThresholdOSdSbtcfc",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "AccessControl"
@@ -10421,6 +10671,48 @@
             "mangledName": "$s12IDCardReader18ARLivenessDetectorC7session_9didUpdateySo9ARSessionC_SaySo8ARAnchorCGtF",
             "moduleName": "IDCardReader",
             "objc_name": "session:didUpdateAnchors:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "renderer",
+            "printedName": "renderer(_:didRemove:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCNSceneRenderer",
+                "printedName": "SceneKit.SCNSceneRenderer",
+                "usr": "c:objc(pl)SCNSceneRenderer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCNNode",
+                "printedName": "SceneKit.SCNNode",
+                "usr": "c:objc(cs)SCNNode"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ARAnchor",
+                "printedName": "ARKit.ARAnchor",
+                "usr": "c:objc(cs)ARAnchor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IDCardReader@objc(cs)ARLivenessDetector(im)renderer:didRemoveNode:forAnchor:",
+            "mangledName": "$s12IDCardReader18ARLivenessDetectorC8renderer_9didRemove3forySo16SCNSceneRenderer_p_So7SCNNodeCSo8ARAnchorCtF",
+            "moduleName": "IDCardReader",
+            "objc_name": "renderer:didRemoveNode:forAnchor:",
             "declAttributes": [
               "Dynamic",
               "ObjC",
@@ -28278,155 +28570,253 @@
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 652,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 663,
+      "length": 6,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 679,
+      "length": 4,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 652,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 663,
+      "length": 6,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 679,
+      "length": 4,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 652,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 663,
+      "length": 6,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 679,
+      "length": 4,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "Dictionary",
-      "offset": 1355,
+      "offset": 1448,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1535,
+      "offset": 1664,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1574,
+      "offset": 1703,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1607,
+      "offset": 1736,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1647,
+      "offset": 1776,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1683,
+      "offset": 1812,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1726,
+      "offset": 1855,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1763,
+      "offset": 1892,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1807,
+      "offset": 1936,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1841,
+      "offset": 1970,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1882,
+      "offset": 2011,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1918,
+      "offset": 2047,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1961,
+      "offset": 2090,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 2010,
+      "offset": 2139,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2181,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 2063,
+      "offset": 2234,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "Array",
-      "offset": 2189,
+      "offset": 2360,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 2220,
+      "offset": 2391,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 2260,
+      "offset": 2431,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 2359,
+      "offset": 2504,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2542,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "FloatLiteral",
+      "offset": 2590,
+      "length": 5,
+      "value": "100.0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "FloatLiteral",
+      "offset": 2638,
+      "length": 4,
+      "value": "12.5"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2685,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2793,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2814,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
-      "kind": "FloatLiteral",
-      "offset": 10210,
-      "length": 4,
-      "value": "60.0"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
-      "kind": "FloatLiteral",
-      "offset": 11553,
-      "length": 4,
-      "value": "60.0"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 1133,
+      "offset": 1226,
       "length": 18,
       "value": "\"IDCardReader.ARLivenessDetector\""
     },
