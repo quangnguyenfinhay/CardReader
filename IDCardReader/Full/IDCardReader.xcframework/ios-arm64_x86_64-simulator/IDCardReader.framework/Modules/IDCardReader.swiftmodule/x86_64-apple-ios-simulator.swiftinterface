@@ -406,6 +406,7 @@ public enum LivenessError : Swift.Error {
   case badResponse(Swift.String)
 }
 public enum LivenessAction : Swift.Int {
+  case detectingFace
   case eyesLookIn
   case smile
   case wink
@@ -415,6 +416,7 @@ public enum LivenessAction : Swift.Int {
   case headPoseRight
   case startVerification
   case fetchConfig
+  case processing
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
