@@ -8,6 +8,7 @@ import CryptoKit
 import CryptoTokenKit
 import Foundation
 @_exported import IDCardReader
+import MobileCoreServices
 import ObjectMapper
 import OpenSSL
 import Swift

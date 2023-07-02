@@ -269,6 +269,7 @@ SWIFT_CLASS("_TtC12IDCardReader14PassportReader") SWIFT_AVAILABILITY(ios,introdu
 
 
 
+
 #endif
 #if defined(__cplusplus)
 #endif
@@ -544,6 +545,7 @@ SWIFT_CLASS("_TtC12IDCardReader14PassportReader") SWIFT_AVAILABILITY(ios,introdu
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
 
 
 

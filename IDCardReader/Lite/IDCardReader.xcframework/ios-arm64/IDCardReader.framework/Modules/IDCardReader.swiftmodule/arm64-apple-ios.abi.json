@@ -275,6 +275,13 @@
       },
       {
         "kind": "Import",
+        "name": "MobileCoreServices",
+        "printedName": "MobileCoreServices",
+        "declKind": "Import",
+        "moduleName": "IDCardReader"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -25411,6 +25418,20 @@
       "offset": 180,
       "length": 31,
       "value": "\"IDCardReader.ChipAuthenticationPublicKeyInfo\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 2846,
+      "length": 27,
+      "value": "\"com.IDCardReader.GIFQueue\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3624,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/Logging.swift",

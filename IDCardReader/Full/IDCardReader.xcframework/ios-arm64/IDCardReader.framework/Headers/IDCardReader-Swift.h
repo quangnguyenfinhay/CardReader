@@ -262,11 +262,14 @@ SWIFT_CLASS("_TtC12IDCardReader18ARLivenessDetector") SWIFT_AVAILABILITY(ios,int
 @end
 
 
+
 @class ARSession;
+@class ARFrame;
 @class ARAnchor;
 
 SWIFT_AVAILABILITY(ios,introduced=13.0)
 @interface ARLivenessDetector (SWIFT_EXTENSION(IDCardReader)) <ARSessionDelegate>
+- (void)session:(ARSession * _Nonnull)session didUpdateFrame:(ARFrame * _Nonnull)frame;
 - (void)session:(ARSession * _Nonnull)session didUpdateAnchors:(NSArray<ARAnchor *> * _Nonnull)anchors;
 @end
 
@@ -294,6 +297,7 @@ SWIFT_CLASS("_TtC12IDCardReader14PassportReader") SWIFT_AVAILABILITY(ios,introdu
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
 
 
 

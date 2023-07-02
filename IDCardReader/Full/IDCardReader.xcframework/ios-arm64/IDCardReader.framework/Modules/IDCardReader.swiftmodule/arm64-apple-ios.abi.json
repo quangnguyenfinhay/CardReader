@@ -275,6 +275,13 @@
       },
       {
         "kind": "Import",
+        "name": "MobileCoreServices",
+        "printedName": "MobileCoreServices",
+        "declKind": "Import",
+        "moduleName": "IDCardReader"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -9106,13 +9113,6 @@
         "moduleName": "IDCardReader"
       },
       {
-        "kind": "Import",
-        "name": "ARVideoKit",
-        "printedName": "ARVideoKit",
-        "declKind": "Import",
-        "moduleName": "IDCardReader"
-      },
-      {
         "kind": "TypeDecl",
         "name": "LivenessError",
         "printedName": "LivenessError",
@@ -10379,7 +10379,7 @@
           {
             "kind": "Function",
             "name": "arliveness",
-            "printedName": "arliveness(liveness:didFinish:base64Images:videoPath:)",
+            "printedName": "arliveness(liveness:didFinish:base64Images:videoURL:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -10415,21 +10415,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.String?",
+                "printedName": "Foundation.URL?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:12IDCardReader26ARLivenessDetectorDelegateP10arliveness8liveness9didFinish12base64Images9videoPathyAA0cD0C_AA22FaceValidationResponseVSayAA11ImageActionVGSSSgtF",
-            "mangledName": "$s12IDCardReader26ARLivenessDetectorDelegateP10arliveness8liveness9didFinish12base64Images9videoPathyAA0cD0C_AA22FaceValidationResponseVSayAA11ImageActionVGSSSgtF",
+            "usr": "s:12IDCardReader26ARLivenessDetectorDelegateP10arliveness8liveness9didFinish12base64Images8videoURLyAA0cD0C_AA22FaceValidationResponseVSayAA11ImageActionVG10Foundation0M0VSgtF",
+            "mangledName": "$s12IDCardReader26ARLivenessDetectorDelegateP10arliveness8liveness9didFinish12base64Images8videoURLyAA0cD0C_AA22FaceValidationResponseVSayAA11ImageActionVG10Foundation0M0VSgtF",
             "moduleName": "IDCardReader",
             "genericSig": "<τ_0_0 where τ_0_0 : IDCardReader.ARLivenessDetectorDelegate>",
             "sugared_genericSig": "<Self where Self : IDCardReader.ARLivenessDetectorDelegate>",
@@ -10708,6 +10708,42 @@
               "Override"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "session",
+            "printedName": "session(_:didUpdate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ARSession",
+                "printedName": "ARKit.ARSession",
+                "usr": "c:objc(cs)ARSession"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ARFrame",
+                "printedName": "ARKit.ARFrame",
+                "usr": "c:objc(cs)ARFrame"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IDCardReader@objc(cs)ARLivenessDetector(im)session:didUpdateFrame:",
+            "mangledName": "$s12IDCardReader18ARLivenessDetectorC7session_9didUpdateySo9ARSessionC_So7ARFrameCtF",
+            "moduleName": "IDCardReader",
+            "objc_name": "session:didUpdateFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
@@ -27271,6 +27307,20 @@
       "value": "\"IDCardReader.ChipAuthenticationPublicKeyInfo\""
     },
     {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 2846,
+      "length": 27,
+      "value": "\"com.IDCardReader.GIFQueue\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3624,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/Logging.swift",
       "kind": "IntegerLiteral",
       "offset": 279,
@@ -28372,546 +28422,588 @@
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 322,
+      "offset": 304,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 333,
+      "offset": 315,
       "length": 4,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 347,
+      "offset": 329,
       "length": 4,
       "value": "3"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 361,
+      "offset": 343,
       "length": 5,
       "value": "4"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 322,
+      "offset": 304,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 333,
+      "offset": 315,
       "length": 4,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 347,
+      "offset": 329,
       "length": 4,
       "value": "3"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 361,
+      "offset": 343,
       "length": 5,
       "value": "4"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 322,
+      "offset": 304,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 333,
+      "offset": 315,
       "length": 4,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 347,
+      "offset": 329,
       "length": 4,
       "value": "3"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 361,
+      "offset": 343,
       "length": 5,
       "value": "4"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 449,
+      "offset": 431,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 460,
+      "offset": 442,
       "length": 5,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 475,
+      "offset": 457,
       "length": 4,
       "value": "3"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 489,
+      "offset": 471,
       "length": 10,
       "value": "4"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 509,
+      "offset": 491,
       "length": 12,
       "value": "5"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 531,
+      "offset": 513,
       "length": 12,
       "value": "6"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 553,
+      "offset": 535,
       "length": 13,
       "value": "7"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 576,
+      "offset": 558,
       "length": 17,
       "value": "8"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 603,
+      "offset": 585,
       "length": 11,
       "value": "9"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 624,
+      "offset": 606,
       "length": 10,
       "value": "10"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 449,
+      "offset": 431,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 460,
+      "offset": 442,
       "length": 5,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 475,
+      "offset": 457,
       "length": 4,
       "value": "3"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 489,
+      "offset": 471,
       "length": 10,
       "value": "4"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 509,
+      "offset": 491,
       "length": 12,
       "value": "5"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 531,
+      "offset": 513,
       "length": 12,
       "value": "6"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 553,
+      "offset": 535,
       "length": 13,
       "value": "7"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 576,
+      "offset": 558,
       "length": 17,
       "value": "8"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 603,
+      "offset": 585,
       "length": 11,
       "value": "9"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 624,
+      "offset": 606,
       "length": 10,
       "value": "10"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 449,
+      "offset": 431,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 460,
+      "offset": 442,
       "length": 5,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 475,
+      "offset": 457,
       "length": 4,
       "value": "3"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 489,
+      "offset": 471,
       "length": 10,
       "value": "4"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 509,
+      "offset": 491,
       "length": 12,
       "value": "5"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 531,
+      "offset": 513,
       "length": 12,
       "value": "6"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 553,
+      "offset": 535,
       "length": 13,
       "value": "7"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 576,
+      "offset": 558,
       "length": 17,
       "value": "8"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 603,
+      "offset": 585,
       "length": 11,
       "value": "9"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 624,
+      "offset": 606,
       "length": 10,
       "value": "10"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 737,
+      "offset": 719,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 748,
+      "offset": 730,
       "length": 6,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 764,
+      "offset": 746,
       "length": 4,
       "value": "3"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 737,
+      "offset": 719,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 748,
+      "offset": 730,
       "length": 6,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 764,
+      "offset": 746,
       "length": 4,
       "value": "3"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 737,
+      "offset": 719,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 748,
+      "offset": 730,
       "length": 6,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 764,
+      "offset": 746,
       "length": 4,
       "value": "3"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "Dictionary",
-      "offset": 1533,
+      "offset": 1511,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1749,
+      "offset": 1727,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1788,
+      "offset": 1766,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1821,
+      "offset": 1799,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1861,
+      "offset": 1839,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1897,
+      "offset": 1875,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1940,
+      "offset": 1918,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1977,
+      "offset": 1955,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 2021,
+      "offset": 1999,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 2055,
+      "offset": 2033,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 2096,
+      "offset": 2074,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 2132,
+      "offset": 2110,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 2175,
+      "offset": 2153,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 2224,
+      "offset": 2202,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 2266,
+      "offset": 2244,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 2319,
+      "offset": 2297,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "Array",
-      "offset": 2445,
+      "offset": 2423,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 2476,
+      "offset": 2454,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 2516,
+      "offset": 2494,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 2589,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2627,
-      "length": 5,
-      "value": "false"
+      "offset": 2537,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 2675,
+      "offset": 2584,
       "length": 5,
       "value": "100.0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 2723,
+      "offset": 2632,
       "length": 4,
       "value": "12.5"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 2770,
+      "offset": 2679,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 2728,
+      "length": 30,
+      "value": "\"com.IDCardReader.WriterQueue\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 2878,
+      "offset": 2820,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2886,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2952,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3019,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3078,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3136,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3438,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 2899,
+      "offset": 3459,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 1311,
+      "offset": 1289,
       "length": 18,
       "value": "\"IDCardReader.ARLivenessDetector\""
     },
