@@ -402,6 +402,7 @@ extension IDCardReader.NFCViewDisplayMessage {
 }
 public enum LivenessError : Swift.Error {
   case noFaceDetected
+  case smallFace
   case badImage
   case noVerificationInstruction
   case badResponse(Swift.String)

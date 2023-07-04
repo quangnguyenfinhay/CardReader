@@ -302,6 +302,7 @@ SWIFT_CLASS("_TtC12IDCardReader14PassportReader") SWIFT_AVAILABILITY(ios,introdu
 
 
 
+
 #endif
 #if defined(__cplusplus)
 #endif
