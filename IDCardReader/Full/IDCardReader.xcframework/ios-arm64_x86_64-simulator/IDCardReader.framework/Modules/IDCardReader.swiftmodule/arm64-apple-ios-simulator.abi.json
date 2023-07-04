@@ -282,6 +282,13 @@
       },
       {
         "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "IDCardReader"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -28947,56 +28954,56 @@
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 2820,
+      "offset": 2825,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 2886,
+      "offset": 2891,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 2952,
+      "offset": 2957,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 3019,
+      "offset": 3024,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 3078,
+      "offset": 3083,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 3136,
+      "offset": 3141,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 3438,
+      "offset": 3443,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 3459,
+      "offset": 3464,
       "length": 4,
       "value": "true"
     },

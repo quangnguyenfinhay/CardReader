@@ -3,6 +3,7 @@
 // swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IDCardReader
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import ARKit
+import AVFoundation
 import CommonCrypto
 import CoreNFC
 import CryptoKit
