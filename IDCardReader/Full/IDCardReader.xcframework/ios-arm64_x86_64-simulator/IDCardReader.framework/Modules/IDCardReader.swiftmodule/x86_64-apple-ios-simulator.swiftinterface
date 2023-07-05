@@ -448,7 +448,7 @@ public protocol ARLivenessDetectorDelegate : ObjectiveC.NSObject {
 @objc @available(iOS 13.0, *)
 public class ARLivenessDetector : ObjectiveC.NSObject {
   weak public var delegate: IDCardReader.ARLivenessDetectorDelegate?
-  public init(previewView: UIKit.UIView, threshold: IDCardReader.SensitivityThreshold = .medium, delay: Swift.Double = 0, debugging: Swift.Bool = true)
+  public init(previewView: UIKit.UIView, threshold: IDCardReader.SensitivityThreshold = .medium, delay: Swift.Double = 0, smallFaceThreshold: Swift.Double = 0.35, debugging: Swift.Bool = true)
   public func getVerificationRequiresAndStartSession() throws
   public func startLiveness(verificationData: IDCardReader.ConfigData? = nil)
   public func stopLiveness()
