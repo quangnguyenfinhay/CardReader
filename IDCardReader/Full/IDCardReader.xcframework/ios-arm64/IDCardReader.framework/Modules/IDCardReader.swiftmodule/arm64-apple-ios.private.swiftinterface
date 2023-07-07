@@ -393,6 +393,7 @@ public enum NFCViewDisplayMessage {
   case readingDataGroupProgress(IDCardReader.DataGroupId, Swift.Int)
   case error(IDCardReader.NFCPassportReaderError)
   case successfulRead
+  case retry
 }
 @available(iOS 13, macOS 10.15, *)
 extension IDCardReader.NFCViewDisplayMessage {
@@ -838,7 +839,7 @@ public class NotImplementedDG : IDCardReader.DataGroup {
 public class IDCardReaderManager : ObjectiveC.NSObject {
   public static let shared: IDCardReader.IDCardReaderManager
   public func setup(appId: Swift.String, license: Swift.String, logLevel: IDCardReader.LogLevel = .debug, isSanbox: Swift.Bool = true)
-  public func setLocalizeTexts(requestPresentCard: Swift.String? = nil, authenticating: Swift.String? = nil, reading: Swift.String? = nil, errorReading: Swift.String? = nil, successReading: Swift.String? = nil)
+  public func setLocalizeTexts(requestPresentCard: Swift.String? = nil, authenticating: Swift.String? = nil, reading: Swift.String? = nil, errorReading: Swift.String? = nil, successReading: Swift.String? = nil, retry: Swift.String? = nil)
   #if compiler(>=5.3) && $AsyncAwait
   public func readIDCard(cardId: Swift.String, dateOfBirth: Swift.String, dateOfExpiry: Swift.String) async throws -> IDCardReader.IDCardInformationResponse
   #endif

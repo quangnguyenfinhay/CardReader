@@ -9049,6 +9049,43 @@
           },
           {
             "kind": "Var",
+            "name": "retry",
+            "printedName": "retry",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.NFCViewDisplayMessage.Type) -> IDCardReader.NFCViewDisplayMessage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NFCViewDisplayMessage",
+                    "printedName": "IDCardReader.NFCViewDisplayMessage",
+                    "usr": "s:12IDCardReader21NFCViewDisplayMessageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.NFCViewDisplayMessage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NFCViewDisplayMessage",
+                        "printedName": "IDCardReader.NFCViewDisplayMessage",
+                        "usr": "s:12IDCardReader21NFCViewDisplayMessageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader21NFCViewDisplayMessageO5retryyA2CmF",
+            "mangledName": "$s12IDCardReader21NFCViewDisplayMessageO5retryyA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Var",
             "name": "description",
             "printedName": "description",
             "children": [
@@ -19781,7 +19818,7 @@
           {
             "kind": "Function",
             "name": "setLocalizeTexts",
-            "printedName": "setLocalizeTexts(requestPresentCard:authenticating:reading:errorReading:successReading:)",
+            "printedName": "setLocalizeTexts(requestPresentCard:authenticating:reading:errorReading:successReading:retry:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -19862,11 +19899,26 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:12IDCardReader0aB7ManagerC16setLocalizeTexts18requestPresentCard14authenticating7reading12errorReading07successM0ySSSg_A4JtF",
-            "mangledName": "$s12IDCardReader0aB7ManagerC16setLocalizeTexts18requestPresentCard14authenticating7reading12errorReading07successM0ySSSg_A4JtF",
+            "usr": "s:12IDCardReader0aB7ManagerC16setLocalizeTexts18requestPresentCard14authenticating7reading12errorReading07successM05retryySSSg_A5KtF",
+            "mangledName": "$s12IDCardReader0aB7ManagerC16setLocalizeTexts18requestPresentCard14authenticating7reading12errorReading07successM05retryySSSg_A5KtF",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "AccessControl"
@@ -29971,84 +30023,84 @@
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 1860,
+      "offset": 1906,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 1896,
+      "offset": 1942,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 1929,
+      "offset": 1975,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 2039,
+      "offset": 2085,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 4880,
+      "offset": 4990,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 12592,
+      "offset": 12777,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 12617,
+      "offset": 12802,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 12641,
+      "offset": 12826,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 14240,
+      "offset": 14425,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 14265,
+      "offset": 14450,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 14290,
+      "offset": 14475,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 14314,
+      "offset": 14499,
       "length": 2,
       "value": "\"\""
     },
