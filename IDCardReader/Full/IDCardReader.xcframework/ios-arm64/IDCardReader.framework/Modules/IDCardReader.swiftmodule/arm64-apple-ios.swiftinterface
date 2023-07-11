@@ -934,7 +934,7 @@ public struct FaceValidationResponse : ObjectMapper.Mappable {
   public var resultCode: Swift.Int
   public var resultMesssage: Swift.String
   public var success: Swift.Bool
-  public var data: [Swift.String : Swift.String]
+  public var data: [Swift.String : Any]
   public init?(map: ObjectMapper.Map)
   public mutating func mapping(map: ObjectMapper.Map)
 }

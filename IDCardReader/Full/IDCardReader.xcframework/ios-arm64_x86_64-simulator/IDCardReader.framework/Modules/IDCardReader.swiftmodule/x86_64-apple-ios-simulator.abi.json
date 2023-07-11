@@ -25069,7 +25069,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Dictionary",
-                "printedName": "[Swift.String : Swift.String]",
+                "printedName": "[Swift.String : Any]",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -25079,17 +25079,16 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
                   }
                 ],
                 "usr": "s:SD"
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader22FaceValidationResponseV4dataSDyS2SGvp",
-            "mangledName": "$s12IDCardReader22FaceValidationResponseV4dataSDyS2SGvp",
+            "usr": "s:12IDCardReader22FaceValidationResponseV4dataSDySSypGvp",
+            "mangledName": "$s12IDCardReader22FaceValidationResponseV4dataSDySSypGvp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
@@ -25106,7 +25105,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Dictionary",
-                    "printedName": "[Swift.String : Swift.String]",
+                    "printedName": "[Swift.String : Any]",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -25116,17 +25115,16 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
                       }
                     ],
                     "usr": "s:SD"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader22FaceValidationResponseV4dataSDyS2SGvg",
-                "mangledName": "$s12IDCardReader22FaceValidationResponseV4dataSDyS2SGvg",
+                "usr": "s:12IDCardReader22FaceValidationResponseV4dataSDySSypGvg",
+                "mangledName": "$s12IDCardReader22FaceValidationResponseV4dataSDySSypGvg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
                 "accessorKind": "get"
@@ -25144,7 +25142,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Dictionary",
-                    "printedName": "[Swift.String : Swift.String]",
+                    "printedName": "[Swift.String : Any]",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -25154,17 +25152,16 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
                       }
                     ],
                     "usr": "s:SD"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader22FaceValidationResponseV4dataSDyS2SGvs",
-                "mangledName": "$s12IDCardReader22FaceValidationResponseV4dataSDyS2SGvs",
+                "usr": "s:12IDCardReader22FaceValidationResponseV4dataSDySSypGvs",
+                "mangledName": "$s12IDCardReader22FaceValidationResponseV4dataSDySSypGvs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
                 "accessorKind": "set"
@@ -25181,8 +25178,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader22FaceValidationResponseV4dataSDyS2SGvM",
-                "mangledName": "$s12IDCardReader22FaceValidationResponseV4dataSDyS2SGvM",
+                "usr": "s:12IDCardReader22FaceValidationResponseV4dataSDySSypGvM",
+                "mangledName": "$s12IDCardReader22FaceValidationResponseV4dataSDySSypGvM",
                 "moduleName": "IDCardReader",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -30478,77 +30475,77 @@
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "BooleanLiteral",
-      "offset": 4781,
+      "offset": 4795,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "Dictionary",
-      "offset": 4825,
+      "offset": 4846,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
-      "offset": 5419,
+      "offset": 5440,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 5466,
+      "offset": 5487,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 5514,
+      "offset": 5535,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "BooleanLiteral",
-      "offset": 5927,
+      "offset": 5948,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "BooleanLiteral",
-      "offset": 5973,
+      "offset": 5994,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "BooleanLiteral",
-      "offset": 6017,
+      "offset": 6038,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "BooleanLiteral",
-      "offset": 6063,
+      "offset": 6084,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "BooleanLiteral",
-      "offset": 6106,
+      "offset": 6127,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "BooleanLiteral",
-      "offset": 6148,
+      "offset": 6169,
       "length": 5,
       "value": "false"
     }
