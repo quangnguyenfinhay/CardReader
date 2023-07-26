@@ -1,10 +1,11 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IDCardReader
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import ARKit
 import AVFoundation
 import CommonCrypto
+import CoreGraphics
 import CoreNFC
 import CryptoKit
 import CryptoTokenKit
@@ -15,6 +16,7 @@ import ObjectMapper
 import OpenSSL
 import Swift
 import UIKit
+import Vision
 import _Concurrency
 import _StringProcessing
 @available(iOS 13, *)
@@ -242,6 +244,20 @@ public func calcSHA256Hash(_ data: [Swift.UInt8]) -> [Swift.UInt8]
 public func calcSHA512Hash(_ data: [Swift.UInt8]) -> [Swift.UInt8]
 @available(iOS 13, macOS 10.15, *)
 public func calcSHA384Hash(_ data: [Swift.UInt8]) -> [Swift.UInt8]
+@objc @_inheritsConvenienceInitializers @available(iOS 13.0, *)
+public class Liveness : ObjectiveC.NSObject {
+  public class func createLivenessDetector(previewView: UIKit.UIView, threshold: IDCardReader.SensitivityThreshold = .medium, delay: Swift.Double = 0, smallFaceThreshold: Swift.Double = 0.35, debugging: Swift.Bool = false, delegate: (any IDCardReader.LivenessDetectorDelegate)?) -> IDCardReader.LivenessDetector
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @available(iOS 13.0, *)
+public class LivenessDetector : ObjectiveC.NSObject {
+  weak public var delegate: (any IDCardReader.LivenessDetectorDelegate)?
+  public func getVerificationRequiresAndStartSession() throws
+  public func stopLiveness()
+  @objc override dynamic public init()
+  @objc deinit
+}
 @available(iOS 13, *)
 public class BACHandler {
   public var ksenc: [Swift.UInt8]
@@ -441,30 +457,10 @@ public struct ImageAction {
   public var image: Swift.String?
 }
 @available(iOS 13.0, *)
-public protocol ARLivenessDetectorDelegate : ObjectiveC.NSObject {
-  func arLiveness(liveness: IDCardReader.ARLivenessDetector, startLivenessAction action: IDCardReader.LivenessAction)
-  func arLiveness(liveness: IDCardReader.ARLivenessDetector, didFail withError: IDCardReader.LivenessError)
-  func arliveness(liveness: IDCardReader.ARLivenessDetector, didFinish verification: IDCardReader.FaceValidationResponse, base64Images: [IDCardReader.ImageAction], videoURL: Foundation.URL?)
-}
-@objc @available(iOS 13.0, *)
-public class ARLivenessDetector : ObjectiveC.NSObject {
-  weak public var delegate: IDCardReader.ARLivenessDetectorDelegate?
-  public init(previewView: UIKit.UIView, threshold: IDCardReader.SensitivityThreshold = .medium, delay: Swift.Double = 0, smallFaceThreshold: Swift.Double = 0.35, debugging: Swift.Bool = true)
-  public func getVerificationRequiresAndStartSession() throws
-  public func startLiveness(verificationData: IDCardReader.ConfigData? = nil)
-  public func stopLiveness()
-  @objc deinit
-}
-@available(iOS 13.0, *)
-extension IDCardReader.ARLivenessDetector : ARKit.ARSessionDelegate {
-  @objc dynamic public func session(_ session: ARKit.ARSession, didUpdate frame: ARKit.ARFrame)
-  @objc dynamic public func session(_ session: ARKit.ARSession, didUpdate anchors: [ARKit.ARAnchor])
-}
-@available(iOS 13.0, *)
-extension IDCardReader.ARLivenessDetector : ARKit.ARSCNViewDelegate {
-  @objc dynamic public func renderer(_ renderer: SceneKit.SCNSceneRenderer, didRemove node: SceneKit.SCNNode, for anchor: ARKit.ARAnchor)
-  @objc dynamic public func renderer(_ renderer: SceneKit.SCNSceneRenderer, didAdd node: SceneKit.SCNNode, for anchor: ARKit.ARAnchor)
-  @objc dynamic public func renderer(_ renderer: SceneKit.SCNSceneRenderer, didUpdate node: SceneKit.SCNNode, for anchor: ARKit.ARAnchor)
+public protocol LivenessDetectorDelegate : ObjectiveC.NSObject {
+  func liveness(liveness: IDCardReader.LivenessDetector, startLivenessAction action: IDCardReader.LivenessAction)
+  func liveness(liveness: IDCardReader.LivenessDetector, didFail withError: IDCardReader.LivenessError)
+  func liveness(liveness: IDCardReader.LivenessDetector, didFinish verification: IDCardReader.FaceValidationResponse, base64Images: [IDCardReader.ImageAction], videoURL: Foundation.URL?)
 }
 @_hasMissingDesignatedInitializers @available(iOS 13, macOS 10.15, *)
 public class SecurityInfo {
@@ -725,7 +721,7 @@ public class NFCPassportModel {
   public var activeAuthenticationSignature: [Swift.UInt8] {
     get
   }
-  public var verificationErrors: [Swift.Error] {
+  public var verificationErrors: [any Swift.Error] {
     get
   }
   public var isPACESupported: Swift.Bool {
@@ -866,7 +862,7 @@ public class PassportReader : ObjectiveC.NSObject {
 @available(iOS 13, *)
 extension IDCardReader.PassportReader : CoreNFC.NFCTagReaderSessionDelegate {
   public func tagReaderSessionDidBecomeActive(_ session: CoreNFC.NFCTagReaderSession)
-  public func tagReaderSession(_ session: CoreNFC.NFCTagReaderSession, didInvalidateWithError error: Swift.Error)
+  public func tagReaderSession(_ session: CoreNFC.NFCTagReaderSession, didInvalidateWithError error: any Swift.Error)
   public func tagReaderSession(_ session: CoreNFC.NFCTagReaderSession, didDetect tags: [CoreNFC.NFCTag])
 }
 public struct IDCardRawData {
