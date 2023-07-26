@@ -38243,22 +38243,36 @@
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 28528,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 28813,
+      "offset": 28564,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 28861,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 29274,
+      "offset": 29357,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 29323,
+      "offset": 29406,
       "length": 3,
       "value": "2.0"
     },
@@ -38853,812 +38867,819 @@
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 2202,
+      "offset": 2241,
       "length": 5,
       "value": "0.016"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 2559,
+      "offset": 2529,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 2711,
+      "offset": 2681,
       "length": 3,
       "value": "0.6"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 2785,
+      "offset": 2755,
       "length": 3,
       "value": "0.6"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 2858,
+      "offset": 2828,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 2931,
+      "offset": 2901,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 4092,
+      "offset": 4062,
       "length": 62,
       "value": "\"Error setting up camera input: \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 4153,
+      "offset": 4123,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 4325,
+      "offset": 4295,
       "length": 18,
       "value": "\"VideoOutputQueue\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
+      "kind": "FloatLiteral",
+      "offset": 4976,
+      "length": 5,
+      "value": "0.016"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 5484,
+      "offset": 5556,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 8401,
+      "offset": 8473,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 8406,
+      "offset": 8478,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 8447,
+      "offset": 8519,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 8615,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
-      "kind": "FloatLiteral",
       "offset": 8687,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
+      "kind": "FloatLiteral",
+      "offset": 8759,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 8919,
+      "offset": 8991,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 8986,
+      "offset": 9058,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 12409,
+      "offset": 12481,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 12460,
+      "offset": 12532,
       "length": 3,
       "value": "120"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 12685,
+      "offset": 12757,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 12979,
+      "offset": 13051,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 13056,
+      "offset": 13128,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 13279,
+      "offset": 13351,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 13427,
+      "offset": 13499,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 13581,
+      "offset": 13653,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 13603,
+      "offset": 13675,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 13707,
+      "offset": 13779,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 13802,
+      "offset": 13874,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 13893,
+      "offset": 13965,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 14004,
+      "offset": 14076,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 14072,
+      "offset": 14144,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 14137,
+      "offset": 14209,
       "length": 11,
       "value": "\"turned up\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 14334,
+      "offset": 14406,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 14375,
+      "offset": 14447,
       "length": 1,
       "value": "1"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14547,
-      "length": 1,
-      "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
       "offset": 14619,
       "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14691,
+      "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 14684,
+      "offset": 14756,
       "length": 13,
       "value": "\"turned down\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 14885,
+      "offset": 14957,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 14928,
+      "offset": 15000,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 15102,
+      "offset": 15174,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 15170,
+      "offset": 15242,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 15235,
+      "offset": 15307,
       "length": 13,
       "value": "\"turned left\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 15436,
+      "offset": 15508,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 15479,
+      "offset": 15551,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 15655,
+      "offset": 15727,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 15725,
+      "offset": 15797,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 15790,
+      "offset": 15862,
       "length": 14,
       "value": "\"turned right\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 15993,
+      "offset": 16065,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 16037,
+      "offset": 16109,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 16267,
+      "offset": 16339,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 16391,
+      "offset": 16463,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 16638,
+      "offset": 16710,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 16667,
+      "offset": 16739,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 16761,
+      "offset": 16833,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 16789,
+      "offset": 16861,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 16825,
+      "offset": 16897,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 16920,
+      "offset": 16992,
       "length": 9,
       "value": "\"Smiling\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 17046,
+      "offset": 17118,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 17194,
+      "offset": 17266,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 17377,
+      "offset": 17449,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 17466,
+      "offset": 17538,
       "length": 21,
       "value": "\"Blink \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 17486,
+      "offset": 17558,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 17550,
+      "offset": 17622,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 17611,
+      "offset": 17683,
       "length": 9,
       "value": "\"blinked\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 17728,
+      "offset": 17800,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 17823,
+      "offset": 17895,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 18150,
+      "offset": 18222,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 18421,
+      "offset": 18493,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 18556,
+      "offset": 18628,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 18636,
+      "offset": 18708,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 18697,
+      "offset": 18769,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 18711,
+      "offset": 18783,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 18752,
+      "offset": 18824,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 18766,
+      "offset": 18838,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 18787,
+      "offset": 18859,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 18801,
+      "offset": 18873,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 18810,
+      "offset": 18882,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 18843,
+      "offset": 18915,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 18866,
+      "offset": 18938,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 19231,
+      "offset": 19303,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 19251,
+      "offset": 19323,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 19267,
+      "offset": 19339,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 19311,
+      "offset": 19383,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 19326,
+      "offset": 19398,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 19367,
+      "offset": 19439,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 19381,
+      "offset": 19453,
       "length": 2,
       "value": "11"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 19403,
+      "offset": 19475,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 19417,
+      "offset": 19489,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 19439,
+      "offset": 19511,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 19453,
+      "offset": 19525,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 19462,
+      "offset": 19534,
       "length": 3,
       "value": "3.0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 19495,
+      "offset": 19567,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 19518,
+      "offset": 19590,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 19789,
+      "offset": 19861,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 20126,
+      "offset": 20198,
       "length": 4,
       "value": "0.01"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 20280,
+      "offset": 20352,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 20532,
+      "offset": 20604,
       "length": 4,
       "value": "0.01"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 20686,
+      "offset": 20758,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 20940,
+      "offset": 21012,
       "length": 4,
       "value": "0.01"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 21094,
+      "offset": 21166,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 21349,
+      "offset": 21421,
       "length": 4,
       "value": "0.01"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 21503,
+      "offset": 21575,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 21751,
+      "offset": 21823,
       "length": 4,
       "value": "0.01"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 21905,
+      "offset": 21977,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 22144,
+      "offset": 22216,
       "length": 4,
       "value": "0.01"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 22298,
+      "offset": 22370,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 23048,
+      "offset": 23120,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 23523,
+      "offset": 23595,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 23568,
+      "offset": 23640,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 23620,
+      "offset": 23692,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 23672,
+      "offset": 23744,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 23724,
+      "offset": 23796,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 23765,
+      "offset": 23837,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 24014,
+      "offset": 24086,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 24141,
+      "offset": 24213,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 24453,
+      "offset": 24525,
       "length": 3,
       "value": "200"
     },
@@ -39672,20 +39693,6 @@
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "Array",
-      "offset": 28076,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
-      "kind": "Array",
-      "offset": 28109,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
-      "kind": "Array",
       "offset": 28148,
       "length": 2,
       "value": "[]"
@@ -39693,252 +39700,266 @@
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "Array",
-      "offset": 28182,
+      "offset": 28181,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
+      "kind": "Array",
+      "offset": 28220,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
+      "kind": "Array",
+      "offset": 28254,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 28622,
+      "offset": 28694,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 28682,
+      "offset": 28754,
       "length": 10,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 28691,
+      "offset": 28763,
       "length": 51,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 28961,
+      "offset": 29033,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 29021,
+      "offset": 29093,
       "length": 10,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 29030,
+      "offset": 29102,
       "length": 51,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 29302,
+      "offset": 29374,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 29362,
+      "offset": 29434,
       "length": 10,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 29371,
+      "offset": 29443,
       "length": 51,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 29643,
+      "offset": 29715,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 29703,
+      "offset": 29775,
       "length": 10,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 29712,
+      "offset": 29784,
       "length": 51,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 30629,
+      "offset": 30701,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 30705,
+      "offset": 30777,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 30837,
+      "offset": 30909,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 30861,
+      "offset": 30933,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 30886,
+      "offset": 30958,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 30898,
+      "offset": 30970,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 30965,
+      "offset": 31037,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 31482,
+      "offset": 31554,
       "length": 14,
       "value": "\"Face quality\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 31564,
+      "offset": 31636,
       "length": 12,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 31572,
+      "offset": 31644,
       "length": 1,
       "value": "\" \n\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 31620,
+      "offset": 31692,
       "length": 7,
       "value": "\"...\n\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 31674,
+      "offset": 31746,
       "length": 6,
       "value": "\"Roll\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 31741,
+      "offset": 31813,
       "length": 23,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 31760,
+      "offset": 31832,
       "length": 1,
       "value": "\" \n\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 31808,
+      "offset": 31880,
       "length": 7,
       "value": "\"...\n\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 31862,
+      "offset": 31934,
       "length": 5,
       "value": "\"Yaw\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 31927,
+      "offset": 31999,
       "length": 23,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 31946,
+      "offset": 32018,
       "length": 1,
       "value": "\" \n\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 31994,
+      "offset": 32066,
       "length": 7,
       "value": "\"...\n\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 32048,
+      "offset": 32120,
       "length": 7,
       "value": "\"Pitch\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 32117,
+      "offset": 32189,
       "length": 23,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 32136,
+      "offset": 32208,
       "length": 1,
       "value": "\" \n\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/VisionLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 32184,
+      "offset": 32256,
       "length": 7,
       "value": "\"...\n\""
     },
