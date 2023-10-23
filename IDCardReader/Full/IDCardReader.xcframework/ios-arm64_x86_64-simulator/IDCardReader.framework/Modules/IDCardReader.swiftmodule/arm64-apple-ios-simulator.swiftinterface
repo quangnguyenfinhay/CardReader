@@ -258,6 +258,15 @@ public class LivenessDetector : ObjectiveC.NSObject {
   @objc override dynamic public init()
   @objc deinit
 }
+public enum LivenessMode : Swift.Int {
+  case normal
+  case qts
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
 @available(iOS 13, *)
 public class BACHandler {
   public var ksenc: [Swift.UInt8]
@@ -840,6 +849,9 @@ public class IDCardReaderManager : ObjectiveC.NSObject {
   public func readIDCard(cardId: Swift.String, dateOfBirth: Swift.String, dateOfExpiry: Swift.String) async throws -> IDCardReader.IDCardInformationResponse
   #endif
   #if compiler(>=5.3) && $AsyncAwait
+  public func checkPassiveAuth(cardId: Swift.String, dateOfBirth: Swift.String, dateOfExpiry: Swift.String) async throws -> IDCardReader.IDCardInformationResponse
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
   public func validateCard(requestId: Swift.String) async throws -> IDCardReader.IDCardValidationResponse
   #endif
   #if compiler(>=5.3) && $AsyncAwait
@@ -871,6 +883,10 @@ public struct IDCardRawData {
   public var dg13Data: [Swift.UInt8]
   public var chipAuthStatus: IDCardReader.PassportAuthenticationStatus
   public var passiveAuthStatus: IDCardReader.PassportAuthenticationStatus
+  public var dg14Data: [Swift.UInt8]
+  public var dg1Data: [Swift.UInt8]
+  public var dg2Data: [Swift.UInt8]
+  public var sodData: [Swift.UInt8]
 }
 public struct IDCardInformationResponse : ObjectMapper.Mappable {
   public var status: Swift.Int
@@ -973,11 +989,15 @@ public enum CardValidationError : Swift.Error {
   case systemBusy
   case noMatchedCard
   case checkCertFailed
+  case passiveAuthError
   case unknowError
 }
 extension IDCardReader.LogLevel : Swift.Equatable {}
 extension IDCardReader.LogLevel : Swift.Hashable {}
 extension IDCardReader.LogLevel : Swift.RawRepresentable {}
+extension IDCardReader.LivenessMode : Swift.Equatable {}
+extension IDCardReader.LivenessMode : Swift.Hashable {}
+extension IDCardReader.LivenessMode : Swift.RawRepresentable {}
 extension IDCardReader.SecureMessagingSupportedAlgorithms : Swift.Equatable {}
 extension IDCardReader.SecureMessagingSupportedAlgorithms : Swift.Hashable {}
 @available(iOS 13, macOS 10.15, *)
