@@ -246,7 +246,7 @@ public func calcSHA512Hash(_ data: [Swift.UInt8]) -> [Swift.UInt8]
 public func calcSHA384Hash(_ data: [Swift.UInt8]) -> [Swift.UInt8]
 @objc @_inheritsConvenienceInitializers @available(iOS 13.0, *)
 public class Liveness : ObjectiveC.NSObject {
-  public class func createLivenessDetector(previewView: UIKit.UIView, threshold: IDCardReader.SensitivityThreshold = .medium, delay: Swift.Double = 0, smallFaceThreshold: Swift.Double = 0.35, debugging: Swift.Bool = false, delegate: IDCardReader.LivenessDetectorDelegate?) -> IDCardReader.LivenessDetector
+  public class func createLivenessDetector(previewView: UIKit.UIView, threshold: IDCardReader.SensitivityThreshold = .medium, delay: Swift.Double = 0, smallFaceThreshold: Swift.Double = 0.35, debugging: Swift.Bool = false, delegate: IDCardReader.LivenessDetectorDelegate?, livenessMode: IDCardReader.LivenessMode = .normal) -> IDCardReader.LivenessDetector
   @objc override dynamic public init()
   @objc deinit
 }
@@ -258,14 +258,9 @@ public class LivenessDetector : ObjectiveC.NSObject {
   @objc override dynamic public init()
   @objc deinit
 }
-public enum LivenessMode : Swift.Int {
+public enum LivenessMode {
   case normal
-  case qts
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
+  case bioAuthentication(cardId: Swift.String)
 }
 @available(iOS 13, *)
 public class BACHandler {
@@ -849,7 +844,7 @@ public class IDCardReaderManager : ObjectiveC.NSObject {
   public func readIDCard(cardId: Swift.String, dateOfBirth: Swift.String, dateOfExpiry: Swift.String) async throws -> IDCardReader.IDCardInformationResponse
   #endif
   #if compiler(>=5.3) && $AsyncAwait
-  public func checkPassiveAuth(cardId: Swift.String, dateOfBirth: Swift.String, dateOfExpiry: Swift.String) async throws -> IDCardReader.IDCardInformationResponse
+  public func checkPassiveAuth(cardId: Swift.String, dateOfBirth: Swift.String, dateOfExpiry: Swift.String) async throws -> IDCardReader.IDCardPassiveAuthenticationResponse
   #endif
   #if compiler(>=5.3) && $AsyncAwait
   public func validateCard(requestId: Swift.String) async throws -> IDCardReader.IDCardValidationResponse
@@ -969,6 +964,27 @@ public struct ConfigData : ObjectMapper.Mappable {
   public init?(map: ObjectMapper.Map)
   public mutating func mapping(map: ObjectMapper.Map)
 }
+public struct IDCardPassiveAuthenticationResponse : ObjectMapper.Mappable {
+  public var status: Swift.Int
+  public var code: Swift.String
+  public var message: Swift.String
+  public var requestId: Swift.String
+  public var data: IDCardReader.PassiveAuthInformation?
+  public init?(map: ObjectMapper.Map)
+  public mutating func mapping(map: ObjectMapper.Map)
+}
+public struct PassiveAuthInformation : ObjectMapper.Mappable {
+  public var id: Swift.Int
+  public var status: Swift.Int
+  public var type: Swift.String
+  public var requestId: Swift.String
+  public var cardId: Swift.String
+  public var cardHolderName: Swift.String
+  public var address: Swift.String
+  public var faceImage: Swift.String
+  public init?(map: ObjectMapper.Map)
+  public mutating func mapping(map: ObjectMapper.Map)
+}
 public enum CardValidationError : Swift.Error {
   case badParameter
   case badResponse(Swift.String, Swift.String)
@@ -995,9 +1011,6 @@ public enum CardValidationError : Swift.Error {
 extension IDCardReader.LogLevel : Swift.Equatable {}
 extension IDCardReader.LogLevel : Swift.Hashable {}
 extension IDCardReader.LogLevel : Swift.RawRepresentable {}
-extension IDCardReader.LivenessMode : Swift.Equatable {}
-extension IDCardReader.LivenessMode : Swift.Hashable {}
-extension IDCardReader.LivenessMode : Swift.RawRepresentable {}
 extension IDCardReader.SecureMessagingSupportedAlgorithms : Swift.Equatable {}
 extension IDCardReader.SecureMessagingSupportedAlgorithms : Swift.Hashable {}
 @available(iOS 13, macOS 10.15, *)

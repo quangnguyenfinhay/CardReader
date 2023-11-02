@@ -778,7 +778,7 @@ public class IDCardReaderManager : ObjectiveC.NSObject {
   public func readIDCard(cardId: Swift.String, dateOfBirth: Swift.String, dateOfExpiry: Swift.String) async throws -> IDCardReader.IDCardInformationResponse
   #endif
   #if compiler(>=5.3) && $AsyncAwait
-  public func checkPassiveAuth(cardId: Swift.String, dateOfBirth: Swift.String, dateOfExpiry: Swift.String) async throws -> IDCardReader.IDCardInformationResponse
+  public func checkPassiveAuth(cardId: Swift.String, dateOfBirth: Swift.String, dateOfExpiry: Swift.String) async throws -> IDCardReader.IDCardPassiveAuthenticationResponse
   #endif
   #if compiler(>=5.3) && $AsyncAwait
   public func validateCard(requestId: Swift.String) async throws -> IDCardReader.IDCardValidationResponse
@@ -895,6 +895,27 @@ public struct ConfigData : ObjectMapper.Mappable {
   public var isActiveSmile: Swift.Bool
   public var isActiveWink: Swift.Bool
   public var data: IDCardReader.IDCardInformation?
+  public init?(map: ObjectMapper.Map)
+  public mutating func mapping(map: ObjectMapper.Map)
+}
+public struct IDCardPassiveAuthenticationResponse : ObjectMapper.Mappable {
+  public var status: Swift.Int
+  public var code: Swift.String
+  public var message: Swift.String
+  public var requestId: Swift.String
+  public var data: IDCardReader.PassiveAuthInformation?
+  public init?(map: ObjectMapper.Map)
+  public mutating func mapping(map: ObjectMapper.Map)
+}
+public struct PassiveAuthInformation : ObjectMapper.Mappable {
+  public var id: Swift.Int
+  public var status: Swift.Int
+  public var type: Swift.String
+  public var requestId: Swift.String
+  public var cardId: Swift.String
+  public var cardHolderName: Swift.String
+  public var address: Swift.String
+  public var faceImage: Swift.String
   public init?(map: ObjectMapper.Map)
   public mutating func mapping(map: ObjectMapper.Map)
 }
