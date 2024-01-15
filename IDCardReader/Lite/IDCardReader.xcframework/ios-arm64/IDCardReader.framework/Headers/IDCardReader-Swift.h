@@ -299,12 +299,70 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 
+SWIFT_CLASS("_TtC12IDCardReader22FaceValidationResponse")
+@interface FaceValidationResponse : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+
+SWIFT_CLASS("_TtC12IDCardReader17IDCardInformation")
+@interface IDCardInformation : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC12IDCardReader25IDCardInformationResponse")
+@interface IDCardInformationResponse : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC12IDCardReader35IDCardPassiveAuthenticationResponse")
+@interface IDCardPassiveAuthenticationResponse : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+@class NSString;
+enum LogLevel : NSInteger;
 
 SWIFT_CLASS("_TtC12IDCardReader19IDCardReaderManager") SWIFT_AVAILABILITY(ios,introduced=13.0)
 @interface IDCardReaderManager : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) IDCardReaderManager * _Nonnull shared;)
++ (IDCardReaderManager * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+- (void)setupWithAppId:(NSString * _Nonnull)appId license:(NSString * _Nonnull)license logLevel:(enum LogLevel)logLevel isSanbox:(BOOL)isSanbox;
+- (void)setLocalizeTextsWithRequestPresentCard:(NSString * _Nullable)requestPresentCard authenticating:(NSString * _Nullable)authenticating reading:(NSString * _Nullable)reading errorReading:(NSString * _Nullable)errorReading successReading:(NSString * _Nullable)successReading retry:(NSString * _Nullable)retry;
+- (void)readIDCardWithCardId:(NSString * _Nonnull)cardId dateOfBirth:(NSString * _Nonnull)dateOfBirth dateOfExpiry:(NSString * _Nonnull)dateOfExpiry completionHandler:(void (^ _Nonnull)(IDCardInformationResponse * _Nullable, NSError * _Nullable))completionHandler;
+- (void)checkPassiveAuthWithCardId:(NSString * _Nonnull)cardId dateOfBirth:(NSString * _Nonnull)dateOfBirth dateOfExpiry:(NSString * _Nonnull)dateOfExpiry completionHandler:(void (^ _Nonnull)(IDCardPassiveAuthenticationResponse * _Nullable, NSError * _Nullable))completionHandler;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+typedef SWIFT_ENUM(NSInteger, LogLevel, open) {
+  LogLevelVerbose = 0,
+  LogLevelDebug = 1,
+  LogLevelInfo = 2,
+  LogLevelWarning = 3,
+  LogLevelError = 4,
+  LogLevelNone = 5,
+};
+
+
+SWIFT_CLASS("_TtC12IDCardReader22PassiveAuthInformation")
+@interface PassiveAuthInformation : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+typedef SWIFT_ENUM(NSInteger, PassportAuthenticationStatus, open) {
+  PassportAuthenticationStatusNotDone = 0,
+  PassportAuthenticationStatusSuccess = 1,
+  PassportAuthenticationStatusFailed = 2,
+};
 
 
 SWIFT_CLASS("_TtC12IDCardReader14PassportReader") SWIFT_AVAILABILITY(ios,introduced=13)

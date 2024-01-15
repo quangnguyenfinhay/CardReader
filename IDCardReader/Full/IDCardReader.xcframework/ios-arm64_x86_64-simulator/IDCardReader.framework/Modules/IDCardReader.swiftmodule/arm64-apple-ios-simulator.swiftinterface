@@ -37,13 +37,13 @@ public class ChipAuthenticationPublicKeyInfo : IDCardReader.SecurityInfo {
   public func getKeyId() -> Swift.Int
   @objc deinit
 }
-public enum LogLevel : Swift.Int, Swift.CaseIterable {
-  case verbose
-  case debug
-  case info
-  case warning
-  case error
-  case none
+@objc public enum LogLevel : Swift.Int, Swift.CaseIterable {
+  case verbose = 0
+  case debug = 1
+  case info = 2
+  case warning = 3
+  case error = 4
+  case none = 5
   public init?(rawValue: Swift.Int)
   public typealias AllCases = [IDCardReader.LogLevel]
   public typealias RawValue = Swift.Int
@@ -247,23 +247,29 @@ public func calcSHA256Hash(_ data: [Swift.UInt8]) -> [Swift.UInt8]
 public func calcSHA512Hash(_ data: [Swift.UInt8]) -> [Swift.UInt8]
 @available(iOS 13, macOS 10.15, *)
 public func calcSHA384Hash(_ data: [Swift.UInt8]) -> [Swift.UInt8]
-@objc @_inheritsConvenienceInitializers @available(iOS 13.0, *)
-public class Liveness : ObjectiveC.NSObject {
-  public class func createLivenessDetector(previewView: UIKit.UIView, threshold: IDCardReader.SensitivityThreshold = .medium, delay: Swift.Double = 0, smallFaceThreshold: Swift.Double = 0.35, debugging: Swift.Bool = false, delegate: (any IDCardReader.LivenessDetectorDelegate)?, livenessMode: IDCardReader.LivenessMode = .normal) -> IDCardReader.LivenessDetector
+@_inheritsConvenienceInitializers @available(iOS 13.0, *)
+@objc public class Liveness : ObjectiveC.NSObject {
+  @objc public class func createLivenessDetector(previewView: UIKit.UIView, threshold: IDCardReader.SensitivityThreshold = .medium, delay: Swift.Double = 0, smallFaceThreshold: Swift.Double = 0.35, debugging: Swift.Bool = false, delegate: (any IDCardReader.LivenessDetectorDelegate)?, livenessMode: IDCardReader.LivenessMode = .normal, cardId: Swift.String? = nil) -> IDCardReader.LivenessDetector
   @objc override dynamic public init()
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @available(iOS 13.0, *)
-public class LivenessDetector : ObjectiveC.NSObject {
+@_inheritsConvenienceInitializers @available(iOS 13.0, *)
+@objc public class LivenessDetector : ObjectiveC.NSObject {
   weak public var delegate: (any IDCardReader.LivenessDetectorDelegate)?
+  public var cardId: Swift.String
   public func getVerificationRequiresAndStartSession() throws
   public func stopLiveness()
   @objc override dynamic public init()
   @objc deinit
 }
-public enum LivenessMode {
+@objc public enum LivenessMode : Swift.Int {
   case normal
-  case bioAuthentication(cardId: Swift.String)
+  case bioAuthentication
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
 }
 @available(iOS 13, *)
 public class BACHandler {
@@ -424,16 +430,24 @@ extension IDCardReader.NFCViewDisplayMessage {
     get
   }
 }
-public enum LivenessError : Swift.Error {
+@objc public enum LivenessError : Swift.Int, Swift.Error {
   case noFaceDetected
   case smallFace
   case badImage
   case noVerificationInstruction
-  case badResponse(Swift.String)
+  case badResponse
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public static var _nsErrorDomain: Swift.String {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
 }
-public enum LivenessAction : Swift.Int {
+@objc public enum LivenessAction : Swift.Int {
   case detectingFace
-  case eyesLookIn
+  case eyesLookIn = 1
   case smile
   case wink
   case headPoseUp
@@ -449,8 +463,8 @@ public enum LivenessAction : Swift.Int {
     get
   }
 }
-public enum SensitivityThreshold : Swift.Int {
-  case low
+@objc public enum SensitivityThreshold : Swift.Int {
+  case low = 1
   case medium
   case high
   public init?(rawValue: Swift.Int)
@@ -459,15 +473,16 @@ public enum SensitivityThreshold : Swift.Int {
     get
   }
 }
-public struct ImageAction {
+@_hasMissingDesignatedInitializers @objc public class ImageAction : ObjectiveC.NSObject {
   public var action: IDCardReader.LivenessAction?
   public var image: Swift.String?
+  @objc deinit
 }
 @available(iOS 13.0, *)
-public protocol LivenessDetectorDelegate : ObjectiveC.NSObject {
-  func liveness(liveness: IDCardReader.LivenessDetector, startLivenessAction action: IDCardReader.LivenessAction)
-  func liveness(liveness: IDCardReader.LivenessDetector, didFail withError: IDCardReader.LivenessError)
-  func liveness(liveness: IDCardReader.LivenessDetector, didFinish verification: IDCardReader.FaceValidationResponse, base64Images: [IDCardReader.ImageAction], videoURL: Foundation.URL?)
+@objc public protocol LivenessDetectorDelegate {
+  @objc func liveness(liveness: IDCardReader.LivenessDetector, startLivenessAction action: IDCardReader.LivenessAction)
+  @objc func liveness(liveness: IDCardReader.LivenessDetector, didFail withError: IDCardReader.LivenessError)
+  @objc func liveness(liveness: IDCardReader.LivenessDetector, didFinish verification: IDCardReader.FaceValidationResponse, base64Images: [IDCardReader.ImageAction], videoURL: Foundation.URL?)
 }
 @_hasMissingDesignatedInitializers @available(iOS 13, macOS 10.15, *)
 public class SecurityInfo {
@@ -620,13 +635,13 @@ extension IDCardReader.PassiveAuthenticationError : Foundation.LocalizedError {
     get
   }
 }
-public enum PassportAuthenticationStatus {
+@objc public enum PassportAuthenticationStatus : Swift.Int {
   case notDone
   case success
   case failed
-  public static func == (a: IDCardReader.PassportAuthenticationStatus, b: IDCardReader.PassportAuthenticationStatus) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
     get
   }
 }
@@ -838,16 +853,16 @@ public class DataGroup12 : IDCardReader.DataGroup {
 public class NotImplementedDG : IDCardReader.DataGroup {
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @available(iOS 13.0, *)
-public class IDCardReaderManager : ObjectiveC.NSObject {
-  public static let shared: IDCardReader.IDCardReaderManager
-  public func setup(appId: Swift.String, license: Swift.String, logLevel: IDCardReader.LogLevel = .debug, isSanbox: Swift.Bool = true)
-  public func setLocalizeTexts(requestPresentCard: Swift.String? = nil, authenticating: Swift.String? = nil, reading: Swift.String? = nil, errorReading: Swift.String? = nil, successReading: Swift.String? = nil, retry: Swift.String? = nil)
+@_inheritsConvenienceInitializers @available(iOS 13.0, *)
+@objc public class IDCardReaderManager : ObjectiveC.NSObject {
+  @objc public static let shared: IDCardReader.IDCardReaderManager
+  @objc public func setup(appId: Swift.String, license: Swift.String, logLevel: IDCardReader.LogLevel = .debug, isSanbox: Swift.Bool = true)
+  @objc public func setLocalizeTexts(requestPresentCard: Swift.String? = nil, authenticating: Swift.String? = nil, reading: Swift.String? = nil, errorReading: Swift.String? = nil, successReading: Swift.String? = nil, retry: Swift.String? = nil)
   #if compiler(>=5.3) && $AsyncAwait
-  public func readIDCard(cardId: Swift.String, dateOfBirth: Swift.String, dateOfExpiry: Swift.String) async throws -> IDCardReader.IDCardInformationResponse
+  @objc public func readIDCard(cardId: Swift.String, dateOfBirth: Swift.String, dateOfExpiry: Swift.String) async throws -> IDCardReader.IDCardInformationResponse
   #endif
   #if compiler(>=5.3) && $AsyncAwait
-  public func checkPassiveAuth(cardId: Swift.String, dateOfBirth: Swift.String, dateOfExpiry: Swift.String) async throws -> IDCardReader.IDCardPassiveAuthenticationResponse
+  @objc public func checkPassiveAuth(cardId: Swift.String, dateOfBirth: Swift.String, dateOfExpiry: Swift.String) async throws -> IDCardReader.IDCardPassiveAuthenticationResponse
   #endif
   #if compiler(>=5.3) && $AsyncAwait
   public func validateCard(requestId: Swift.String) async throws -> IDCardReader.IDCardValidationResponse
@@ -886,7 +901,7 @@ public struct IDCardRawData {
   public var dg2Data: [Swift.UInt8]
   public var sodData: [Swift.UInt8]
 }
-public struct IDCardInformationResponse : ObjectMapper.Mappable {
+@objc public class IDCardInformationResponse : ObjectiveC.NSObject, ObjectMapper.Mappable {
   public var status: Swift.Int
   public var code: Swift.String
   public var message: Swift.String
@@ -895,10 +910,11 @@ public struct IDCardInformationResponse : ObjectMapper.Mappable {
   public var data: IDCardReader.IDCardInformation?
   public var chipAuthStatus: IDCardReader.PassportAuthenticationStatus
   public var passiveAuthStatus: IDCardReader.PassportAuthenticationStatus
-  public init?(map: ObjectMapper.Map)
-  public mutating func mapping(map: ObjectMapper.Map)
+  required public init?(map: ObjectMapper.Map)
+  public func mapping(map: ObjectMapper.Map)
+  @objc deinit
 }
-public struct IDCardInformation : ObjectMapper.Mappable {
+@objc public class IDCardInformation : ObjectiveC.NSObject, ObjectMapper.Mappable {
   public var citizenIdentify: Swift.String
   public var oldCitizenIdentify: Swift.String
   public var fullname: Swift.String
@@ -916,8 +932,9 @@ public struct IDCardInformation : ObjectMapper.Mappable {
   public var motherName: Swift.String
   public var partnerName: Swift.String
   public var faceImage: Swift.String
-  public init?(map: ObjectMapper.Map)
-  public mutating func mapping(map: ObjectMapper.Map)
+  required public init?(map: ObjectMapper.Map)
+  public func mapping(map: ObjectMapper.Map)
+  @objc deinit
 }
 public struct IDCardValidationResponse : ObjectMapper.Mappable {
   public var status: Swift.Int
@@ -936,7 +953,7 @@ public struct IDCardValidationData : ObjectMapper.Mappable {
   public init?(map: ObjectMapper.Map)
   public mutating func mapping(map: ObjectMapper.Map)
 }
-public struct FaceValidationResponse : ObjectMapper.Mappable {
+@objc public class FaceValidationResponse : ObjectiveC.NSObject, ObjectMapper.Mappable {
   public var status: Swift.Int
   public var code: Swift.String
   public var message: Swift.String
@@ -945,8 +962,9 @@ public struct FaceValidationResponse : ObjectMapper.Mappable {
   public var resultMesssage: Swift.String
   public var success: Swift.Bool
   public var data: [Swift.String : Any]
-  public init?(map: ObjectMapper.Map)
-  public mutating func mapping(map: ObjectMapper.Map)
+  required public init?(map: ObjectMapper.Map)
+  public func mapping(map: ObjectMapper.Map)
+  @objc deinit
 }
 public struct ConfignResponse : ObjectMapper.Mappable {
   public var status: Swift.Int
@@ -967,16 +985,17 @@ public struct ConfigData : ObjectMapper.Mappable {
   public init?(map: ObjectMapper.Map)
   public mutating func mapping(map: ObjectMapper.Map)
 }
-public struct IDCardPassiveAuthenticationResponse : ObjectMapper.Mappable {
+@objc public class IDCardPassiveAuthenticationResponse : ObjectiveC.NSObject, ObjectMapper.Mappable {
   public var status: Swift.Int
   public var code: Swift.String
   public var message: Swift.String
   public var requestId: Swift.String
   public var data: IDCardReader.PassiveAuthInformation?
-  public init?(map: ObjectMapper.Map)
-  public mutating func mapping(map: ObjectMapper.Map)
+  required public init?(map: ObjectMapper.Map)
+  public func mapping(map: ObjectMapper.Map)
+  @objc deinit
 }
-public struct PassiveAuthInformation : ObjectMapper.Mappable {
+@objc public class PassiveAuthInformation : ObjectiveC.NSObject, ObjectMapper.Mappable {
   public var id: Swift.Int
   public var status: Swift.Int
   public var type: Swift.String
@@ -985,8 +1004,9 @@ public struct PassiveAuthInformation : ObjectMapper.Mappable {
   public var cardHolderName: Swift.String
   public var address: Swift.String
   public var faceImage: Swift.String
-  public init?(map: ObjectMapper.Map)
-  public mutating func mapping(map: ObjectMapper.Map)
+  required public init?(map: ObjectMapper.Map)
+  public func mapping(map: ObjectMapper.Map)
+  @objc deinit
 }
 public enum CardValidationError : Swift.Error {
   case badParameter
@@ -1014,6 +1034,9 @@ public enum CardValidationError : Swift.Error {
 extension IDCardReader.LogLevel : Swift.Equatable {}
 extension IDCardReader.LogLevel : Swift.Hashable {}
 extension IDCardReader.LogLevel : Swift.RawRepresentable {}
+extension IDCardReader.LivenessMode : Swift.Equatable {}
+extension IDCardReader.LivenessMode : Swift.Hashable {}
+extension IDCardReader.LivenessMode : Swift.RawRepresentable {}
 extension IDCardReader.SecureMessagingSupportedAlgorithms : Swift.Equatable {}
 extension IDCardReader.SecureMessagingSupportedAlgorithms : Swift.Hashable {}
 @available(iOS 13, macOS 10.15, *)
@@ -1038,6 +1061,9 @@ extension IDCardReader.DataGroupId : Swift.Equatable {}
 extension IDCardReader.DataGroupId : Swift.Hashable {}
 @available(iOS 13, macOS 10.15, *)
 extension IDCardReader.DataGroupId : Swift.RawRepresentable {}
+extension IDCardReader.LivenessError : Swift.Equatable {}
+extension IDCardReader.LivenessError : Swift.Hashable {}
+extension IDCardReader.LivenessError : Swift.RawRepresentable {}
 extension IDCardReader.LivenessAction : Swift.Equatable {}
 extension IDCardReader.LivenessAction : Swift.Hashable {}
 extension IDCardReader.LivenessAction : Swift.RawRepresentable {}
@@ -1048,3 +1074,4 @@ extension IDCardReader.PACEMappingType : Swift.Equatable {}
 extension IDCardReader.PACEMappingType : Swift.Hashable {}
 extension IDCardReader.PassportAuthenticationStatus : Swift.Equatable {}
 extension IDCardReader.PassportAuthenticationStatus : Swift.Hashable {}
+extension IDCardReader.PassportAuthenticationStatus : Swift.RawRepresentable {}

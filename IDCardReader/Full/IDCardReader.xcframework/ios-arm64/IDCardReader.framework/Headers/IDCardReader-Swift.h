@@ -277,6 +277,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import Foundation;
 @import ObjectiveC;
 #endif
 
@@ -299,18 +300,81 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 
+SWIFT_CLASS("_TtC12IDCardReader22FaceValidationResponse")
+@interface FaceValidationResponse : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+
+SWIFT_CLASS("_TtC12IDCardReader17IDCardInformation")
+@interface IDCardInformation : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC12IDCardReader25IDCardInformationResponse")
+@interface IDCardInformationResponse : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC12IDCardReader35IDCardPassiveAuthenticationResponse")
+@interface IDCardPassiveAuthenticationResponse : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+@class NSString;
+enum LogLevel : NSInteger;
 
 SWIFT_CLASS("_TtC12IDCardReader19IDCardReaderManager") SWIFT_AVAILABILITY(ios,introduced=13.0)
 @interface IDCardReaderManager : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) IDCardReaderManager * _Nonnull shared;)
++ (IDCardReaderManager * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+- (void)setupWithAppId:(NSString * _Nonnull)appId license:(NSString * _Nonnull)license logLevel:(enum LogLevel)logLevel isSanbox:(BOOL)isSanbox;
+- (void)setLocalizeTextsWithRequestPresentCard:(NSString * _Nullable)requestPresentCard authenticating:(NSString * _Nullable)authenticating reading:(NSString * _Nullable)reading errorReading:(NSString * _Nullable)errorReading successReading:(NSString * _Nullable)successReading retry:(NSString * _Nullable)retry;
+- (void)readIDCardWithCardId:(NSString * _Nonnull)cardId dateOfBirth:(NSString * _Nonnull)dateOfBirth dateOfExpiry:(NSString * _Nonnull)dateOfExpiry completionHandler:(void (^ _Nonnull)(IDCardInformationResponse * _Nullable, NSError * _Nullable))completionHandler;
+- (void)checkPassiveAuthWithCardId:(NSString * _Nonnull)cardId dateOfBirth:(NSString * _Nonnull)dateOfBirth dateOfExpiry:(NSString * _Nonnull)dateOfExpiry completionHandler:(void (^ _Nonnull)(IDCardPassiveAuthenticationResponse * _Nullable, NSError * _Nullable))completionHandler;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
+
+SWIFT_CLASS("_TtC12IDCardReader11ImageAction")
+@interface ImageAction : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+@class UIView;
+enum SensitivityThreshold : NSInteger;
+@protocol LivenessDetectorDelegate;
+enum LivenessMode : NSInteger;
+@class LivenessDetector;
 
 SWIFT_CLASS("_TtC12IDCardReader8Liveness") SWIFT_AVAILABILITY(ios,introduced=13.0)
 @interface Liveness : NSObject
++ (LivenessDetector * _Nonnull)createLivenessDetectorWithPreviewView:(UIView * _Nonnull)previewView threshold:(enum SensitivityThreshold)threshold delay:(double)delay smallFaceThreshold:(double)smallFaceThreshold debugging:(BOOL)debugging delegate:(id <LivenessDetectorDelegate> _Nullable)delegate livenessMode:(enum LivenessMode)livenessMode cardId:(NSString * _Nullable)cardId SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
+typedef SWIFT_ENUM(NSInteger, LivenessAction, open) {
+  LivenessActionDetectingFace = 0,
+  LivenessActionEyesLookIn = 1,
+  LivenessActionSmile = 2,
+  LivenessActionWink = 3,
+  LivenessActionHeadPoseUp = 4,
+  LivenessActionHeadPoseDown = 5,
+  LivenessActionHeadPoseLeft = 6,
+  LivenessActionHeadPoseRight = 7,
+  LivenessActionStartVerification = 8,
+  LivenessActionFetchConfig = 9,
+  LivenessActionProcessing = 10,
+};
 
 
 SWIFT_CLASS("_TtC12IDCardReader16LivenessDetector") SWIFT_AVAILABILITY(ios,introduced=13.0)
@@ -318,6 +382,52 @@ SWIFT_CLASS("_TtC12IDCardReader16LivenessDetector") SWIFT_AVAILABILITY(ios,intro
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+enum LivenessError : NSInteger;
+@class NSURL;
+
+SWIFT_PROTOCOL("_TtP12IDCardReader24LivenessDetectorDelegate_") SWIFT_AVAILABILITY(ios,introduced=13.0)
+@protocol LivenessDetectorDelegate
+- (void)livenessWithLiveness:(LivenessDetector * _Nonnull)liveness startLivenessAction:(enum LivenessAction)action;
+- (void)livenessWithLiveness:(LivenessDetector * _Nonnull)liveness didFail:(enum LivenessError)withError;
+- (void)livenessWithLiveness:(LivenessDetector * _Nonnull)liveness didFinish:(FaceValidationResponse * _Nonnull)verification base64Images:(NSArray<ImageAction *> * _Nonnull)base64Images videoURL:(NSURL * _Nullable)videoURL;
+@end
+
+typedef SWIFT_ENUM(NSInteger, LivenessError, open) {
+  LivenessErrorNoFaceDetected = 0,
+  LivenessErrorSmallFace = 1,
+  LivenessErrorBadImage = 2,
+  LivenessErrorNoVerificationInstruction = 3,
+  LivenessErrorBadResponse = 4,
+};
+static NSString * _Nonnull const LivenessErrorDomain = @"IDCardReader.LivenessError";
+
+typedef SWIFT_ENUM(NSInteger, LivenessMode, open) {
+  LivenessModeNormal = 0,
+  LivenessModeBioAuthentication = 1,
+};
+
+typedef SWIFT_ENUM(NSInteger, LogLevel, open) {
+  LogLevelVerbose = 0,
+  LogLevelDebug = 1,
+  LogLevelInfo = 2,
+  LogLevelWarning = 3,
+  LogLevelError = 4,
+  LogLevelNone = 5,
+};
+
+
+SWIFT_CLASS("_TtC12IDCardReader22PassiveAuthInformation")
+@interface PassiveAuthInformation : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+typedef SWIFT_ENUM(NSInteger, PassportAuthenticationStatus, open) {
+  PassportAuthenticationStatusNotDone = 0,
+  PassportAuthenticationStatusSuccess = 1,
+  PassportAuthenticationStatusFailed = 2,
+};
 
 
 SWIFT_CLASS("_TtC12IDCardReader14PassportReader") SWIFT_AVAILABILITY(ios,introduced=13)
@@ -328,6 +438,12 @@ SWIFT_CLASS("_TtC12IDCardReader14PassportReader") SWIFT_AVAILABILITY(ios,introdu
 
 
 
+
+typedef SWIFT_ENUM(NSInteger, SensitivityThreshold, open) {
+  SensitivityThresholdLow = 1,
+  SensitivityThresholdMedium = 2,
+  SensitivityThresholdHigh = 3,
+};
 
 
 

@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/IDCardReader-Swift.h</key>
 		<data>
-		HJ+GWZHI2LgfuunKCsnaS0Tsuxk=
+		vHverS2aDhQ9TU6Vp4FlYk9QnY0=
 		</data>
 		<key>Headers/IDCardReader.h</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/IDCardReader.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Nx0qTbbvDN3+zMnyA1h5JIp0opI=
+		ryFZyHAEFX+1nmCgFTVfT5cAAr8=
 		</data>
 		<key>Modules/IDCardReader.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		rgc2QXska8S5UvPFNWw+q27f1lI=
+		lTYR0dcrM+HHNn80PzT/3U6zYkg=
 		</data>
 		<key>Modules/IDCardReader.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/IDCardReader.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		rgc2QXska8S5UvPFNWw+q27f1lI=
+		lTYR0dcrM+HHNn80PzT/3U6zYkg=
 		</data>
 		<key>Modules/IDCardReader.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		rslpHR4itp+53xVNhn+8y6sYTrI=
+		Rno/RmoMKZK2cIEeYmpkbk1PTP8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -62,7 +62,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UB1WFJWqX5WzegOpq/OlLgDh3/+6DKBjn577/Q0YQv8=
+			kydrpoYKTDQHSVCauy3YotCAcc3xERvvu1tqjt+QeYY=
 			</data>
 		</dict>
 		<key>Headers/IDCardReader.h</key>
@@ -76,14 +76,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			klpv3ugSARHbUle6TMBpAlxbRmQnFzwrkobRKdF8st0=
+			INZRTe8ugmTUDp34jJmer0U4shtv8eqmDQFpkOX8t9Y=
 			</data>
 		</dict>
 		<key>Modules/IDCardReader.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uwkzaM0sTsipErAE7iv608p61qprmDPML9iKUnvjcl8=
+			+j/kKF96AmnIVATcTMOHrzJno2d/WmX8uzfK3vfYkWo=
 			</data>
 		</dict>
 		<key>Modules/IDCardReader.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -97,14 +97,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uwkzaM0sTsipErAE7iv608p61qprmDPML9iKUnvjcl8=
+			+j/kKF96AmnIVATcTMOHrzJno2d/WmX8uzfK3vfYkWo=
 			</data>
 		</dict>
 		<key>Modules/IDCardReader.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WKqsKJuC8rHjmGsIKjQKZjiWWWLQFx//Fov6VnDrUhQ=
+			ivK4lv2VdA8DGW/YtsDN/RcTvOlJrVmtV72sVO+nsOg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

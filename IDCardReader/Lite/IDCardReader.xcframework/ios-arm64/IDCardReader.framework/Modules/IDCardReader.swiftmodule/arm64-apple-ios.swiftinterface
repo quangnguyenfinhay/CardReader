@@ -32,13 +32,13 @@ public class ChipAuthenticationPublicKeyInfo : IDCardReader.SecurityInfo {
   public func getKeyId() -> Swift.Int
   @objc deinit
 }
-public enum LogLevel : Swift.Int, Swift.CaseIterable {
-  case verbose
-  case debug
-  case info
-  case warning
-  case error
-  case none
+@objc public enum LogLevel : Swift.Int, Swift.CaseIterable {
+  case verbose = 0
+  case debug = 1
+  case info = 2
+  case warning = 3
+  case error = 4
+  case none = 5
   public init?(rawValue: Swift.Int)
   public typealias AllCases = [IDCardReader.LogLevel]
   public typealias RawValue = Swift.Int
@@ -552,13 +552,13 @@ extension IDCardReader.PassiveAuthenticationError : Foundation.LocalizedError {
     get
   }
 }
-public enum PassportAuthenticationStatus {
+@objc public enum PassportAuthenticationStatus : Swift.Int {
   case notDone
   case success
   case failed
-  public static func == (a: IDCardReader.PassportAuthenticationStatus, b: IDCardReader.PassportAuthenticationStatus) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
     get
   }
 }
@@ -770,16 +770,16 @@ public class DataGroup12 : IDCardReader.DataGroup {
 public class NotImplementedDG : IDCardReader.DataGroup {
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @available(iOS 13.0, *)
-public class IDCardReaderManager : ObjectiveC.NSObject {
-  public static let shared: IDCardReader.IDCardReaderManager
-  public func setup(appId: Swift.String, license: Swift.String, logLevel: IDCardReader.LogLevel = .debug, isSanbox: Swift.Bool = true)
-  public func setLocalizeTexts(requestPresentCard: Swift.String? = nil, authenticating: Swift.String? = nil, reading: Swift.String? = nil, errorReading: Swift.String? = nil, successReading: Swift.String? = nil, retry: Swift.String? = nil)
+@_inheritsConvenienceInitializers @available(iOS 13.0, *)
+@objc public class IDCardReaderManager : ObjectiveC.NSObject {
+  @objc public static let shared: IDCardReader.IDCardReaderManager
+  @objc public func setup(appId: Swift.String, license: Swift.String, logLevel: IDCardReader.LogLevel = .debug, isSanbox: Swift.Bool = true)
+  @objc public func setLocalizeTexts(requestPresentCard: Swift.String? = nil, authenticating: Swift.String? = nil, reading: Swift.String? = nil, errorReading: Swift.String? = nil, successReading: Swift.String? = nil, retry: Swift.String? = nil)
   #if compiler(>=5.3) && $AsyncAwait
-  public func readIDCard(cardId: Swift.String, dateOfBirth: Swift.String, dateOfExpiry: Swift.String) async throws -> IDCardReader.IDCardInformationResponse
+  @objc public func readIDCard(cardId: Swift.String, dateOfBirth: Swift.String, dateOfExpiry: Swift.String) async throws -> IDCardReader.IDCardInformationResponse
   #endif
   #if compiler(>=5.3) && $AsyncAwait
-  public func checkPassiveAuth(cardId: Swift.String, dateOfBirth: Swift.String, dateOfExpiry: Swift.String) async throws -> IDCardReader.IDCardPassiveAuthenticationResponse
+  @objc public func checkPassiveAuth(cardId: Swift.String, dateOfBirth: Swift.String, dateOfExpiry: Swift.String) async throws -> IDCardReader.IDCardPassiveAuthenticationResponse
   #endif
   #if compiler(>=5.3) && $AsyncAwait
   public func validateCard(requestId: Swift.String) async throws -> IDCardReader.IDCardValidationResponse
@@ -818,7 +818,7 @@ public struct IDCardRawData {
   public var dg2Data: [Swift.UInt8]
   public var sodData: [Swift.UInt8]
 }
-public struct IDCardInformationResponse : ObjectMapper.Mappable {
+@objc public class IDCardInformationResponse : ObjectiveC.NSObject, ObjectMapper.Mappable {
   public var status: Swift.Int
   public var code: Swift.String
   public var message: Swift.String
@@ -827,10 +827,11 @@ public struct IDCardInformationResponse : ObjectMapper.Mappable {
   public var data: IDCardReader.IDCardInformation?
   public var chipAuthStatus: IDCardReader.PassportAuthenticationStatus
   public var passiveAuthStatus: IDCardReader.PassportAuthenticationStatus
-  public init?(map: ObjectMapper.Map)
-  public mutating func mapping(map: ObjectMapper.Map)
+  required public init?(map: ObjectMapper.Map)
+  public func mapping(map: ObjectMapper.Map)
+  @objc deinit
 }
-public struct IDCardInformation : ObjectMapper.Mappable {
+@objc public class IDCardInformation : ObjectiveC.NSObject, ObjectMapper.Mappable {
   public var citizenIdentify: Swift.String
   public var oldCitizenIdentify: Swift.String
   public var fullname: Swift.String
@@ -848,8 +849,9 @@ public struct IDCardInformation : ObjectMapper.Mappable {
   public var motherName: Swift.String
   public var partnerName: Swift.String
   public var faceImage: Swift.String
-  public init?(map: ObjectMapper.Map)
-  public mutating func mapping(map: ObjectMapper.Map)
+  required public init?(map: ObjectMapper.Map)
+  public func mapping(map: ObjectMapper.Map)
+  @objc deinit
 }
 public struct IDCardValidationResponse : ObjectMapper.Mappable {
   public var status: Swift.Int
@@ -868,7 +870,7 @@ public struct IDCardValidationData : ObjectMapper.Mappable {
   public init?(map: ObjectMapper.Map)
   public mutating func mapping(map: ObjectMapper.Map)
 }
-public struct FaceValidationResponse : ObjectMapper.Mappable {
+@objc public class FaceValidationResponse : ObjectiveC.NSObject, ObjectMapper.Mappable {
   public var status: Swift.Int
   public var code: Swift.String
   public var message: Swift.String
@@ -877,8 +879,9 @@ public struct FaceValidationResponse : ObjectMapper.Mappable {
   public var resultMesssage: Swift.String
   public var success: Swift.Bool
   public var data: [Swift.String : Any]
-  public init?(map: ObjectMapper.Map)
-  public mutating func mapping(map: ObjectMapper.Map)
+  required public init?(map: ObjectMapper.Map)
+  public func mapping(map: ObjectMapper.Map)
+  @objc deinit
 }
 public struct ConfignResponse : ObjectMapper.Mappable {
   public var status: Swift.Int
@@ -899,16 +902,17 @@ public struct ConfigData : ObjectMapper.Mappable {
   public init?(map: ObjectMapper.Map)
   public mutating func mapping(map: ObjectMapper.Map)
 }
-public struct IDCardPassiveAuthenticationResponse : ObjectMapper.Mappable {
+@objc public class IDCardPassiveAuthenticationResponse : ObjectiveC.NSObject, ObjectMapper.Mappable {
   public var status: Swift.Int
   public var code: Swift.String
   public var message: Swift.String
   public var requestId: Swift.String
   public var data: IDCardReader.PassiveAuthInformation?
-  public init?(map: ObjectMapper.Map)
-  public mutating func mapping(map: ObjectMapper.Map)
+  required public init?(map: ObjectMapper.Map)
+  public func mapping(map: ObjectMapper.Map)
+  @objc deinit
 }
-public struct PassiveAuthInformation : ObjectMapper.Mappable {
+@objc public class PassiveAuthInformation : ObjectiveC.NSObject, ObjectMapper.Mappable {
   public var id: Swift.Int
   public var status: Swift.Int
   public var type: Swift.String
@@ -917,8 +921,9 @@ public struct PassiveAuthInformation : ObjectMapper.Mappable {
   public var cardHolderName: Swift.String
   public var address: Swift.String
   public var faceImage: Swift.String
-  public init?(map: ObjectMapper.Map)
-  public mutating func mapping(map: ObjectMapper.Map)
+  required public init?(map: ObjectMapper.Map)
+  public func mapping(map: ObjectMapper.Map)
+  @objc deinit
 }
 public enum CardValidationError : Swift.Error {
   case badParameter
@@ -974,3 +979,4 @@ extension IDCardReader.PACEMappingType : Swift.Equatable {}
 extension IDCardReader.PACEMappingType : Swift.Hashable {}
 extension IDCardReader.PassportAuthenticationStatus : Swift.Equatable {}
 extension IDCardReader.PassportAuthenticationStatus : Swift.Hashable {}
+extension IDCardReader.PassportAuthenticationStatus : Swift.RawRepresentable {}
