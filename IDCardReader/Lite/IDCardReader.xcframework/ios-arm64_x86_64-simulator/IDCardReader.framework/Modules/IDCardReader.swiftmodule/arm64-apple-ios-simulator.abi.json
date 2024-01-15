@@ -1864,12 +1864,6 @@
                 "mangledName": "$s12IDCardReader9DataGroupC13datagroupTypeAA0cD2IdOvM",
                 "moduleName": "IDCardReader",
                 "implicit": true,
-                "intro_Macosx": "10.15",
-                "intro_iOS": "13",
-                "declAttributes": [
-                  "Available",
-                  "Available"
-                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -5378,10 +5372,6 @@
                 "mangledName": "$s12IDCardReader10BACHandlerC5ksencSays5UInt8VGvM",
                 "moduleName": "IDCardReader",
                 "implicit": true,
-                "intro_iOS": "13",
-                "declAttributes": [
-                  "Available"
-                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -5492,10 +5482,6 @@
                 "mangledName": "$s12IDCardReader10BACHandlerC5ksmacSays5UInt8VGvM",
                 "moduleName": "IDCardReader",
                 "implicit": true,
-                "intro_iOS": "13",
-                "declAttributes": [
-                  "Available"
-                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -5606,10 +5592,6 @@
                 "mangledName": "$s12IDCardReader10BACHandlerC4kifdSays5UInt8VGvM",
                 "moduleName": "IDCardReader",
                 "implicit": true,
-                "intro_iOS": "13",
-                "declAttributes": [
-                  "Available"
-                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -9816,10 +9798,6 @@
                 "mangledName": "$s12IDCardReader12ResponseAPDUV4dataSays5UInt8VGvM",
                 "moduleName": "IDCardReader",
                 "implicit": true,
-                "intro_iOS": "13",
-                "declAttributes": [
-                  "Available"
-                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -9905,10 +9883,6 @@
                 "mangledName": "$s12IDCardReader12ResponseAPDUV3sw1s5UInt8VvM",
                 "moduleName": "IDCardReader",
                 "implicit": true,
-                "intro_iOS": "13",
-                "declAttributes": [
-                  "Available"
-                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -9994,10 +9968,6 @@
                 "mangledName": "$s12IDCardReader12ResponseAPDUV3sw2s5UInt8VvM",
                 "moduleName": "IDCardReader",
                 "implicit": true,
-                "intro_iOS": "13",
-                "declAttributes": [
-                  "Available"
-                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -16132,12 +16102,6 @@
                 "mangledName": "$s12IDCardReader13DataGroupHashV2idSSvM",
                 "moduleName": "IDCardReader",
                 "implicit": true,
-                "intro_Macosx": "10.15",
-                "intro_iOS": "13",
-                "declAttributes": [
-                  "Available",
-                  "Available"
-                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -16223,12 +16187,6 @@
                 "mangledName": "$s12IDCardReader13DataGroupHashV03sodE0SSvM",
                 "moduleName": "IDCardReader",
                 "implicit": true,
-                "intro_Macosx": "10.15",
-                "intro_iOS": "13",
-                "declAttributes": [
-                  "Available",
-                  "Available"
-                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -16314,12 +16272,6 @@
                 "mangledName": "$s12IDCardReader13DataGroupHashV08computedE0SSvM",
                 "moduleName": "IDCardReader",
                 "implicit": true,
-                "intro_Macosx": "10.15",
-                "intro_iOS": "13",
-                "declAttributes": [
-                  "Available",
-                  "Available"
-                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -16405,12 +16357,6 @@
                 "mangledName": "$s12IDCardReader13DataGroupHashV5matchSbvM",
                 "moduleName": "IDCardReader",
                 "implicit": true,
-                "intro_Macosx": "10.15",
-                "intro_iOS": "13",
-                "declAttributes": [
-                  "Available",
-                  "Available"
-                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -18436,10 +18382,6 @@
                 "mangledName": "$s12IDCardReader08PassportB0C32passiveAuthenticationUsesOpenSSLSbvM",
                 "moduleName": "IDCardReader",
                 "implicit": true,
-                "intro_iOS": "13",
-                "declAttributes": [
-                  "Available"
-                ],
                 "accessorKind": "_modify"
               }
             ]
