@@ -1864,6 +1864,12 @@
                 "mangledName": "$s12IDCardReader9DataGroupC13datagroupTypeAA0cD2IdOvM",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13",
+                "declAttributes": [
+                  "Available",
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -5372,6 +5378,10 @@
                 "mangledName": "$s12IDCardReader10BACHandlerC5ksencSays5UInt8VGvM",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "intro_iOS": "13",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -5482,6 +5492,10 @@
                 "mangledName": "$s12IDCardReader10BACHandlerC5ksmacSays5UInt8VGvM",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "intro_iOS": "13",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -5592,6 +5606,10 @@
                 "mangledName": "$s12IDCardReader10BACHandlerC4kifdSays5UInt8VGvM",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "intro_iOS": "13",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -9798,6 +9816,10 @@
                 "mangledName": "$s12IDCardReader12ResponseAPDUV4dataSays5UInt8VGvM",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "intro_iOS": "13",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -9883,6 +9905,10 @@
                 "mangledName": "$s12IDCardReader12ResponseAPDUV3sw1s5UInt8VvM",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "intro_iOS": "13",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -9968,6 +9994,10 @@
                 "mangledName": "$s12IDCardReader12ResponseAPDUV3sw2s5UInt8VvM",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "intro_iOS": "13",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -16102,6 +16132,12 @@
                 "mangledName": "$s12IDCardReader13DataGroupHashV2idSSvM",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13",
+                "declAttributes": [
+                  "Available",
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -16187,6 +16223,12 @@
                 "mangledName": "$s12IDCardReader13DataGroupHashV03sodE0SSvM",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13",
+                "declAttributes": [
+                  "Available",
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -16272,6 +16314,12 @@
                 "mangledName": "$s12IDCardReader13DataGroupHashV08computedE0SSvM",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13",
+                "declAttributes": [
+                  "Available",
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -16357,6 +16405,12 @@
                 "mangledName": "$s12IDCardReader13DataGroupHashV5matchSbvM",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13",
+                "declAttributes": [
+                  "Available",
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -18382,6 +18436,10 @@
                 "mangledName": "$s12IDCardReader08PassportB0C32passiveAuthenticationUsesOpenSSLSbvM",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "intro_iOS": "13",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -19728,13 +19786,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader0A19InformationResponseC6statusSivp",
+            "usr": "c:@M@IDCardReader@objc(cs)IDCardInformationResponse(py)status",
             "mangledName": "$s12IDCardReader0A19InformationResponseC6statusSivp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -19751,10 +19810,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A19InformationResponseC6statusSivg",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformationResponse(im)status",
                 "mangledName": "$s12IDCardReader0A19InformationResponseC6statusSivg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -19775,10 +19837,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A19InformationResponseC6statusSivs",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformationResponse(im)setStatus:",
                 "mangledName": "$s12IDCardReader0A19InformationResponseC6statusSivs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -19814,13 +19879,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader0A19InformationResponseC4codeSSvp",
+            "usr": "c:@M@IDCardReader@objc(cs)IDCardInformationResponse(py)code",
             "mangledName": "$s12IDCardReader0A19InformationResponseC4codeSSvp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -19837,10 +19903,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A19InformationResponseC4codeSSvg",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformationResponse(im)code",
                 "mangledName": "$s12IDCardReader0A19InformationResponseC4codeSSvg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -19861,10 +19930,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A19InformationResponseC4codeSSvs",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformationResponse(im)setCode:",
                 "mangledName": "$s12IDCardReader0A19InformationResponseC4codeSSvs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -19900,13 +19972,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader0A19InformationResponseC7messageSSvp",
+            "usr": "c:@M@IDCardReader@objc(cs)IDCardInformationResponse(py)message",
             "mangledName": "$s12IDCardReader0A19InformationResponseC7messageSSvp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -19923,10 +19996,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A19InformationResponseC7messageSSvg",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformationResponse(im)message",
                 "mangledName": "$s12IDCardReader0A19InformationResponseC7messageSSvg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -19947,10 +20023,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A19InformationResponseC7messageSSvs",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformationResponse(im)setMessage:",
                 "mangledName": "$s12IDCardReader0A19InformationResponseC7messageSSvs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -19986,13 +20065,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader0A19InformationResponseC9requestIdSSvp",
+            "usr": "c:@M@IDCardReader@objc(cs)IDCardInformationResponse(py)requestId",
             "mangledName": "$s12IDCardReader0A19InformationResponseC9requestIdSSvp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -20009,10 +20089,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A19InformationResponseC9requestIdSSvg",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformationResponse(im)requestId",
                 "mangledName": "$s12IDCardReader0A19InformationResponseC9requestIdSSvg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -20033,10 +20116,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A19InformationResponseC9requestIdSSvs",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformationResponse(im)setRequestId:",
                 "mangledName": "$s12IDCardReader0A19InformationResponseC9requestIdSSvs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -20072,13 +20158,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader0A19InformationResponseC10faceStringSSvp",
+            "usr": "c:@M@IDCardReader@objc(cs)IDCardInformationResponse(py)faceString",
             "mangledName": "$s12IDCardReader0A19InformationResponseC10faceStringSSvp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -20095,10 +20182,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A19InformationResponseC10faceStringSSvg",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformationResponse(im)faceString",
                 "mangledName": "$s12IDCardReader0A19InformationResponseC10faceStringSSvg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -20119,10 +20209,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A19InformationResponseC10faceStringSSvs",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformationResponse(im)setFaceString:",
                 "mangledName": "$s12IDCardReader0A19InformationResponseC10faceStringSSvs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -20166,13 +20259,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader0A19InformationResponseC4dataAA0aC0CSgvp",
+            "usr": "c:@M@IDCardReader@objc(cs)IDCardInformationResponse(py)data",
             "mangledName": "$s12IDCardReader0A19InformationResponseC4dataAA0aC0CSgvp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -20197,10 +20291,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A19InformationResponseC4dataAA0aC0CSgvg",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformationResponse(im)data",
                 "mangledName": "$s12IDCardReader0A19InformationResponseC4dataAA0aC0CSgvg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -20229,10 +20326,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A19InformationResponseC4dataAA0aC0CSgvs",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformationResponse(im)setData:",
                 "mangledName": "$s12IDCardReader0A19InformationResponseC4dataAA0aC0CSgvs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -20268,13 +20368,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader0A19InformationResponseC14chipAuthStatusAA022PassportAuthenticationG0Ovp",
+            "usr": "c:@M@IDCardReader@objc(cs)IDCardInformationResponse(py)chipAuthStatus",
             "mangledName": "$s12IDCardReader0A19InformationResponseC14chipAuthStatusAA022PassportAuthenticationG0Ovp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -20291,10 +20392,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A19InformationResponseC14chipAuthStatusAA022PassportAuthenticationG0Ovg",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformationResponse(im)chipAuthStatus",
                 "mangledName": "$s12IDCardReader0A19InformationResponseC14chipAuthStatusAA022PassportAuthenticationG0Ovg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -20315,10 +20419,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A19InformationResponseC14chipAuthStatusAA022PassportAuthenticationG0Ovs",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformationResponse(im)setChipAuthStatus:",
                 "mangledName": "$s12IDCardReader0A19InformationResponseC14chipAuthStatusAA022PassportAuthenticationG0Ovs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -20354,13 +20461,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader0A19InformationResponseC17passiveAuthStatusAA022PassportAuthenticationG0Ovp",
+            "usr": "c:@M@IDCardReader@objc(cs)IDCardInformationResponse(py)passiveAuthStatus",
             "mangledName": "$s12IDCardReader0A19InformationResponseC17passiveAuthStatusAA022PassportAuthenticationG0Ovp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -20377,10 +20485,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A19InformationResponseC17passiveAuthStatusAA022PassportAuthenticationG0Ovg",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformationResponse(im)passiveAuthStatus",
                 "mangledName": "$s12IDCardReader0A19InformationResponseC17passiveAuthStatusAA022PassportAuthenticationG0Ovg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -20401,10 +20512,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A19InformationResponseC17passiveAuthStatusAA022PassportAuthenticationG0Ovs",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformationResponse(im)setPassiveAuthStatus:",
                 "mangledName": "$s12IDCardReader0A19InformationResponseC17passiveAuthStatusAA022PassportAuthenticationG0Ovs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -20522,6 +20636,7 @@
         "moduleName": "IDCardReader",
         "declAttributes": [
           "AccessControl",
+          "ObjCMembers",
           "RawDocComment",
           "ObjC"
         ],
@@ -20613,13 +20728,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader0A11InformationC15citizenIdentifySSvp",
+            "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(py)citizenIdentify",
             "mangledName": "$s12IDCardReader0A11InformationC15citizenIdentifySSvp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -20636,10 +20752,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A11InformationC15citizenIdentifySSvg",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(im)citizenIdentify",
                 "mangledName": "$s12IDCardReader0A11InformationC15citizenIdentifySSvg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -20660,10 +20779,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A11InformationC15citizenIdentifySSvs",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(im)setCitizenIdentify:",
                 "mangledName": "$s12IDCardReader0A11InformationC15citizenIdentifySSvs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -20699,13 +20821,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader0A11InformationC18oldCitizenIdentifySSvp",
+            "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(py)oldCitizenIdentify",
             "mangledName": "$s12IDCardReader0A11InformationC18oldCitizenIdentifySSvp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -20722,10 +20845,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A11InformationC18oldCitizenIdentifySSvg",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(im)oldCitizenIdentify",
                 "mangledName": "$s12IDCardReader0A11InformationC18oldCitizenIdentifySSvg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -20746,10 +20872,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A11InformationC18oldCitizenIdentifySSvs",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(im)setOldCitizenIdentify:",
                 "mangledName": "$s12IDCardReader0A11InformationC18oldCitizenIdentifySSvs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -20785,13 +20914,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader0A11InformationC8fullnameSSvp",
+            "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(py)fullname",
             "mangledName": "$s12IDCardReader0A11InformationC8fullnameSSvp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -20808,10 +20938,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A11InformationC8fullnameSSvg",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(im)fullname",
                 "mangledName": "$s12IDCardReader0A11InformationC8fullnameSSvg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -20832,10 +20965,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A11InformationC8fullnameSSvs",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(im)setFullname:",
                 "mangledName": "$s12IDCardReader0A11InformationC8fullnameSSvs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -20871,13 +21007,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader0A11InformationC11dateOfBirthSSvp",
+            "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(py)dateOfBirth",
             "mangledName": "$s12IDCardReader0A11InformationC11dateOfBirthSSvp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -20894,10 +21031,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A11InformationC11dateOfBirthSSvg",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(im)dateOfBirth",
                 "mangledName": "$s12IDCardReader0A11InformationC11dateOfBirthSSvg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -20918,10 +21058,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A11InformationC11dateOfBirthSSvs",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(im)setDateOfBirth:",
                 "mangledName": "$s12IDCardReader0A11InformationC11dateOfBirthSSvs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -20957,13 +21100,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader0A11InformationC12dateOfExpirySSvp",
+            "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(py)dateOfExpiry",
             "mangledName": "$s12IDCardReader0A11InformationC12dateOfExpirySSvp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -20980,10 +21124,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A11InformationC12dateOfExpirySSvg",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(im)dateOfExpiry",
                 "mangledName": "$s12IDCardReader0A11InformationC12dateOfExpirySSvg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -21004,10 +21151,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A11InformationC12dateOfExpirySSvs",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(im)setDateOfExpiry:",
                 "mangledName": "$s12IDCardReader0A11InformationC12dateOfExpirySSvs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -21043,13 +21193,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader0A11InformationC6genderSSvp",
+            "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(py)gender",
             "mangledName": "$s12IDCardReader0A11InformationC6genderSSvp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -21066,10 +21217,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A11InformationC6genderSSvg",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(im)gender",
                 "mangledName": "$s12IDCardReader0A11InformationC6genderSSvg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -21090,10 +21244,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A11InformationC6genderSSvs",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(im)setGender:",
                 "mangledName": "$s12IDCardReader0A11InformationC6genderSSvs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -21129,13 +21286,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader0A11InformationC11nationalitySSvp",
+            "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(py)nationality",
             "mangledName": "$s12IDCardReader0A11InformationC11nationalitySSvp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -21152,10 +21310,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A11InformationC11nationalitySSvg",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(im)nationality",
                 "mangledName": "$s12IDCardReader0A11InformationC11nationalitySSvg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -21176,10 +21337,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A11InformationC11nationalitySSvs",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(im)setNationality:",
                 "mangledName": "$s12IDCardReader0A11InformationC11nationalitySSvs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -21215,13 +21379,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader0A11InformationC6ethnicSSvp",
+            "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(py)ethnic",
             "mangledName": "$s12IDCardReader0A11InformationC6ethnicSSvp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -21238,10 +21403,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A11InformationC6ethnicSSvg",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(im)ethnic",
                 "mangledName": "$s12IDCardReader0A11InformationC6ethnicSSvg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -21262,10 +21430,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A11InformationC6ethnicSSvs",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(im)setEthnic:",
                 "mangledName": "$s12IDCardReader0A11InformationC6ethnicSSvs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -21301,13 +21472,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader0A11InformationC8religionSSvp",
+            "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(py)religion",
             "mangledName": "$s12IDCardReader0A11InformationC8religionSSvp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -21324,10 +21496,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A11InformationC8religionSSvg",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(im)religion",
                 "mangledName": "$s12IDCardReader0A11InformationC8religionSSvg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -21348,10 +21523,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A11InformationC8religionSSvs",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(im)setReligion:",
                 "mangledName": "$s12IDCardReader0A11InformationC8religionSSvs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -21387,13 +21565,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader0A11InformationC13placeOfOriginSSvp",
+            "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(py)placeOfOrigin",
             "mangledName": "$s12IDCardReader0A11InformationC13placeOfOriginSSvp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -21410,10 +21589,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A11InformationC13placeOfOriginSSvg",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(im)placeOfOrigin",
                 "mangledName": "$s12IDCardReader0A11InformationC13placeOfOriginSSvg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -21434,10 +21616,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A11InformationC13placeOfOriginSSvs",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(im)setPlaceOfOrigin:",
                 "mangledName": "$s12IDCardReader0A11InformationC13placeOfOriginSSvs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -21473,13 +21658,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader0A11InformationC16placeOfResidenceSSvp",
+            "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(py)placeOfResidence",
             "mangledName": "$s12IDCardReader0A11InformationC16placeOfResidenceSSvp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -21496,10 +21682,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A11InformationC16placeOfResidenceSSvg",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(im)placeOfResidence",
                 "mangledName": "$s12IDCardReader0A11InformationC16placeOfResidenceSSvg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -21520,10 +21709,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A11InformationC16placeOfResidenceSSvs",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(im)setPlaceOfResidence:",
                 "mangledName": "$s12IDCardReader0A11InformationC16placeOfResidenceSSvs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -21559,13 +21751,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader0A11InformationC22personalIdentificationSSvp",
+            "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(py)personalIdentification",
             "mangledName": "$s12IDCardReader0A11InformationC22personalIdentificationSSvp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -21582,10 +21775,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A11InformationC22personalIdentificationSSvg",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(im)personalIdentification",
                 "mangledName": "$s12IDCardReader0A11InformationC22personalIdentificationSSvg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -21606,10 +21802,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A11InformationC22personalIdentificationSSvs",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(im)setPersonalIdentification:",
                 "mangledName": "$s12IDCardReader0A11InformationC22personalIdentificationSSvs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -21645,13 +21844,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader0A11InformationC11dateProvideSSvp",
+            "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(py)dateProvide",
             "mangledName": "$s12IDCardReader0A11InformationC11dateProvideSSvp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -21668,10 +21868,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A11InformationC11dateProvideSSvg",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(im)dateProvide",
                 "mangledName": "$s12IDCardReader0A11InformationC11dateProvideSSvg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -21692,10 +21895,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A11InformationC11dateProvideSSvs",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(im)setDateProvide:",
                 "mangledName": "$s12IDCardReader0A11InformationC11dateProvideSSvs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -21731,13 +21937,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader0A11InformationC10fatherNameSSvp",
+            "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(py)fatherName",
             "mangledName": "$s12IDCardReader0A11InformationC10fatherNameSSvp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -21754,10 +21961,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A11InformationC10fatherNameSSvg",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(im)fatherName",
                 "mangledName": "$s12IDCardReader0A11InformationC10fatherNameSSvg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -21778,10 +21988,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A11InformationC10fatherNameSSvs",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(im)setFatherName:",
                 "mangledName": "$s12IDCardReader0A11InformationC10fatherNameSSvs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -21817,13 +22030,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader0A11InformationC10motherNameSSvp",
+            "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(py)motherName",
             "mangledName": "$s12IDCardReader0A11InformationC10motherNameSSvp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -21840,10 +22054,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A11InformationC10motherNameSSvg",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(im)motherName",
                 "mangledName": "$s12IDCardReader0A11InformationC10motherNameSSvg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -21864,10 +22081,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A11InformationC10motherNameSSvs",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(im)setMotherName:",
                 "mangledName": "$s12IDCardReader0A11InformationC10motherNameSSvs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -21903,13 +22123,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader0A11InformationC11partnerNameSSvp",
+            "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(py)partnerName",
             "mangledName": "$s12IDCardReader0A11InformationC11partnerNameSSvp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -21926,10 +22147,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A11InformationC11partnerNameSSvg",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(im)partnerName",
                 "mangledName": "$s12IDCardReader0A11InformationC11partnerNameSSvg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -21950,10 +22174,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A11InformationC11partnerNameSSvs",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(im)setPartnerName:",
                 "mangledName": "$s12IDCardReader0A11InformationC11partnerNameSSvs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -21989,13 +22216,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader0A11InformationC9faceImageSSvp",
+            "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(py)faceImage",
             "mangledName": "$s12IDCardReader0A11InformationC9faceImageSSvp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -22012,10 +22240,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A11InformationC9faceImageSSvg",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(im)faceImage",
                 "mangledName": "$s12IDCardReader0A11InformationC9faceImageSSvg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -22036,10 +22267,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A11InformationC9faceImageSSvs",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardInformation(im)setFaceImage:",
                 "mangledName": "$s12IDCardReader0A11InformationC9faceImageSSvs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -22157,6 +22391,7 @@
         "moduleName": "IDCardReader",
         "declAttributes": [
           "AccessControl",
+          "ObjCMembers",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -23230,13 +23465,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader22FaceValidationResponseC6statusSivp",
+            "usr": "c:@M@IDCardReader@objc(cs)FaceValidationResponse(py)status",
             "mangledName": "$s12IDCardReader22FaceValidationResponseC6statusSivp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -23253,10 +23489,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader22FaceValidationResponseC6statusSivg",
+                "usr": "c:@M@IDCardReader@objc(cs)FaceValidationResponse(im)status",
                 "mangledName": "$s12IDCardReader22FaceValidationResponseC6statusSivg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -23277,10 +23516,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader22FaceValidationResponseC6statusSivs",
+                "usr": "c:@M@IDCardReader@objc(cs)FaceValidationResponse(im)setStatus:",
                 "mangledName": "$s12IDCardReader22FaceValidationResponseC6statusSivs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -23316,13 +23558,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader22FaceValidationResponseC4codeSSvp",
+            "usr": "c:@M@IDCardReader@objc(cs)FaceValidationResponse(py)code",
             "mangledName": "$s12IDCardReader22FaceValidationResponseC4codeSSvp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -23339,10 +23582,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader22FaceValidationResponseC4codeSSvg",
+                "usr": "c:@M@IDCardReader@objc(cs)FaceValidationResponse(im)code",
                 "mangledName": "$s12IDCardReader22FaceValidationResponseC4codeSSvg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -23363,10 +23609,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader22FaceValidationResponseC4codeSSvs",
+                "usr": "c:@M@IDCardReader@objc(cs)FaceValidationResponse(im)setCode:",
                 "mangledName": "$s12IDCardReader22FaceValidationResponseC4codeSSvs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -23402,13 +23651,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader22FaceValidationResponseC7messageSSvp",
+            "usr": "c:@M@IDCardReader@objc(cs)FaceValidationResponse(py)message",
             "mangledName": "$s12IDCardReader22FaceValidationResponseC7messageSSvp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -23425,10 +23675,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader22FaceValidationResponseC7messageSSvg",
+                "usr": "c:@M@IDCardReader@objc(cs)FaceValidationResponse(im)message",
                 "mangledName": "$s12IDCardReader22FaceValidationResponseC7messageSSvg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -23449,10 +23702,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader22FaceValidationResponseC7messageSSvs",
+                "usr": "c:@M@IDCardReader@objc(cs)FaceValidationResponse(im)setMessage:",
                 "mangledName": "$s12IDCardReader22FaceValidationResponseC7messageSSvs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -23488,13 +23744,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader22FaceValidationResponseC9requestIdSSvp",
+            "usr": "c:@M@IDCardReader@objc(cs)FaceValidationResponse(py)requestId",
             "mangledName": "$s12IDCardReader22FaceValidationResponseC9requestIdSSvp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -23511,10 +23768,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader22FaceValidationResponseC9requestIdSSvg",
+                "usr": "c:@M@IDCardReader@objc(cs)FaceValidationResponse(im)requestId",
                 "mangledName": "$s12IDCardReader22FaceValidationResponseC9requestIdSSvg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -23535,10 +23795,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader22FaceValidationResponseC9requestIdSSvs",
+                "usr": "c:@M@IDCardReader@objc(cs)FaceValidationResponse(im)setRequestId:",
                 "mangledName": "$s12IDCardReader22FaceValidationResponseC9requestIdSSvs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -23574,13 +23837,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader22FaceValidationResponseC10resultCodeSivp",
+            "usr": "c:@M@IDCardReader@objc(cs)FaceValidationResponse(py)resultCode",
             "mangledName": "$s12IDCardReader22FaceValidationResponseC10resultCodeSivp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -23597,10 +23861,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader22FaceValidationResponseC10resultCodeSivg",
+                "usr": "c:@M@IDCardReader@objc(cs)FaceValidationResponse(im)resultCode",
                 "mangledName": "$s12IDCardReader22FaceValidationResponseC10resultCodeSivg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -23621,10 +23888,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader22FaceValidationResponseC10resultCodeSivs",
+                "usr": "c:@M@IDCardReader@objc(cs)FaceValidationResponse(im)setResultCode:",
                 "mangledName": "$s12IDCardReader22FaceValidationResponseC10resultCodeSivs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -23660,13 +23930,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader22FaceValidationResponseC14resultMesssageSSvp",
+            "usr": "c:@M@IDCardReader@objc(cs)FaceValidationResponse(py)resultMesssage",
             "mangledName": "$s12IDCardReader22FaceValidationResponseC14resultMesssageSSvp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -23683,10 +23954,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader22FaceValidationResponseC14resultMesssageSSvg",
+                "usr": "c:@M@IDCardReader@objc(cs)FaceValidationResponse(im)resultMesssage",
                 "mangledName": "$s12IDCardReader22FaceValidationResponseC14resultMesssageSSvg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -23707,10 +23981,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader22FaceValidationResponseC14resultMesssageSSvs",
+                "usr": "c:@M@IDCardReader@objc(cs)FaceValidationResponse(im)setResultMesssage:",
                 "mangledName": "$s12IDCardReader22FaceValidationResponseC14resultMesssageSSvs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -23746,13 +24023,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader22FaceValidationResponseC7successSbvp",
+            "usr": "c:@M@IDCardReader@objc(cs)FaceValidationResponse(py)success",
             "mangledName": "$s12IDCardReader22FaceValidationResponseC7successSbvp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -23769,10 +24047,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader22FaceValidationResponseC7successSbvg",
+                "usr": "c:@M@IDCardReader@objc(cs)FaceValidationResponse(im)success",
                 "mangledName": "$s12IDCardReader22FaceValidationResponseC7successSbvg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -23793,10 +24074,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader22FaceValidationResponseC7successSbvs",
+                "usr": "c:@M@IDCardReader@objc(cs)FaceValidationResponse(im)setSuccess:",
                 "mangledName": "$s12IDCardReader22FaceValidationResponseC7successSbvs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -23845,13 +24129,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader22FaceValidationResponseC4dataSDySSypGvp",
+            "usr": "c:@M@IDCardReader@objc(cs)FaceValidationResponse(py)data",
             "mangledName": "$s12IDCardReader22FaceValidationResponseC4dataSDySSypGvp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -23881,10 +24166,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader22FaceValidationResponseC4dataSDySSypGvg",
+                "usr": "c:@M@IDCardReader@objc(cs)FaceValidationResponse(im)data",
                 "mangledName": "$s12IDCardReader22FaceValidationResponseC4dataSDySSypGvg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -23918,10 +24206,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader22FaceValidationResponseC4dataSDySSypGvs",
+                "usr": "c:@M@IDCardReader@objc(cs)FaceValidationResponse(im)setData:",
                 "mangledName": "$s12IDCardReader22FaceValidationResponseC4dataSDySSypGvs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -24039,8 +24330,9 @@
         "moduleName": "IDCardReader",
         "declAttributes": [
           "AccessControl",
-          "ObjC",
-          "RawDocComment"
+          "ObjCMembers",
+          "RawDocComment",
+          "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
         "superclassNames": [
@@ -25308,13 +25600,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader0A29PassiveAuthenticationResponseC6statusSivp",
+            "usr": "c:@M@IDCardReader@objc(cs)IDCardPassiveAuthenticationResponse(py)status",
             "mangledName": "$s12IDCardReader0A29PassiveAuthenticationResponseC6statusSivp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -25331,10 +25624,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A29PassiveAuthenticationResponseC6statusSivg",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardPassiveAuthenticationResponse(im)status",
                 "mangledName": "$s12IDCardReader0A29PassiveAuthenticationResponseC6statusSivg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -25355,10 +25651,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A29PassiveAuthenticationResponseC6statusSivs",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardPassiveAuthenticationResponse(im)setStatus:",
                 "mangledName": "$s12IDCardReader0A29PassiveAuthenticationResponseC6statusSivs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -25394,13 +25693,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader0A29PassiveAuthenticationResponseC4codeSSvp",
+            "usr": "c:@M@IDCardReader@objc(cs)IDCardPassiveAuthenticationResponse(py)code",
             "mangledName": "$s12IDCardReader0A29PassiveAuthenticationResponseC4codeSSvp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -25417,10 +25717,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A29PassiveAuthenticationResponseC4codeSSvg",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardPassiveAuthenticationResponse(im)code",
                 "mangledName": "$s12IDCardReader0A29PassiveAuthenticationResponseC4codeSSvg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -25441,10 +25744,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A29PassiveAuthenticationResponseC4codeSSvs",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardPassiveAuthenticationResponse(im)setCode:",
                 "mangledName": "$s12IDCardReader0A29PassiveAuthenticationResponseC4codeSSvs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -25480,13 +25786,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader0A29PassiveAuthenticationResponseC7messageSSvp",
+            "usr": "c:@M@IDCardReader@objc(cs)IDCardPassiveAuthenticationResponse(py)message",
             "mangledName": "$s12IDCardReader0A29PassiveAuthenticationResponseC7messageSSvp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -25503,10 +25810,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A29PassiveAuthenticationResponseC7messageSSvg",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardPassiveAuthenticationResponse(im)message",
                 "mangledName": "$s12IDCardReader0A29PassiveAuthenticationResponseC7messageSSvg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -25527,10 +25837,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A29PassiveAuthenticationResponseC7messageSSvs",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardPassiveAuthenticationResponse(im)setMessage:",
                 "mangledName": "$s12IDCardReader0A29PassiveAuthenticationResponseC7messageSSvs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -25566,13 +25879,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader0A29PassiveAuthenticationResponseC9requestIdSSvp",
+            "usr": "c:@M@IDCardReader@objc(cs)IDCardPassiveAuthenticationResponse(py)requestId",
             "mangledName": "$s12IDCardReader0A29PassiveAuthenticationResponseC9requestIdSSvp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -25589,10 +25903,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A29PassiveAuthenticationResponseC9requestIdSSvg",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardPassiveAuthenticationResponse(im)requestId",
                 "mangledName": "$s12IDCardReader0A29PassiveAuthenticationResponseC9requestIdSSvg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -25613,10 +25930,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A29PassiveAuthenticationResponseC9requestIdSSvs",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardPassiveAuthenticationResponse(im)setRequestId:",
                 "mangledName": "$s12IDCardReader0A29PassiveAuthenticationResponseC9requestIdSSvs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -25660,13 +25980,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader0A29PassiveAuthenticationResponseC4dataAA0C15AuthInformationCSgvp",
+            "usr": "c:@M@IDCardReader@objc(cs)IDCardPassiveAuthenticationResponse(py)data",
             "mangledName": "$s12IDCardReader0A29PassiveAuthenticationResponseC4dataAA0C15AuthInformationCSgvp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -25691,10 +26012,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A29PassiveAuthenticationResponseC4dataAA0C15AuthInformationCSgvg",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardPassiveAuthenticationResponse(im)data",
                 "mangledName": "$s12IDCardReader0A29PassiveAuthenticationResponseC4dataAA0C15AuthInformationCSgvg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -25723,10 +26047,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader0A29PassiveAuthenticationResponseC4dataAA0C15AuthInformationCSgvs",
+                "usr": "c:@M@IDCardReader@objc(cs)IDCardPassiveAuthenticationResponse(im)setData:",
                 "mangledName": "$s12IDCardReader0A29PassiveAuthenticationResponseC4dataAA0C15AuthInformationCSgvs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -25844,6 +26171,7 @@
         "moduleName": "IDCardReader",
         "declAttributes": [
           "AccessControl",
+          "ObjCMembers",
           "RawDocComment",
           "ObjC"
         ],
@@ -25935,13 +26263,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader22PassiveAuthInformationC2idSivp",
+            "usr": "c:@M@IDCardReader@objc(cs)PassiveAuthInformation(py)id",
             "mangledName": "$s12IDCardReader22PassiveAuthInformationC2idSivp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -25958,10 +26287,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader22PassiveAuthInformationC2idSivg",
+                "usr": "c:@M@IDCardReader@objc(cs)PassiveAuthInformation(im)id",
                 "mangledName": "$s12IDCardReader22PassiveAuthInformationC2idSivg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -25982,10 +26314,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader22PassiveAuthInformationC2idSivs",
+                "usr": "c:@M@IDCardReader@objc(cs)PassiveAuthInformation(im)setId:",
                 "mangledName": "$s12IDCardReader22PassiveAuthInformationC2idSivs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -26021,13 +26356,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader22PassiveAuthInformationC6statusSivp",
+            "usr": "c:@M@IDCardReader@objc(cs)PassiveAuthInformation(py)status",
             "mangledName": "$s12IDCardReader22PassiveAuthInformationC6statusSivp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -26044,10 +26380,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader22PassiveAuthInformationC6statusSivg",
+                "usr": "c:@M@IDCardReader@objc(cs)PassiveAuthInformation(im)status",
                 "mangledName": "$s12IDCardReader22PassiveAuthInformationC6statusSivg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -26068,10 +26407,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader22PassiveAuthInformationC6statusSivs",
+                "usr": "c:@M@IDCardReader@objc(cs)PassiveAuthInformation(im)setStatus:",
                 "mangledName": "$s12IDCardReader22PassiveAuthInformationC6statusSivs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -26107,13 +26449,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader22PassiveAuthInformationC4typeSSvp",
+            "usr": "c:@M@IDCardReader@objc(cs)PassiveAuthInformation(py)type",
             "mangledName": "$s12IDCardReader22PassiveAuthInformationC4typeSSvp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -26130,10 +26473,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader22PassiveAuthInformationC4typeSSvg",
+                "usr": "c:@M@IDCardReader@objc(cs)PassiveAuthInformation(im)type",
                 "mangledName": "$s12IDCardReader22PassiveAuthInformationC4typeSSvg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -26154,10 +26500,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader22PassiveAuthInformationC4typeSSvs",
+                "usr": "c:@M@IDCardReader@objc(cs)PassiveAuthInformation(im)setType:",
                 "mangledName": "$s12IDCardReader22PassiveAuthInformationC4typeSSvs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -26193,13 +26542,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader22PassiveAuthInformationC9requestIdSSvp",
+            "usr": "c:@M@IDCardReader@objc(cs)PassiveAuthInformation(py)requestId",
             "mangledName": "$s12IDCardReader22PassiveAuthInformationC9requestIdSSvp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -26216,10 +26566,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader22PassiveAuthInformationC9requestIdSSvg",
+                "usr": "c:@M@IDCardReader@objc(cs)PassiveAuthInformation(im)requestId",
                 "mangledName": "$s12IDCardReader22PassiveAuthInformationC9requestIdSSvg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -26240,10 +26593,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader22PassiveAuthInformationC9requestIdSSvs",
+                "usr": "c:@M@IDCardReader@objc(cs)PassiveAuthInformation(im)setRequestId:",
                 "mangledName": "$s12IDCardReader22PassiveAuthInformationC9requestIdSSvs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -26279,13 +26635,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader22PassiveAuthInformationC6cardIdSSvp",
+            "usr": "c:@M@IDCardReader@objc(cs)PassiveAuthInformation(py)cardId",
             "mangledName": "$s12IDCardReader22PassiveAuthInformationC6cardIdSSvp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -26302,10 +26659,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader22PassiveAuthInformationC6cardIdSSvg",
+                "usr": "c:@M@IDCardReader@objc(cs)PassiveAuthInformation(im)cardId",
                 "mangledName": "$s12IDCardReader22PassiveAuthInformationC6cardIdSSvg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -26326,10 +26686,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader22PassiveAuthInformationC6cardIdSSvs",
+                "usr": "c:@M@IDCardReader@objc(cs)PassiveAuthInformation(im)setCardId:",
                 "mangledName": "$s12IDCardReader22PassiveAuthInformationC6cardIdSSvs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -26365,13 +26728,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader22PassiveAuthInformationC14cardHolderNameSSvp",
+            "usr": "c:@M@IDCardReader@objc(cs)PassiveAuthInformation(py)cardHolderName",
             "mangledName": "$s12IDCardReader22PassiveAuthInformationC14cardHolderNameSSvp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -26388,10 +26752,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader22PassiveAuthInformationC14cardHolderNameSSvg",
+                "usr": "c:@M@IDCardReader@objc(cs)PassiveAuthInformation(im)cardHolderName",
                 "mangledName": "$s12IDCardReader22PassiveAuthInformationC14cardHolderNameSSvg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -26412,10 +26779,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader22PassiveAuthInformationC14cardHolderNameSSvs",
+                "usr": "c:@M@IDCardReader@objc(cs)PassiveAuthInformation(im)setCardHolderName:",
                 "mangledName": "$s12IDCardReader22PassiveAuthInformationC14cardHolderNameSSvs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -26451,13 +26821,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader22PassiveAuthInformationC7addressSSvp",
+            "usr": "c:@M@IDCardReader@objc(cs)PassiveAuthInformation(py)address",
             "mangledName": "$s12IDCardReader22PassiveAuthInformationC7addressSSvp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -26474,10 +26845,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader22PassiveAuthInformationC7addressSSvg",
+                "usr": "c:@M@IDCardReader@objc(cs)PassiveAuthInformation(im)address",
                 "mangledName": "$s12IDCardReader22PassiveAuthInformationC7addressSSvg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -26498,10 +26872,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader22PassiveAuthInformationC7addressSSvs",
+                "usr": "c:@M@IDCardReader@objc(cs)PassiveAuthInformation(im)setAddress:",
                 "mangledName": "$s12IDCardReader22PassiveAuthInformationC7addressSSvs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -26537,13 +26914,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IDCardReader22PassiveAuthInformationC9faceImageSSvp",
+            "usr": "c:@M@IDCardReader@objc(cs)PassiveAuthInformation(py)faceImage",
             "mangledName": "$s12IDCardReader22PassiveAuthInformationC9faceImageSSvp",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -26560,10 +26938,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader22PassiveAuthInformationC9faceImageSSvg",
+                "usr": "c:@M@IDCardReader@objc(cs)PassiveAuthInformation(im)faceImage",
                 "mangledName": "$s12IDCardReader22PassiveAuthInformationC9faceImageSSvg",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -26584,10 +26965,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IDCardReader22PassiveAuthInformationC9faceImageSSvs",
+                "usr": "c:@M@IDCardReader@objc(cs)PassiveAuthInformation(im)setFaceImage:",
                 "mangledName": "$s12IDCardReader22PassiveAuthInformationC9faceImageSSvs",
                 "moduleName": "IDCardReader",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -26705,6 +27089,7 @@
         "moduleName": "IDCardReader",
         "declAttributes": [
           "AccessControl",
+          "ObjCMembers",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -26796,7 +27181,7 @@
                     "kind": "TypeNominal",
                     "name": "CardValidationError",
                     "printedName": "IDCardReader.CardValidationError",
-                    "usr": "s:12IDCardReader19CardValidationErrorO"
+                    "usr": "c:@M@IDCardReader@E@CardValidationError"
                   },
                   {
                     "kind": "TypeNominal",
@@ -26807,7 +27192,7 @@
                         "kind": "TypeNominal",
                         "name": "CardValidationError",
                         "printedName": "IDCardReader.CardValidationError",
-                        "usr": "s:12IDCardReader19CardValidationErrorO"
+                        "usr": "c:@M@IDCardReader@E@CardValidationError"
                       }
                     ]
                   }
@@ -26815,9 +27200,13 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12IDCardReader19CardValidationErrorO12badParameteryA2CmF",
+            "usr": "c:@M@IDCardReader@E@CardValidationError@CardValidationErrorBadParameter",
             "mangledName": "$s12IDCardReader19CardValidationErrorO12badParameteryA2CmF",
-            "moduleName": "IDCardReader"
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
           },
           {
             "kind": "Var",
@@ -26827,39 +27216,13 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(IDCardReader.CardValidationError.Type) -> (Swift.String, Swift.String) -> IDCardReader.CardValidationError",
+                "printedName": "(IDCardReader.CardValidationError.Type) -> IDCardReader.CardValidationError",
                 "children": [
                   {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String, Swift.String) -> IDCardReader.CardValidationError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CardValidationError",
-                        "printedName": "IDCardReader.CardValidationError",
-                        "usr": "s:12IDCardReader19CardValidationErrorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(Swift.String, Swift.String)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ]
-                      }
-                    ]
+                    "kind": "TypeNominal",
+                    "name": "CardValidationError",
+                    "printedName": "IDCardReader.CardValidationError",
+                    "usr": "c:@M@IDCardReader@E@CardValidationError"
                   },
                   {
                     "kind": "TypeNominal",
@@ -26870,7 +27233,7 @@
                         "kind": "TypeNominal",
                         "name": "CardValidationError",
                         "printedName": "IDCardReader.CardValidationError",
-                        "usr": "s:12IDCardReader19CardValidationErrorO"
+                        "usr": "c:@M@IDCardReader@E@CardValidationError"
                       }
                     ]
                   }
@@ -26878,9 +27241,13 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12IDCardReader19CardValidationErrorO11badResponseyACSS_SStcACmF",
-            "mangledName": "$s12IDCardReader19CardValidationErrorO11badResponseyACSS_SStcACmF",
-            "moduleName": "IDCardReader"
+            "usr": "c:@M@IDCardReader@E@CardValidationError@CardValidationErrorBadResponse",
+            "mangledName": "$s12IDCardReader19CardValidationErrorO11badResponseyA2CmF",
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
           },
           {
             "kind": "Var",
@@ -26896,7 +27263,7 @@
                     "kind": "TypeNominal",
                     "name": "CardValidationError",
                     "printedName": "IDCardReader.CardValidationError",
-                    "usr": "s:12IDCardReader19CardValidationErrorO"
+                    "usr": "c:@M@IDCardReader@E@CardValidationError"
                   },
                   {
                     "kind": "TypeNominal",
@@ -26907,7 +27274,7 @@
                         "kind": "TypeNominal",
                         "name": "CardValidationError",
                         "printedName": "IDCardReader.CardValidationError",
-                        "usr": "s:12IDCardReader19CardValidationErrorO"
+                        "usr": "c:@M@IDCardReader@E@CardValidationError"
                       }
                     ]
                   }
@@ -26915,9 +27282,13 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12IDCardReader19CardValidationErrorO16missingParameteryA2CmF",
+            "usr": "c:@M@IDCardReader@E@CardValidationError@CardValidationErrorMissingParameter",
             "mangledName": "$s12IDCardReader19CardValidationErrorO16missingParameteryA2CmF",
-            "moduleName": "IDCardReader"
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
           },
           {
             "kind": "Var",
@@ -26933,7 +27304,7 @@
                     "kind": "TypeNominal",
                     "name": "CardValidationError",
                     "printedName": "IDCardReader.CardValidationError",
-                    "usr": "s:12IDCardReader19CardValidationErrorO"
+                    "usr": "c:@M@IDCardReader@E@CardValidationError"
                   },
                   {
                     "kind": "TypeNominal",
@@ -26944,7 +27315,7 @@
                         "kind": "TypeNominal",
                         "name": "CardValidationError",
                         "printedName": "IDCardReader.CardValidationError",
-                        "usr": "s:12IDCardReader19CardValidationErrorO"
+                        "usr": "c:@M@IDCardReader@E@CardValidationError"
                       }
                     ]
                   }
@@ -26952,9 +27323,13 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12IDCardReader19CardValidationErrorO20licenseOrAppNotFoundyA2CmF",
+            "usr": "c:@M@IDCardReader@E@CardValidationError@CardValidationErrorLicenseOrAppNotFound",
             "mangledName": "$s12IDCardReader19CardValidationErrorO20licenseOrAppNotFoundyA2CmF",
-            "moduleName": "IDCardReader"
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
           },
           {
             "kind": "Var",
@@ -26970,7 +27345,7 @@
                     "kind": "TypeNominal",
                     "name": "CardValidationError",
                     "printedName": "IDCardReader.CardValidationError",
-                    "usr": "s:12IDCardReader19CardValidationErrorO"
+                    "usr": "c:@M@IDCardReader@E@CardValidationError"
                   },
                   {
                     "kind": "TypeNominal",
@@ -26981,7 +27356,7 @@
                         "kind": "TypeNominal",
                         "name": "CardValidationError",
                         "printedName": "IDCardReader.CardValidationError",
-                        "usr": "s:12IDCardReader19CardValidationErrorO"
+                        "usr": "c:@M@IDCardReader@E@CardValidationError"
                       }
                     ]
                   }
@@ -26989,9 +27364,13 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12IDCardReader19CardValidationErrorO14licenseExpiredyA2CmF",
+            "usr": "c:@M@IDCardReader@E@CardValidationError@CardValidationErrorLicenseExpired",
             "mangledName": "$s12IDCardReader19CardValidationErrorO14licenseExpiredyA2CmF",
-            "moduleName": "IDCardReader"
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 4
           },
           {
             "kind": "Var",
@@ -27007,7 +27386,7 @@
                     "kind": "TypeNominal",
                     "name": "CardValidationError",
                     "printedName": "IDCardReader.CardValidationError",
-                    "usr": "s:12IDCardReader19CardValidationErrorO"
+                    "usr": "c:@M@IDCardReader@E@CardValidationError"
                   },
                   {
                     "kind": "TypeNominal",
@@ -27018,7 +27397,7 @@
                         "kind": "TypeNominal",
                         "name": "CardValidationError",
                         "printedName": "IDCardReader.CardValidationError",
-                        "usr": "s:12IDCardReader19CardValidationErrorO"
+                        "usr": "c:@M@IDCardReader@E@CardValidationError"
                       }
                     ]
                   }
@@ -27026,9 +27405,13 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12IDCardReader19CardValidationErrorO16merchantNotFoundyA2CmF",
+            "usr": "c:@M@IDCardReader@E@CardValidationError@CardValidationErrorMerchantNotFound",
             "mangledName": "$s12IDCardReader19CardValidationErrorO16merchantNotFoundyA2CmF",
-            "moduleName": "IDCardReader"
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 5
           },
           {
             "kind": "Var",
@@ -27044,7 +27427,7 @@
                     "kind": "TypeNominal",
                     "name": "CardValidationError",
                     "printedName": "IDCardReader.CardValidationError",
-                    "usr": "s:12IDCardReader19CardValidationErrorO"
+                    "usr": "c:@M@IDCardReader@E@CardValidationError"
                   },
                   {
                     "kind": "TypeNominal",
@@ -27055,7 +27438,7 @@
                         "kind": "TypeNominal",
                         "name": "CardValidationError",
                         "printedName": "IDCardReader.CardValidationError",
-                        "usr": "s:12IDCardReader19CardValidationErrorO"
+                        "usr": "c:@M@IDCardReader@E@CardValidationError"
                       }
                     ]
                   }
@@ -27063,9 +27446,13 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12IDCardReader19CardValidationErrorO16invalidSignatureyA2CmF",
+            "usr": "c:@M@IDCardReader@E@CardValidationError@CardValidationErrorInvalidSignature",
             "mangledName": "$s12IDCardReader19CardValidationErrorO16invalidSignatureyA2CmF",
-            "moduleName": "IDCardReader"
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 6
           },
           {
             "kind": "Var",
@@ -27081,7 +27468,7 @@
                     "kind": "TypeNominal",
                     "name": "CardValidationError",
                     "printedName": "IDCardReader.CardValidationError",
-                    "usr": "s:12IDCardReader19CardValidationErrorO"
+                    "usr": "c:@M@IDCardReader@E@CardValidationError"
                   },
                   {
                     "kind": "TypeNominal",
@@ -27092,7 +27479,7 @@
                         "kind": "TypeNominal",
                         "name": "CardValidationError",
                         "printedName": "IDCardReader.CardValidationError",
-                        "usr": "s:12IDCardReader19CardValidationErrorO"
+                        "usr": "c:@M@IDCardReader@E@CardValidationError"
                       }
                     ]
                   }
@@ -27100,9 +27487,13 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12IDCardReader19CardValidationErrorO13appIdNotFoundyA2CmF",
+            "usr": "c:@M@IDCardReader@E@CardValidationError@CardValidationErrorAppIdNotFound",
             "mangledName": "$s12IDCardReader19CardValidationErrorO13appIdNotFoundyA2CmF",
-            "moduleName": "IDCardReader"
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 7
           },
           {
             "kind": "Var",
@@ -27118,7 +27509,7 @@
                     "kind": "TypeNominal",
                     "name": "CardValidationError",
                     "printedName": "IDCardReader.CardValidationError",
-                    "usr": "s:12IDCardReader19CardValidationErrorO"
+                    "usr": "c:@M@IDCardReader@E@CardValidationError"
                   },
                   {
                     "kind": "TypeNominal",
@@ -27129,7 +27520,7 @@
                         "kind": "TypeNominal",
                         "name": "CardValidationError",
                         "printedName": "IDCardReader.CardValidationError",
-                        "usr": "s:12IDCardReader19CardValidationErrorO"
+                        "usr": "c:@M@IDCardReader@E@CardValidationError"
                       }
                     ]
                   }
@@ -27137,9 +27528,13 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12IDCardReader19CardValidationErrorO23merchantAccountNotFoundyA2CmF",
+            "usr": "c:@M@IDCardReader@E@CardValidationError@CardValidationErrorMerchantAccountNotFound",
             "mangledName": "$s12IDCardReader19CardValidationErrorO23merchantAccountNotFoundyA2CmF",
-            "moduleName": "IDCardReader"
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 8
           },
           {
             "kind": "Var",
@@ -27155,7 +27550,7 @@
                     "kind": "TypeNominal",
                     "name": "CardValidationError",
                     "printedName": "IDCardReader.CardValidationError",
-                    "usr": "s:12IDCardReader19CardValidationErrorO"
+                    "usr": "c:@M@IDCardReader@E@CardValidationError"
                   },
                   {
                     "kind": "TypeNominal",
@@ -27166,7 +27561,7 @@
                         "kind": "TypeNominal",
                         "name": "CardValidationError",
                         "printedName": "IDCardReader.CardValidationError",
-                        "usr": "s:12IDCardReader19CardValidationErrorO"
+                        "usr": "c:@M@IDCardReader@E@CardValidationError"
                       }
                     ]
                   }
@@ -27174,9 +27569,13 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12IDCardReader19CardValidationErrorO21merchantAccountLockedyA2CmF",
+            "usr": "c:@M@IDCardReader@E@CardValidationError@CardValidationErrorMerchantAccountLocked",
             "mangledName": "$s12IDCardReader19CardValidationErrorO21merchantAccountLockedyA2CmF",
-            "moduleName": "IDCardReader"
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 9
           },
           {
             "kind": "Var",
@@ -27192,7 +27591,7 @@
                     "kind": "TypeNominal",
                     "name": "CardValidationError",
                     "printedName": "IDCardReader.CardValidationError",
-                    "usr": "s:12IDCardReader19CardValidationErrorO"
+                    "usr": "c:@M@IDCardReader@E@CardValidationError"
                   },
                   {
                     "kind": "TypeNominal",
@@ -27203,7 +27602,7 @@
                         "kind": "TypeNominal",
                         "name": "CardValidationError",
                         "printedName": "IDCardReader.CardValidationError",
-                        "usr": "s:12IDCardReader19CardValidationErrorO"
+                        "usr": "c:@M@IDCardReader@E@CardValidationError"
                       }
                     ]
                   }
@@ -27211,9 +27610,13 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12IDCardReader19CardValidationErrorO12noPermissionyA2CmF",
+            "usr": "c:@M@IDCardReader@E@CardValidationError@CardValidationErrorNoPermission",
             "mangledName": "$s12IDCardReader19CardValidationErrorO12noPermissionyA2CmF",
-            "moduleName": "IDCardReader"
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 10
           },
           {
             "kind": "Var",
@@ -27229,7 +27632,7 @@
                     "kind": "TypeNominal",
                     "name": "CardValidationError",
                     "printedName": "IDCardReader.CardValidationError",
-                    "usr": "s:12IDCardReader19CardValidationErrorO"
+                    "usr": "c:@M@IDCardReader@E@CardValidationError"
                   },
                   {
                     "kind": "TypeNominal",
@@ -27240,7 +27643,7 @@
                         "kind": "TypeNominal",
                         "name": "CardValidationError",
                         "printedName": "IDCardReader.CardValidationError",
-                        "usr": "s:12IDCardReader19CardValidationErrorO"
+                        "usr": "c:@M@IDCardReader@E@CardValidationError"
                       }
                     ]
                   }
@@ -27248,9 +27651,13 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12IDCardReader19CardValidationErrorO19duplicateUniqueDatayA2CmF",
+            "usr": "c:@M@IDCardReader@E@CardValidationError@CardValidationErrorDuplicateUniqueData",
             "mangledName": "$s12IDCardReader19CardValidationErrorO19duplicateUniqueDatayA2CmF",
-            "moduleName": "IDCardReader"
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 11
           },
           {
             "kind": "Var",
@@ -27266,7 +27673,7 @@
                     "kind": "TypeNominal",
                     "name": "CardValidationError",
                     "printedName": "IDCardReader.CardValidationError",
-                    "usr": "s:12IDCardReader19CardValidationErrorO"
+                    "usr": "c:@M@IDCardReader@E@CardValidationError"
                   },
                   {
                     "kind": "TypeNominal",
@@ -27277,7 +27684,7 @@
                         "kind": "TypeNominal",
                         "name": "CardValidationError",
                         "printedName": "IDCardReader.CardValidationError",
-                        "usr": "s:12IDCardReader19CardValidationErrorO"
+                        "usr": "c:@M@IDCardReader@E@CardValidationError"
                       }
                     ]
                   }
@@ -27285,9 +27692,13 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12IDCardReader19CardValidationErrorO12dataNotFoundyA2CmF",
+            "usr": "c:@M@IDCardReader@E@CardValidationError@CardValidationErrorDataNotFound",
             "mangledName": "$s12IDCardReader19CardValidationErrorO12dataNotFoundyA2CmF",
-            "moduleName": "IDCardReader"
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 12
           },
           {
             "kind": "Var",
@@ -27303,7 +27714,7 @@
                     "kind": "TypeNominal",
                     "name": "CardValidationError",
                     "printedName": "IDCardReader.CardValidationError",
-                    "usr": "s:12IDCardReader19CardValidationErrorO"
+                    "usr": "c:@M@IDCardReader@E@CardValidationError"
                   },
                   {
                     "kind": "TypeNominal",
@@ -27314,7 +27725,7 @@
                         "kind": "TypeNominal",
                         "name": "CardValidationError",
                         "printedName": "IDCardReader.CardValidationError",
-                        "usr": "s:12IDCardReader19CardValidationErrorO"
+                        "usr": "c:@M@IDCardReader@E@CardValidationError"
                       }
                     ]
                   }
@@ -27322,9 +27733,13 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12IDCardReader19CardValidationErrorO9ipBlockedyA2CmF",
+            "usr": "c:@M@IDCardReader@E@CardValidationError@CardValidationErrorIpBlocked",
             "mangledName": "$s12IDCardReader19CardValidationErrorO9ipBlockedyA2CmF",
-            "moduleName": "IDCardReader"
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 13
           },
           {
             "kind": "Var",
@@ -27340,7 +27755,7 @@
                     "kind": "TypeNominal",
                     "name": "CardValidationError",
                     "printedName": "IDCardReader.CardValidationError",
-                    "usr": "s:12IDCardReader19CardValidationErrorO"
+                    "usr": "c:@M@IDCardReader@E@CardValidationError"
                   },
                   {
                     "kind": "TypeNominal",
@@ -27351,7 +27766,7 @@
                         "kind": "TypeNominal",
                         "name": "CardValidationError",
                         "printedName": "IDCardReader.CardValidationError",
-                        "usr": "s:12IDCardReader19CardValidationErrorO"
+                        "usr": "c:@M@IDCardReader@E@CardValidationError"
                       }
                     ]
                   }
@@ -27359,9 +27774,13 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12IDCardReader19CardValidationErrorO17systemMaintenanceyA2CmF",
+            "usr": "c:@M@IDCardReader@E@CardValidationError@CardValidationErrorSystemMaintenance",
             "mangledName": "$s12IDCardReader19CardValidationErrorO17systemMaintenanceyA2CmF",
-            "moduleName": "IDCardReader"
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 14
           },
           {
             "kind": "Var",
@@ -27377,7 +27796,7 @@
                     "kind": "TypeNominal",
                     "name": "CardValidationError",
                     "printedName": "IDCardReader.CardValidationError",
-                    "usr": "s:12IDCardReader19CardValidationErrorO"
+                    "usr": "c:@M@IDCardReader@E@CardValidationError"
                   },
                   {
                     "kind": "TypeNominal",
@@ -27388,7 +27807,7 @@
                         "kind": "TypeNominal",
                         "name": "CardValidationError",
                         "printedName": "IDCardReader.CardValidationError",
-                        "usr": "s:12IDCardReader19CardValidationErrorO"
+                        "usr": "c:@M@IDCardReader@E@CardValidationError"
                       }
                     ]
                   }
@@ -27396,9 +27815,13 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12IDCardReader19CardValidationErrorO19transactionNotFoundyA2CmF",
+            "usr": "c:@M@IDCardReader@E@CardValidationError@CardValidationErrorTransactionNotFound",
             "mangledName": "$s12IDCardReader19CardValidationErrorO19transactionNotFoundyA2CmF",
-            "moduleName": "IDCardReader"
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 15
           },
           {
             "kind": "Var",
@@ -27414,7 +27837,7 @@
                     "kind": "TypeNominal",
                     "name": "CardValidationError",
                     "printedName": "IDCardReader.CardValidationError",
-                    "usr": "s:12IDCardReader19CardValidationErrorO"
+                    "usr": "c:@M@IDCardReader@E@CardValidationError"
                   },
                   {
                     "kind": "TypeNominal",
@@ -27425,7 +27848,7 @@
                         "kind": "TypeNominal",
                         "name": "CardValidationError",
                         "printedName": "IDCardReader.CardValidationError",
-                        "usr": "s:12IDCardReader19CardValidationErrorO"
+                        "usr": "c:@M@IDCardReader@E@CardValidationError"
                       }
                     ]
                   }
@@ -27433,9 +27856,13 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12IDCardReader19CardValidationErrorO10systemBusyyA2CmF",
+            "usr": "c:@M@IDCardReader@E@CardValidationError@CardValidationErrorSystemBusy",
             "mangledName": "$s12IDCardReader19CardValidationErrorO10systemBusyyA2CmF",
-            "moduleName": "IDCardReader"
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 16
           },
           {
             "kind": "Var",
@@ -27451,7 +27878,7 @@
                     "kind": "TypeNominal",
                     "name": "CardValidationError",
                     "printedName": "IDCardReader.CardValidationError",
-                    "usr": "s:12IDCardReader19CardValidationErrorO"
+                    "usr": "c:@M@IDCardReader@E@CardValidationError"
                   },
                   {
                     "kind": "TypeNominal",
@@ -27462,7 +27889,7 @@
                         "kind": "TypeNominal",
                         "name": "CardValidationError",
                         "printedName": "IDCardReader.CardValidationError",
-                        "usr": "s:12IDCardReader19CardValidationErrorO"
+                        "usr": "c:@M@IDCardReader@E@CardValidationError"
                       }
                     ]
                   }
@@ -27470,9 +27897,13 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12IDCardReader19CardValidationErrorO09noMatchedC0yA2CmF",
+            "usr": "c:@M@IDCardReader@E@CardValidationError@CardValidationErrorNoMatchedCard",
             "mangledName": "$s12IDCardReader19CardValidationErrorO09noMatchedC0yA2CmF",
-            "moduleName": "IDCardReader"
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 17
           },
           {
             "kind": "Var",
@@ -27488,7 +27919,7 @@
                     "kind": "TypeNominal",
                     "name": "CardValidationError",
                     "printedName": "IDCardReader.CardValidationError",
-                    "usr": "s:12IDCardReader19CardValidationErrorO"
+                    "usr": "c:@M@IDCardReader@E@CardValidationError"
                   },
                   {
                     "kind": "TypeNominal",
@@ -27499,7 +27930,7 @@
                         "kind": "TypeNominal",
                         "name": "CardValidationError",
                         "printedName": "IDCardReader.CardValidationError",
-                        "usr": "s:12IDCardReader19CardValidationErrorO"
+                        "usr": "c:@M@IDCardReader@E@CardValidationError"
                       }
                     ]
                   }
@@ -27507,9 +27938,13 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12IDCardReader19CardValidationErrorO15checkCertFailedyA2CmF",
+            "usr": "c:@M@IDCardReader@E@CardValidationError@CardValidationErrorCheckCertFailed",
             "mangledName": "$s12IDCardReader19CardValidationErrorO15checkCertFailedyA2CmF",
-            "moduleName": "IDCardReader"
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 18
           },
           {
             "kind": "Var",
@@ -27525,7 +27960,7 @@
                     "kind": "TypeNominal",
                     "name": "CardValidationError",
                     "printedName": "IDCardReader.CardValidationError",
-                    "usr": "s:12IDCardReader19CardValidationErrorO"
+                    "usr": "c:@M@IDCardReader@E@CardValidationError"
                   },
                   {
                     "kind": "TypeNominal",
@@ -27536,7 +27971,7 @@
                         "kind": "TypeNominal",
                         "name": "CardValidationError",
                         "printedName": "IDCardReader.CardValidationError",
-                        "usr": "s:12IDCardReader19CardValidationErrorO"
+                        "usr": "c:@M@IDCardReader@E@CardValidationError"
                       }
                     ]
                   }
@@ -27544,9 +27979,13 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12IDCardReader19CardValidationErrorO011passiveAuthE0yA2CmF",
+            "usr": "c:@M@IDCardReader@E@CardValidationError@CardValidationErrorPassiveAuthError",
             "mangledName": "$s12IDCardReader19CardValidationErrorO011passiveAuthE0yA2CmF",
-            "moduleName": "IDCardReader"
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 19
           },
           {
             "kind": "Var",
@@ -27562,7 +28001,7 @@
                     "kind": "TypeNominal",
                     "name": "CardValidationError",
                     "printedName": "IDCardReader.CardValidationError",
-                    "usr": "s:12IDCardReader19CardValidationErrorO"
+                    "usr": "c:@M@IDCardReader@E@CardValidationError"
                   },
                   {
                     "kind": "TypeNominal",
@@ -27573,7 +28012,7 @@
                         "kind": "TypeNominal",
                         "name": "CardValidationError",
                         "printedName": "IDCardReader.CardValidationError",
-                        "usr": "s:12IDCardReader19CardValidationErrorO"
+                        "usr": "c:@M@IDCardReader@E@CardValidationError"
                       }
                     ]
                   }
@@ -27581,19 +28020,174 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12IDCardReader19CardValidationErrorO06unknowE0yA2CmF",
+            "usr": "c:@M@IDCardReader@E@CardValidationError@CardValidationErrorUnknowError",
             "mangledName": "$s12IDCardReader19CardValidationErrorO06unknowE0yA2CmF",
-            "moduleName": "IDCardReader"
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 20
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IDCardReader.CardValidationError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardValidationError",
+                    "printedName": "IDCardReader.CardValidationError",
+                    "usr": "c:@M@IDCardReader@E@CardValidationError"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12IDCardReader19CardValidationErrorO8rawValueACSgSi_tcfc",
+            "mangledName": "$s12IDCardReader19CardValidationErrorO8rawValueACSgSi_tcfc",
+            "moduleName": "IDCardReader",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IDCardReader19CardValidationErrorO8rawValueSivp",
+            "mangledName": "$s12IDCardReader19CardValidationErrorO8rawValueSivp",
+            "moduleName": "IDCardReader",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader19CardValidationErrorO8rawValueSivg",
+                "mangledName": "$s12IDCardReader19CardValidationErrorO8rawValueSivg",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "_nsErrorDomain",
+            "printedName": "_nsErrorDomain",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IDCardReader19CardValidationErrorO03_nsE6DomainSSvpZ",
+            "mangledName": "$s12IDCardReader19CardValidationErrorO03_nsE6DomainSSvpZ",
+            "moduleName": "IDCardReader",
+            "static": true,
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader19CardValidationErrorO03_nsE6DomainSSvgZ",
+                "mangledName": "$s12IDCardReader19CardValidationErrorO03_nsE6DomainSSvgZ",
+                "moduleName": "IDCardReader",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Enum",
-        "usr": "s:12IDCardReader19CardValidationErrorO",
+        "usr": "c:@M@IDCardReader@E@CardValidationError",
         "mangledName": "$s12IDCardReader19CardValidationErrorO",
         "moduleName": "IDCardReader",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "ObjC"
         ],
+        "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
           {
             "kind": "Conformance",
             "name": "Error",
@@ -27603,10 +28197,24 @@
           },
           {
             "kind": "Conformance",
+            "name": "_BridgedNSError",
+            "printedName": "_BridgedNSError",
+            "usr": "s:10Foundation15_BridgedNSErrorP",
+            "mangledName": "$s10Foundation15_BridgedNSErrorP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeableError",
+            "printedName": "_ObjectiveCBridgeableError",
+            "usr": "s:10Foundation26_ObjectiveCBridgeableErrorP",
+            "mangledName": "$s10Foundation26_ObjectiveCBridgeableErrorP"
           }
         ]
       }
@@ -43906,1010 +44514,1290 @@
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
-      "offset": 745,
+      "offset": 758,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 792,
+      "offset": 805,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 840,
+      "offset": 853,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 888,
+      "offset": 901,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 936,
+      "offset": 949,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 1295,
+      "offset": 1308,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 1336,
+      "offset": 1349,
       "length": 6,
       "value": "\"code\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 1375,
+      "offset": 1388,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 1417,
+      "offset": 1430,
       "length": 12,
       "value": "\"request_id\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 1462,
+      "offset": 1475,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 652,
+      "offset": 665,
       "length": 25,
       "value": "\"IDCardReader.IDCardInformationResponse\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 1585,
+      "offset": 1605,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 1636,
+      "offset": 1656,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 1680,
+      "offset": 1700,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 1724,
+      "offset": 1744,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 1768,
+      "offset": 1788,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 1812,
+      "offset": 1832,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 1856,
+      "offset": 1876,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 1900,
+      "offset": 1920,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 1944,
+      "offset": 1964,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 1988,
+      "offset": 2008,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 2039,
+      "offset": 2059,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 2090,
+      "offset": 2110,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 2141,
+      "offset": 2161,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 2192,
+      "offset": 2212,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 2243,
+      "offset": 2263,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 2293,
+      "offset": 2313,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 2343,
+      "offset": 2363,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 2515,
+      "offset": 2535,
       "length": 18,
       "value": "\"citizen_identify\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 2578,
+      "offset": 2598,
       "length": 22,
       "value": "\"old_citizen_identify\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 2645,
+      "offset": 2665,
       "length": 11,
       "value": "\"full_name\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 2701,
+      "offset": 2721,
       "length": 15,
       "value": "\"date_of_birth\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 2761,
+      "offset": 2781,
       "length": 16,
       "value": "\"date_of_expiry\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 2822,
+      "offset": 2842,
       "length": 8,
       "value": "\"gender\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 2875,
+      "offset": 2895,
       "length": 13,
       "value": "\"nationality\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 2933,
+      "offset": 2953,
       "length": 8,
       "value": "\"ethnic\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 2986,
+      "offset": 3006,
       "length": 10,
       "value": "\"religion\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 3041,
+      "offset": 3061,
       "length": 17,
       "value": "\"place_of_origin\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 3103,
+      "offset": 3123,
       "length": 20,
       "value": "\"place_of_residence\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 3168,
+      "offset": 3188,
       "length": 25,
       "value": "\"personal_identification\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 3238,
+      "offset": 3258,
       "length": 13,
       "value": "\"dateProvide\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 3296,
+      "offset": 3316,
       "length": 13,
       "value": "\"father_name\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 3354,
+      "offset": 3374,
       "length": 13,
       "value": "\"mother_name\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 3412,
+      "offset": 3432,
       "length": 14,
       "value": "\"partner_name\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 3471,
+      "offset": 3491,
       "length": 12,
       "value": "\"face_image\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 1498,
+      "offset": 1518,
       "length": 17,
       "value": "\"IDCardReader.IDCardInformation\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
-      "offset": 3600,
+      "offset": 3620,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 3639,
+      "offset": 3659,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 3687,
+      "offset": 3707,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 3889,
+      "offset": 3909,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 3930,
+      "offset": 3950,
       "length": 6,
       "value": "\"code\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 3969,
+      "offset": 3989,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 4011,
+      "offset": 4031,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
-      "offset": 4112,
+      "offset": 4132,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 4151,
+      "offset": 4171,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "BooleanLiteral",
-      "offset": 4191,
+      "offset": 4211,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 4234,
+      "offset": 4254,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
-      "offset": 4274,
+      "offset": 4294,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 4434,
+      "offset": 4454,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 4477,
+      "offset": 4497,
       "length": 8,
       "value": "\"result\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 4520,
+      "offset": 4540,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 4564,
+      "offset": 4584,
       "length": 6,
       "value": "\"time\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 4605,
+      "offset": 4625,
       "length": 6,
       "value": "\"code\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
-      "offset": 4741,
+      "offset": 4768,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 4788,
+      "offset": 4815,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 4836,
+      "offset": 4863,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 4889,
+      "offset": 4916,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
-      "offset": 4937,
+      "offset": 4964,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 4984,
+      "offset": 5011,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "BooleanLiteral",
-      "offset": 5032,
+      "offset": 5059,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "Dictionary",
-      "offset": 5083,
+      "offset": 5110,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 5238,
+      "offset": 5265,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 5279,
+      "offset": 5306,
       "length": 6,
       "value": "\"code\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 5318,
+      "offset": 5345,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 5369,
+      "offset": 5396,
       "length": 12,
       "value": "\"request_id\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 5423,
+      "offset": 5450,
       "length": 18,
       "value": "\"data.result_code\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 5474,
+      "offset": 5501,
       "length": 25,
       "value": "\"data.verify_result_text\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 5532,
+      "offset": 5559,
       "length": 9,
       "value": "\"success\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 5574,
+      "offset": 5601,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 4652,
+      "offset": 4679,
       "length": 22,
       "value": "\"IDCardReader.FaceValidationResponse\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
-      "offset": 5677,
+      "offset": 5704,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 5724,
+      "offset": 5751,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 5772,
+      "offset": 5799,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 5969,
+      "offset": 5996,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 6010,
+      "offset": 6037,
       "length": 6,
       "value": "\"code\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 6049,
+      "offset": 6076,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 6091,
+      "offset": 6118,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "BooleanLiteral",
-      "offset": 6185,
+      "offset": 6212,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "BooleanLiteral",
-      "offset": 6231,
+      "offset": 6258,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "BooleanLiteral",
-      "offset": 6275,
+      "offset": 6302,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "BooleanLiteral",
-      "offset": 6321,
+      "offset": 6348,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "BooleanLiteral",
-      "offset": 6364,
+      "offset": 6391,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "BooleanLiteral",
-      "offset": 6406,
+      "offset": 6433,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 6622,
+      "offset": 6649,
       "length": 19,
       "value": "\"isActiveTurnRight\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 6683,
+      "offset": 6710,
       "length": 18,
       "value": "\"isActiveTurnLeft\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 6743,
+      "offset": 6770,
       "length": 16,
       "value": "\"isActiveFaceUp\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 6801,
+      "offset": 6828,
       "length": 18,
       "value": "\"isActiveFaceDown\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 6861,
+      "offset": 6888,
       "length": 15,
       "value": "\"isActiveSmile\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 6918,
+      "offset": 6945,
       "length": 14,
       "value": "\"isActiveWink\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
-      "offset": 7069,
+      "offset": 7109,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 7116,
+      "offset": 7156,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 7164,
+      "offset": 7204,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 7212,
+      "offset": 7252,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 7426,
+      "offset": 7466,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 7467,
+      "offset": 7507,
       "length": 6,
       "value": "\"code\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 7506,
+      "offset": 7546,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 7548,
+      "offset": 7588,
       "length": 12,
       "value": "\"request_id\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 7593,
+      "offset": 7633,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 6966,
+      "offset": 7006,
       "length": 35,
       "value": "\"IDCardReader.IDCardPassiveAuthenticationResponse\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
-      "offset": 7706,
+      "offset": 7759,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
-      "offset": 7747,
+      "offset": 7800,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 7793,
+      "offset": 7846,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 7835,
+      "offset": 7888,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 7877,
+      "offset": 7930,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 7921,
+      "offset": 7974,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 7963,
+      "offset": 8016,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 8010,
+      "offset": 8063,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 8169,
+      "offset": 8222,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 8206,
+      "offset": 8259,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 8256,
+      "offset": 8309,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 8295,
+      "offset": 8348,
       "length": 11,
       "value": "\"requestId\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 8339,
+      "offset": 8392,
       "length": 8,
       "value": "\"cardID\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 8380,
+      "offset": 8433,
       "length": 16,
       "value": "\"cardHolderName\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 8429,
+      "offset": 8482,
       "length": 9,
       "value": "\"address\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 8480,
+      "offset": 8533,
       "length": 11,
       "value": "\"faceImage\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 7623,
+      "offset": 7676,
       "length": 22,
       "value": "\"IDCardReader.PassiveAuthInformation\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8637,
+      "length": 11,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8658,
+      "length": 16,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8684,
+      "length": 20,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8714,
+      "length": 14,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8738,
+      "length": 16,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8764,
+      "length": 16,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8790,
+      "length": 13,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8813,
+      "length": 23,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8846,
+      "length": 21,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8877,
+      "length": 12,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8899,
+      "length": 19,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8928,
+      "length": 12,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8950,
+      "length": 9,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8969,
+      "length": 17,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8996,
+      "length": 19,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9025,
+      "length": 10,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9045,
+      "length": 13,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9068,
+      "length": 15,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9093,
+      "length": 16,
+      "value": "19"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9119,
+      "length": 11,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 9209,
+      "offset": 9256,
       "length": 5,
       "value": "\"001\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 9302,
+      "offset": 9349,
       "length": 5,
       "value": "\"002\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 9399,
+      "offset": 9446,
       "length": 5,
       "value": "\"003\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 9490,
+      "offset": 9537,
       "length": 5,
       "value": "\"004\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 9583,
+      "offset": 9630,
       "length": 5,
       "value": "\"005\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 9676,
+      "offset": 9723,
       "length": 5,
       "value": "\"006\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 9766,
+      "offset": 9813,
       "length": 5,
       "value": "\"007\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 9866,
+      "offset": 9913,
       "length": 5,
       "value": "\"008\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 9964,
+      "offset": 10011,
       "length": 5,
       "value": "\"009\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 10053,
+      "offset": 10100,
       "length": 5,
       "value": "\"010\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 10149,
+      "offset": 10196,
       "length": 5,
       "value": "\"011\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 10238,
+      "offset": 10285,
       "length": 5,
       "value": "\"012\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 10324,
+      "offset": 10371,
       "length": 5,
       "value": "\"013\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 10418,
+      "offset": 10465,
       "length": 5,
       "value": "\"014\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 10514,
+      "offset": 10561,
       "length": 5,
       "value": "\"015\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 10601,
+      "offset": 10648,
       "length": 17,
       "value": "\"NO_MATCHED_CARD\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 10703,
+      "offset": 10750,
       "length": 18,
       "value": "\"ERROR_CHECK_CERT\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 10808,
+      "offset": 10855,
       "length": 18,
       "value": "\"PASSIVE_AUTH_ERR\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8637,
+      "length": 11,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8658,
+      "length": 16,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8684,
+      "length": 20,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8714,
+      "length": 14,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8738,
+      "length": 16,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8764,
+      "length": 16,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8790,
+      "length": 13,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8813,
+      "length": 23,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8846,
+      "length": 21,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8877,
+      "length": 12,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8899,
+      "length": 19,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8928,
+      "length": 12,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8950,
+      "length": 9,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8969,
+      "length": 17,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8996,
+      "length": 19,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9025,
+      "length": 10,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9045,
+      "length": 13,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9068,
+      "length": 15,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9093,
+      "length": 16,
+      "value": "19"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9119,
+      "length": 11,
+      "value": "20"
     }
   ]
 }
