@@ -255,10 +255,10 @@ public func calcSHA384Hash(_ data: [Swift.UInt8]) -> [Swift.UInt8]
 }
 @_inheritsConvenienceInitializers @available(iOS 13.0, *)
 @objc public class LivenessDetector : ObjectiveC.NSObject {
-  weak public var delegate: (any IDCardReader.LivenessDetectorDelegate)?
+  @objc weak public var delegate: (any IDCardReader.LivenessDetectorDelegate)?
   public var cardId: Swift.String
-  public func getVerificationRequiresAndStartSession() throws
-  public func stopLiveness()
+  @objc public func getVerificationRequiresAndStartSession() throws
+  @objc public func stopLiveness()
   @objc override dynamic public init()
   @objc deinit
 }

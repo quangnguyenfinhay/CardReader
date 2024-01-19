@@ -444,6 +444,9 @@ typedef SWIFT_ENUM(NSInteger, LivenessAction, open) {
 
 SWIFT_CLASS("_TtC12IDCardReader16LivenessDetector") SWIFT_AVAILABILITY(ios,introduced=13.0)
 @interface LivenessDetector : NSObject
+@property (nonatomic, weak) id <LivenessDetectorDelegate> _Nullable delegate;
+- (BOOL)getVerificationRequiresAndStartSessionAndReturnError:(NSError * _Nullable * _Nullable)error;
+- (void)stopLiveness;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
