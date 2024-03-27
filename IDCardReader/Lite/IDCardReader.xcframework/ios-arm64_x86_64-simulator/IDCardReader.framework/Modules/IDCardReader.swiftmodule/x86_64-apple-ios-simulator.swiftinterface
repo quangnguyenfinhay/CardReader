@@ -4,14 +4,17 @@
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import CommonCrypto
+import Compression
 import CoreNFC
 import CryptoKit
 import CryptoTokenKit
 import Foundation
 @_exported import IDCardReader
+import LocalAuthentication
 import MobileCoreServices
 import ObjectMapper
 import OpenSSL
+import Security
 import Swift
 import UIKit
 import _Concurrency
@@ -78,6 +81,92 @@ public class SimpleASN1DumpParser {
   public func test()
   @objc deinit
 }
+public enum SignatureAlgorithm : Swift.String {
+  case HS256
+  case HS384
+  case HS512
+  case RS256
+  case RS384
+  case RS512
+  @available(iOS 11, *)
+  case PS256
+  @available(iOS 11, *)
+  case PS384
+  @available(iOS 11, *)
+  case PS512
+  case ES256
+  case ES384
+  case ES512
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum KeyManagementAlgorithm : Swift.String, Swift.CaseIterable {
+  case RSA1_5
+  case RSAOAEP
+  case RSAOAEP256
+  case A128KW
+  case A192KW
+  case A256KW
+  case direct
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [IDCardReader.KeyManagementAlgorithm]
+  public typealias RawValue = Swift.String
+  public static var allCases: [IDCardReader.KeyManagementAlgorithm] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum ContentEncryptionAlgorithm : Swift.String {
+  case A256CBCHS512
+  case A128CBCHS256
+  case A256GCM
+  case A128GCM
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum HMACAlgorithm : Swift.String {
+  case SHA512
+  case SHA384
+  case SHA256
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum JWKThumbprintAlgorithm : Swift.String {
+  case SHA256
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum CompressionAlgorithm : Swift.String {
+  case DEFLATE
+  case NONE
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@available(*, deprecated, message: "Use `KeyManagementAlgorithm` instead")
+public typealias AsymmetricKeyAlgorithm = IDCardReader.KeyManagementAlgorithm
+@available(*, deprecated, message: "Use `ContentEncryptionAlgorithm` instead")
+public typealias SymmetricKeyAlgorithm = IDCardReader.ContentEncryptionAlgorithm
+extension Security.SecKey : IDCardReader.ExpressibleAsRSAPublicKeyComponents {
+  public static func representing(rsaPublicKeyComponents components: IDCardReader.RSAPublicKeyComponents) throws -> Self
+  public func rsaPublicKeyComponents() throws -> IDCardReader.RSAPublicKeyComponents
+}
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 13, macOS 10.15, *)
 public class COM : IDCardReader.DataGroup {
   public var version: Swift.String {
@@ -91,6 +180,93 @@ public class COM : IDCardReader.DataGroup {
   }
   @objc deinit
 }
+public typealias RSAPublicKeyComponents = (modulus: Foundation.Data, exponent: Foundation.Data)
+public typealias RSAPrivateKeyComponents = (modulus: Foundation.Data, exponent: Foundation.Data, privateExponent: Foundation.Data)
+public protocol ExpressibleAsRSAPublicKeyComponents {
+  static func representing(rsaPublicKeyComponents components: IDCardReader.RSAPublicKeyComponents) throws -> Self
+  func rsaPublicKeyComponents() throws -> IDCardReader.RSAPublicKeyComponents
+}
+public protocol ExpressibleAsRSAPrivateKeyComponents {
+  static func representing(rsaPrivateKeyComponents components: IDCardReader.RSAPrivateKeyComponents) throws -> Self
+  func rsaPrivateKeyComponents() throws -> IDCardReader.RSAPrivateKeyComponents
+}
+public struct RSAPublicKey : IDCardReader.JWK {
+  public let keyType: IDCardReader.JWKKeyType
+  public let parameters: [Swift.String : Swift.String]
+  public var requiredParameters: [Swift.String : Swift.String] {
+    get
+  }
+  public let modulus: Swift.String
+  public let exponent: Swift.String
+  public init(modulus: Swift.String, exponent: Swift.String, additionalParameters parameters: [Swift.String : Swift.String] = [:])
+  public init(publicKey: any IDCardReader.ExpressibleAsRSAPublicKeyComponents, additionalParameters parameters: [Swift.String : Swift.String] = [:]) throws
+  public init(data: Foundation.Data) throws
+  public func converted<T>(to type: T.Type) throws -> T where T : IDCardReader.ExpressibleAsRSAPublicKeyComponents
+  @available(iOS 11.0, *)
+  public func withThumbprintAsKeyId(algorithm: IDCardReader.JWKThumbprintAlgorithm = .SHA256) throws -> IDCardReader.RSAPublicKey
+}
+public struct RSAPrivateKey : IDCardReader.JWK {
+  public let keyType: IDCardReader.JWKKeyType
+  public let parameters: [Swift.String : Swift.String]
+  public var requiredParameters: [Swift.String : Swift.String] {
+    get
+  }
+  public let modulus: Swift.String
+  public let exponent: Swift.String
+  public let privateExponent: Swift.String
+  public init(modulus: Swift.String, exponent: Swift.String, privateExponent: Swift.String, additionalParameters parameters: [Swift.String : Swift.String] = [:])
+  public init(privateKey: any IDCardReader.ExpressibleAsRSAPrivateKeyComponents, additionalParameters parameters: [Swift.String : Swift.String] = [:]) throws
+  public init(data: Foundation.Data) throws
+  public func converted<T>(to type: T.Type) throws -> T where T : IDCardReader.ExpressibleAsRSAPrivateKeyComponents
+  @available(iOS 11.0, *)
+  public func withThumbprintAsKeyId(algorithm: IDCardReader.JWKThumbprintAlgorithm = .SHA256) throws -> IDCardReader.RSAPrivateKey
+}
+public typealias RSAKeyPair = IDCardReader.RSAPrivateKey
+extension Foundation.Data : IDCardReader.ExpressibleAsSymmetricKeyComponents {
+  public static func representing(symmetricKeyComponents components: IDCardReader.SymmetricKeyComponents) throws -> Foundation.Data
+  public func symmetricKeyComponents() throws -> IDCardReader.SymmetricKeyComponents
+}
+public struct JWS {
+  public let header: IDCardReader.JWSHeader
+  public let payload: IDCardReader.Payload
+  public let signature: Foundation.Data
+  public var compactSerializedString: Swift.String {
+    get
+  }
+  public var compactSerializedData: Foundation.Data {
+    get
+  }
+  public init<KeyType>(header: IDCardReader.JWSHeader, payload: IDCardReader.Payload, signer: IDCardReader.Signer<KeyType>) throws
+  public init(compactSerialization: Swift.String) throws
+  public init(compactSerialization: Foundation.Data) throws
+  @available(*, deprecated, message: "Use `isValid(for verifier:)` instead")
+  public func isValid<KeyType>(for publicKey: KeyType) -> Swift.Bool
+  @available(*, deprecated, message: "Use `validate(using verifier:)` instead")
+  public func validate<KeyType>(with publicKey: KeyType) throws -> IDCardReader.JWS
+  public func validate(using verifier: IDCardReader.Verifier) throws -> IDCardReader.JWS
+  public func isValid(for verifier: IDCardReader.Verifier) -> Swift.Bool
+}
+extension IDCardReader.JWS : IDCardReader.CompactSerializable {
+  public func serialize(to serializer: inout any IDCardReader.CompactSerializer)
+}
+extension IDCardReader.JWS : IDCardReader.CompactDeserializable {
+  public static var componentCount: Swift.Int {
+    get
+  }
+  public init(from deserializer: any IDCardReader.CompactDeserializer) throws
+}
+extension IDCardReader.RSAPublicKey : Swift.Encodable {
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+extension IDCardReader.RSAPublicKey : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension IDCardReader.RSAPrivateKey : Swift.Encodable {
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+extension IDCardReader.RSAPrivateKey : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
 @_hasMissingDesignatedInitializers @available(iOS 13, macOS 10.15, *)
 public class DataGroup {
   public var datagroupType: IDCardReader.DataGroupId
@@ -102,6 +278,87 @@ public class DataGroup {
   }
   public func hash(_ hashAlgorythm: Swift.String) -> [Swift.UInt8]
   @objc deinit
+}
+public enum JWKParameter : Swift.String, Swift.CodingKey {
+  case keyType
+  case keyUse
+  case keyOperations
+  case algorithm
+  case keyIdentifier
+  case X509URL
+  case X509CertificateChain
+  case X509CertificateSHA1Thumbprint
+  case X509CertificateSHA256Thumbprint
+  public init?(stringValue: Swift.String)
+  public init?(intValue: Swift.Int)
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var intValue: Swift.Int? {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+  public var stringValue: Swift.String {
+    get
+  }
+}
+public enum RSAParameter : Swift.String, Swift.CodingKey {
+  case modulus
+  case exponent
+  case privateExponent
+  public init?(rawValue: Swift.String)
+  public init?(stringValue: Swift.String)
+  public init?(intValue: Swift.Int)
+  public typealias RawValue = Swift.String
+  public var intValue: Swift.Int? {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+  public var stringValue: Swift.String {
+    get
+  }
+}
+public enum SymmetricKeyParameter : Swift.String, Swift.CodingKey {
+  case key
+  public init?(rawValue: Swift.String)
+  public init?(stringValue: Swift.String)
+  public init?(intValue: Swift.Int)
+  public typealias RawValue = Swift.String
+  public var intValue: Swift.Int? {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+  public var stringValue: Swift.String {
+    get
+  }
+}
+public enum ECParameter : Swift.String, Swift.CodingKey {
+  case curve
+  case x
+  case y
+  case privateKey
+  public init?(rawValue: Swift.String)
+  public init?(stringValue: Swift.String)
+  public init?(intValue: Swift.Int)
+  public typealias RawValue = Swift.String
+  public var intValue: Swift.Int? {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+  public var stringValue: Swift.String {
+    get
+  }
+}
+extension Foundation.Data : IDCardReader.ExpressibleAsECPublicKeyComponents {
+  public static func representing(ecPublicKeyComponents components: IDCardReader.ECPublicKeyComponents) throws -> Foundation.Data
+  public func ecPublicKeyComponents() throws -> IDCardReader.ECPublicKeyComponents
 }
 @available(iOS 13, macOS 10.15, *)
 public func AESEncrypt(key: [Swift.UInt8], message: [Swift.UInt8], iv: [Swift.UInt8]) -> [Swift.UInt8]
@@ -126,6 +383,23 @@ public class OpenSSLUtils {
   public static func decodePublicKeyFromBytes(pubKeyData: [Swift.UInt8], params: Swift.OpaquePointer) -> Swift.OpaquePointer?
   public static func computeSharedSecret(privateKeyPair: Swift.OpaquePointer, publicKey: Swift.OpaquePointer) -> [Swift.UInt8]
   @objc deinit
+}
+public protocol DataConvertible {
+  init?(_ data: Foundation.Data)
+  func data() -> Foundation.Data
+}
+public protocol CommonHeaderParameterSpace {
+  var jku: Foundation.URL? { get set }
+  var jwk: Swift.String? { get set }
+  var jwkTyped: (any IDCardReader.JWK)? { get set }
+  var kid: Swift.String? { get set }
+  var x5u: Foundation.URL? { get set }
+  var x5c: [Swift.String]? { get set }
+  var x5t: Swift.String? { get set }
+  var x5tS256: Swift.String? { get set }
+  var typ: Swift.String? { get set }
+  var cty: Swift.String? { get set }
+  var crit: [Swift.String]? { get set }
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 13, macOS 10.15, *)
 public class DataGroup2 : IDCardReader.DataGroup {
@@ -255,6 +529,54 @@ public class BACHandler {
   public func sessionKeys(data: [Swift.UInt8]) throws -> ([Swift.UInt8], [Swift.UInt8], [Swift.UInt8])
   @objc deinit
 }
+public struct Payload : IDCardReader.DataConvertible {
+  public init(_ payload: Foundation.Data)
+  public func data() -> Foundation.Data
+}
+public typealias ECPublicKeyComponents = (crv: Swift.String, x: Foundation.Data, y: Foundation.Data)
+public typealias ECPrivateKeyComponents = (crv: Swift.String, x: Foundation.Data, y: Foundation.Data, d: Foundation.Data)
+public protocol ExpressibleAsECPublicKeyComponents {
+  static func representing(ecPublicKeyComponents components: IDCardReader.ECPublicKeyComponents) throws -> Self
+  func ecPublicKeyComponents() throws -> IDCardReader.ECPublicKeyComponents
+}
+public protocol ExpressibleAsECPrivateKeyComponents {
+  static func representing(ecPrivateKeyComponents components: IDCardReader.ECPrivateKeyComponents) throws -> Self
+  func ecPrivateKeyComponents() throws -> IDCardReader.ECPrivateKeyComponents
+}
+public struct ECPublicKey : IDCardReader.JWK {
+  public let keyType: IDCardReader.JWKKeyType
+  public let parameters: [Swift.String : Swift.String]
+  public var requiredParameters: [Swift.String : Swift.String] {
+    get
+  }
+  public let crv: IDCardReader.ECCurveType
+  public let x: Swift.String
+  public let y: Swift.String
+  public init(crv: IDCardReader.ECCurveType, x: Swift.String, y: Swift.String, additionalParameters parameters: [Swift.String : Swift.String] = [:])
+  public init(publicKey: any IDCardReader.ExpressibleAsECPublicKeyComponents, additionalParameters parameters: [Swift.String : Swift.String] = [:]) throws
+  public init(data: Foundation.Data) throws
+  public func converted<T>(to type: T.Type) throws -> T where T : IDCardReader.ExpressibleAsECPublicKeyComponents
+  @available(iOS 11.0, *)
+  public func withThumbprintAsKeyId(algorithm: IDCardReader.JWKThumbprintAlgorithm = .SHA256) throws -> IDCardReader.ECPublicKey
+}
+public struct ECPrivateKey : IDCardReader.JWK {
+  public let keyType: IDCardReader.JWKKeyType
+  public let parameters: [Swift.String : Swift.String]
+  public var requiredParameters: [Swift.String : Swift.String] {
+    get
+  }
+  public let crv: IDCardReader.ECCurveType
+  public let x: Swift.String
+  public let y: Swift.String
+  public let privateKey: Swift.String
+  public init(crv: Swift.String, x: Swift.String, y: Swift.String, privateKey: Swift.String, additionalParameters parameters: [Swift.String : Swift.String] = [:]) throws
+  public init(privateKey: any IDCardReader.ExpressibleAsECPrivateKeyComponents, additionalParameters parameters: [Swift.String : Swift.String] = [:]) throws
+  public init(data: Foundation.Data) throws
+  public func converted<T>(to type: T.Type) throws -> T where T : IDCardReader.ExpressibleAsECPrivateKeyComponents
+  @available(iOS 11.0, *)
+  public func withThumbprintAsKeyId(algorithm: IDCardReader.JWKThumbprintAlgorithm = .SHA256) throws -> IDCardReader.ECPrivateKey
+}
+public typealias ECKeyPair = IDCardReader.ECPrivateKey
 public enum SecureMessagingSupportedAlgorithms {
   case DES
   case AES
@@ -269,6 +591,21 @@ public class SecureMessaging {
   public init(encryptionAlgorithm: IDCardReader.SecureMessagingSupportedAlgorithms = .DES, ksenc: [Swift.UInt8], ksmac: [Swift.UInt8], ssc: [Swift.UInt8])
   @objc deinit
 }
+public struct Decrypter {
+  public init?<KeyType>(keyManagementAlgorithm: IDCardReader.KeyManagementAlgorithm, contentEncryptionAlgorithm: IDCardReader.ContentEncryptionAlgorithm, decryptionKey: KeyType)
+}
+extension IDCardReader.Decrypter {
+  @available(*, deprecated, message: "Use `init?(keyManagementAlgorithm:contentEncryptionAlgorithm:decryptionKey:)` instead")
+  public init?<KeyType>(keyDecryptionAlgorithm: IDCardReader.AsymmetricKeyAlgorithm, decryptionKey key: KeyType, contentDecryptionAlgorithm: IDCardReader.SymmetricKeyAlgorithm)
+  @available(*, deprecated, message: "Use `init?(keyManagementAlgorithm:contentEncryptionAlgorithm:decryptionKey:)` instead")
+  public init?<KeyType>(keyDecryptionAlgorithm: IDCardReader.AsymmetricKeyAlgorithm, keyDecryptionKey kdk: KeyType, contentDecryptionAlgorithm: IDCardReader.SymmetricKeyAlgorithm)
+}
+@available(*, deprecated, message: "This type will be removed with the next major release.")
+public struct DecryptionContext {
+}
+@available(*, deprecated, message: "This type will be removed with the next major release.")
+public struct SymmetricDecryptionContext {
+}
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 13, macOS 10.15, *)
 public class DataGroup15 : IDCardReader.DataGroup {
   public var rsaPublicKey: Swift.OpaquePointer? {
@@ -278,6 +615,65 @@ public class DataGroup15 : IDCardReader.DataGroup {
     get
   }
   @objc deinit
+}
+public enum JWKKeyType : Swift.String, Swift.Codable {
+  case RSA
+  case OCT
+  case EC
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public protocol JWK : Swift.Decodable, Swift.Encodable {
+  var keyType: IDCardReader.JWKKeyType { get }
+  var parameters: [Swift.String : Swift.String] { get }
+  var requiredParameters: [Swift.String : Swift.String] { get }
+  subscript(parameter: Swift.String) -> Swift.String? { get }
+  init(data: Foundation.Data) throws
+  func jsonString() -> Swift.String?
+  func jsonData() -> Foundation.Data?
+  @available(iOS 11.0, *)
+  func thumbprint(algorithm: IDCardReader.JWKThumbprintAlgorithm) throws -> Swift.String
+  @available(iOS 11.0, *)
+  func withThumbprintAsKeyId(algorithm: IDCardReader.JWKThumbprintAlgorithm) throws -> Self
+}
+extension IDCardReader.JWK {
+  @available(iOS 11.0, *)
+  public func thumbprint(algorithm: IDCardReader.JWKThumbprintAlgorithm = .SHA256) throws -> Swift.String
+}
+extension IDCardReader.SymmetricKey : Swift.Encodable {
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+extension IDCardReader.SymmetricKey : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Verifier {
+  public init?<KeyType>(verifyingAlgorithm: IDCardReader.SignatureAlgorithm, key: KeyType)
+}
+extension IDCardReader.Verifier {
+  @available(*, deprecated, message: "Use `init?(verifyingAlgorithm: SignatureAlgorithm, key: KeyType)` instead")
+  public init?<KeyType>(verifyingAlgorithm: IDCardReader.SignatureAlgorithm, publicKey: KeyType)
+}
+public typealias SymmetricKeyComponents = (Foundation.Data)
+public protocol ExpressibleAsSymmetricKeyComponents {
+  static func representing(symmetricKeyComponents components: IDCardReader.SymmetricKeyComponents) throws -> Self
+  func symmetricKeyComponents() throws -> IDCardReader.SymmetricKeyComponents
+}
+public struct SymmetricKey : IDCardReader.JWK {
+  public let keyType: IDCardReader.JWKKeyType
+  public let parameters: [Swift.String : Swift.String]
+  public var requiredParameters: [Swift.String : Swift.String] {
+    get
+  }
+  public let key: Swift.String
+  public init(key: Foundation.Data, additionalParameters parameters: [Swift.String : Swift.String] = [:])
+  public init(key: any IDCardReader.ExpressibleAsSymmetricKeyComponents, additionalParameters parameters: [Swift.String : Swift.String] = [:]) throws
+  public init(data: Foundation.Data) throws
+  public func converted<T>(to type: T.Type) throws -> T where T : IDCardReader.ExpressibleAsSymmetricKeyComponents
+  @available(iOS 11.0, *)
+  public func withThumbprintAsKeyId(algorithm: IDCardReader.JWKThumbprintAlgorithm = .SHA256) throws -> IDCardReader.SymmetricKey
 }
 @available(iOS 13, macOS 10.15, *)
 public enum DocTypeEnum : Swift.String {
@@ -297,6 +693,13 @@ public class DataGroup1 : IDCardReader.DataGroup {
   }
   @objc deinit
 }
+public struct Signer<KeyType> {
+  public init?(signingAlgorithm: IDCardReader.SignatureAlgorithm, key: KeyType)
+}
+extension IDCardReader.Signer {
+  @available(*, deprecated, message: "Use `init?(signingAlgorithm: SignatureAlgorithm, key: KeyType)` instead")
+  public init?(signingAlgorithm: IDCardReader.SignatureAlgorithm, privateKey: KeyType)
+}
 @_hasMissingDesignatedInitializers @available(iOS 13, macOS 10.15, *)
 public class CardAccess {
   public var securityInfos: [IDCardReader.SecurityInfo] {
@@ -310,6 +713,41 @@ public class ActiveAuthenticationInfo : IDCardReader.SecurityInfo {
   override public func getProtocolOIDString() -> Swift.String
   public func getSignatureAlgorithmOIDString() -> Swift.String?
   @objc deinit
+}
+public struct JWE {
+  public let header: IDCardReader.JWEHeader
+  public let encryptedKey: Foundation.Data
+  public let initializationVector: Foundation.Data
+  public let ciphertext: Foundation.Data
+  public let authenticationTag: Foundation.Data
+  public var compactSerializedString: Swift.String {
+    get
+  }
+  public var compactSerializedData: Foundation.Data {
+    get
+  }
+  @available(iOS 13.0, *)
+  public init<KeyType>(header: IDCardReader.JWEHeader, payload: IDCardReader.Payload, encrypter: IDCardReader.Encrypter<KeyType>) throws
+  public init(compactSerialization: Swift.String) throws
+  public init(compactSerialization: Foundation.Data) throws
+  @available(iOS 13.0, *)
+  @available(*, deprecated, message: "Use `decrypt(using decrypter:)` instead")
+  public func decrypt<KeyType>(with key: KeyType) throws -> IDCardReader.Payload
+  @available(iOS 13.0, *)
+  public func decrypt(using decrypter: IDCardReader.Decrypter) throws -> IDCardReader.Payload
+}
+extension IDCardReader.JWE : IDCardReader.CompactSerializable {
+  public func serialize(to serializer: inout any IDCardReader.CompactSerializer)
+}
+extension IDCardReader.JWE : IDCardReader.CompactDeserializable {
+  public static var componentCount: Swift.Int {
+    get
+  }
+  public init(from deserializer: any IDCardReader.CompactDeserializer) throws
+}
+extension Security.SecKey : IDCardReader.ExpressibleAsECPrivateKeyComponents {
+  public static func representing(ecPrivateKeyComponents components: IDCardReader.ECPrivateKeyComponents) throws -> Self
+  public func ecPrivateKeyComponents() throws -> IDCardReader.ECPrivateKeyComponents
 }
 @available(iOS 13, macOS 10.15, *)
 public enum CertificateType {
@@ -386,6 +824,12 @@ public enum DataGroupId : Swift.Int, Swift.CaseIterable {
     get
   }
 }
+extension IDCardReader.JWKSet : Swift.Encodable {
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+extension IDCardReader.JWKSet : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
 @available(iOS 13, macOS 10.15, *)
 public enum NFCViewDisplayMessage {
   case requestPresentPassport
@@ -401,11 +845,37 @@ extension IDCardReader.NFCViewDisplayMessage {
     get
   }
 }
+public struct Encrypter<KeyType> {
+  public init?(keyManagementAlgorithm: IDCardReader.KeyManagementAlgorithm, contentEncryptionAlgorithm: IDCardReader.ContentEncryptionAlgorithm, encryptionKey: KeyType)
+}
+extension IDCardReader.Encrypter {
+  @available(*, deprecated, message: "Use `init?(keyManagementAlgorithm:contentEncryptionAlgorithm:encryptionKey:)` instead")
+  public init?(keyEncryptionAlgorithm: IDCardReader.AsymmetricKeyAlgorithm, encryptionKey key: KeyType, contentEncyptionAlgorithm: IDCardReader.SymmetricKeyAlgorithm)
+  @available(*, deprecated, message: "Use `init?(keyManagementAlgorithm:contentEncryptionAlgorithm:encryptionKey:)` instead")
+  public init?(keyEncryptionAlgorithm: IDCardReader.AsymmetricKeyAlgorithm, keyEncryptionKey kek: KeyType, contentEncyptionAlgorithm: IDCardReader.SymmetricKeyAlgorithm)
+}
+@available(*, deprecated, message: "This type will be removed with the next major release.")
+public struct EncryptionContext {
+}
+@available(*, deprecated, message: "This type will be removed with the next major release.")
+public struct SymmetricEncryptionContext {
+}
+extension Foundation.Data : IDCardReader.ExpressibleAsRSAPublicKeyComponents {
+  public static func representing(rsaPublicKeyComponents components: IDCardReader.RSAPublicKeyComponents) throws -> Foundation.Data
+  public func rsaPublicKeyComponents() throws -> IDCardReader.RSAPublicKeyComponents
+}
 @_hasMissingDesignatedInitializers @available(iOS 13, macOS 10.15, *)
 public class SecurityInfo {
   public func getObjectIdentifier() -> Swift.String
   public func getProtocolOIDString() -> Swift.String
   @objc deinit
+}
+public enum SecureRandomError : Swift.Error {
+  case failed(status: Darwin.OSStatus)
+  case countMustBeGreaterThanZero
+}
+public struct SecureRandom {
+  public static func generate(count: Swift.Int) throws -> Foundation.Data
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 13, macOS 10.15, *)
 public class DataGroup14 : IDCardReader.DataGroup {
@@ -418,6 +888,25 @@ public class DataGroup14 : IDCardReader.DataGroup {
 public class TagReader {
   @objc deinit
 }
+extension Foundation.Data {
+  public init?(base64URLEncoded base64URLString: Swift.String)
+  public init?(base64URLEncoded base64URLData: Foundation.Data)
+  public func base64URLEncodedString() -> Swift.String
+  public func base64URLEncodedData() -> Foundation.Data
+}
+extension Foundation.Data : IDCardReader.DataConvertible {
+  public init(_ data: Foundation.Data)
+  public func data() -> Foundation.Data
+}
+extension IDCardReader.JWK {
+  public subscript(parameter: Swift.String) -> Swift.String? {
+    get
+  }
+}
+extension IDCardReader.JWK {
+  public func jsonString() -> Swift.String?
+  public func jsonData() -> Foundation.Data?
+}
 @_hasMissingDesignatedInitializers @available(iOS 13, macOS 10.15, *)
 public class ChipAuthenticationInfo : IDCardReader.SecurityInfo {
   override public func getObjectIdentifier() -> Swift.String
@@ -427,6 +916,28 @@ public class ChipAuthenticationInfo : IDCardReader.SecurityInfo {
   public static func toCipherAlgorithm(oid: Swift.String) throws -> Swift.String
   public static func toKeyLength(oid: Swift.String) throws -> Swift.Int
   @objc deinit
+}
+public enum ECCurveType : Swift.String, Swift.Codable {
+  case P256
+  case P384
+  case P521
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum ECCompression : Swift.UInt8 {
+  case CompressedYEven
+  case CompressedYOdd
+  case Uncompressed
+  case HybridYEven
+  case HybridYOdd
+  public init?(rawValue: Swift.UInt8)
+  public typealias RawValue = Swift.UInt8
+  public var rawValue: Swift.UInt8 {
+    get
+  }
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 13, macOS 10.15, *)
 public class DataGroup7 : IDCardReader.DataGroup {
@@ -441,6 +952,61 @@ public struct ResponseAPDU {
   public var sw1: Swift.UInt8
   public var sw2: Swift.UInt8
   public init(data: [Swift.UInt8], sw1: Swift.UInt8, sw2: Swift.UInt8)
+}
+public struct JWSHeader {
+  public init(algorithm: IDCardReader.SignatureAlgorithm)
+  public init(parameters: [Swift.String : Any]) throws
+}
+extension IDCardReader.JWSHeader {
+  public var algorithm: IDCardReader.SignatureAlgorithm? {
+    get
+  }
+}
+extension IDCardReader.JWSHeader : IDCardReader.CommonHeaderParameterSpace {
+  public var jku: Foundation.URL? {
+    get
+    set
+  }
+  public var jwk: Swift.String? {
+    get
+    set
+  }
+  public var jwkTyped: (any IDCardReader.JWK)? {
+    get
+    set
+  }
+  public var kid: Swift.String? {
+    get
+    set
+  }
+  public var x5u: Foundation.URL? {
+    get
+    set
+  }
+  public var x5c: [Swift.String]? {
+    get
+    set
+  }
+  public var x5t: Swift.String? {
+    get
+    set
+  }
+  public var x5tS256: Swift.String? {
+    get
+    set
+  }
+  public var typ: Swift.String? {
+    get
+    set
+  }
+  public var cty: Swift.String? {
+    get
+    set
+  }
+  public var crit: [Swift.String]? {
+    get
+    set
+  }
 }
 public enum PACEMappingType {
   case GM
@@ -486,6 +1052,19 @@ public class PACEInfo : IDCardReader.SecurityInfo {
   public static func toDigestAlgorithm(oid: Swift.String) throws -> Swift.String
   public static func toKeyLength(oid: Swift.String) throws -> Swift.Int
   @objc deinit
+}
+public protocol CompactDeserializable {
+  static var componentCount: Swift.Int { get }
+  init(from deserializer: any IDCardReader.CompactDeserializer) throws
+}
+public protocol CompactDeserializer {
+  func deserialize<T>(_ type: T.Type, at index: Swift.Int) throws -> T where T : IDCardReader.DataConvertible
+}
+public struct JOSEDeserializer {
+  public init()
+  public func deserialize<T>(_ type: T.Type, fromCompactSerialization compactSerialization: Swift.String) throws -> T where T : IDCardReader.CompactDeserializable
+}
+public enum ComponentCompactSerializedIndex {
 }
 @available(iOS 13, macOS 10.15, *)
 public enum NFCPassportReaderError : Swift.Error {
@@ -688,6 +1267,18 @@ public class NFCPassportModel {
   public func verifyActiveAuthentication(challenge: [Swift.UInt8], signature: [Swift.UInt8])
   @objc deinit
 }
+extension IDCardReader.ECPublicKey : Swift.Encodable {
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+extension IDCardReader.ECPublicKey : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension IDCardReader.ECPrivateKey : Swift.Encodable {
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+extension IDCardReader.ECPrivateKey : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
 @available(iOS 13, macOS 10.15, *)
 public struct DataGroupHash {
   public var id: Swift.String
@@ -766,9 +1357,23 @@ public class DataGroup12 : IDCardReader.DataGroup {
   }
   @objc deinit
 }
+public protocol CompactSerializable {
+  func serialize(to serializer: inout any IDCardReader.CompactSerializer)
+}
+public protocol CompactSerializer {
+  var components: [any IDCardReader.DataConvertible] { get }
+  mutating func serialize<T>(_ object: T) where T : IDCardReader.DataConvertible
+}
+public struct JOSESerializer {
+  public func serialize<T>(compact object: T) -> Swift.String where T : IDCardReader.CompactSerializable
+}
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 13, macOS 10.15, *)
 public class NotImplementedDG : IDCardReader.DataGroup {
   @objc deinit
+}
+extension Foundation.Data : IDCardReader.ExpressibleAsECPrivateKeyComponents {
+  public static func representing(ecPrivateKeyComponents components: IDCardReader.ECPrivateKeyComponents) throws -> Foundation.Data
+  public func ecPrivateKeyComponents() throws -> IDCardReader.ECPrivateKeyComponents
 }
 @_inheritsConvenienceInitializers @available(iOS 13.0, *)
 @objc public class IDCardReaderManager : ObjectiveC.NSObject {
@@ -779,7 +1384,7 @@ public class NotImplementedDG : IDCardReader.DataGroup {
   @objc public func readIDCard(cardId: Swift.String, dateOfBirth: Swift.String, dateOfExpiry: Swift.String) async throws -> IDCardReader.IDCardInformationResponse
   #endif
   #if compiler(>=5.3) && $AsyncAwait
-  @objc public func checkPassiveAuth(cardId: Swift.String, dateOfBirth: Swift.String, dateOfExpiry: Swift.String) async throws -> IDCardReader.IDCardPassiveAuthenticationResponse
+  @objc public func checkPassiveAuth(cardId: Swift.String, dateOfBirth: Swift.String, dateOfExpiry: Swift.String, otherData: [Swift.String : Any]? = nil) async throws -> IDCardReader.IDCardPassiveAuthenticationResponse
   #endif
   #if compiler(>=5.3) && $AsyncAwait
   public func validateCard(requestId: Swift.String) async throws -> IDCardReader.IDCardValidationResponse
@@ -787,8 +1392,91 @@ public class NotImplementedDG : IDCardReader.DataGroup {
   #if compiler(>=5.3) && $AsyncAwait
   public func getFaceConfig() async throws -> IDCardReader.ConfignResponse
   #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @objc public func registerDevice(parameter: [Swift.String : Any]) async throws -> IDCardReader.IDCardReaderRegisterDeviceResponse
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func rejectConsentRequest(param: [Swift.String : Any]) async throws -> IDCardReader.IDCardValidationResponse
+  #endif
   @objc override dynamic public init()
   @objc deinit
+}
+public struct JWEHeader {
+  public init(keyManagementAlgorithm: IDCardReader.KeyManagementAlgorithm, contentEncryptionAlgorithm: IDCardReader.ContentEncryptionAlgorithm)
+  public init(parameters: [Swift.String : Any]) throws
+}
+extension IDCardReader.JWEHeader {
+  public var keyManagementAlgorithm: IDCardReader.KeyManagementAlgorithm? {
+    get
+  }
+  public var contentEncryptionAlgorithm: IDCardReader.ContentEncryptionAlgorithm? {
+    get
+  }
+  public var compressionAlgorithm: IDCardReader.CompressionAlgorithm? {
+    get
+  }
+  public var zip: Swift.String? {
+    get
+    set
+  }
+}
+extension IDCardReader.JWEHeader : IDCardReader.CommonHeaderParameterSpace {
+  public var jku: Foundation.URL? {
+    get
+    set
+  }
+  public var jwk: Swift.String? {
+    get
+    set
+  }
+  public var jwkTyped: (any IDCardReader.JWK)? {
+    get
+    set
+  }
+  public var kid: Swift.String? {
+    get
+    set
+  }
+  public var x5u: Foundation.URL? {
+    get
+    set
+  }
+  public var x5c: [Swift.String]? {
+    get
+    set
+  }
+  public var x5t: Swift.String? {
+    get
+    set
+  }
+  public var x5tS256: Swift.String? {
+    get
+    set
+  }
+  public var typ: Swift.String? {
+    get
+    set
+  }
+  public var cty: Swift.String? {
+    get
+    set
+  }
+  public var crit: [Swift.String]? {
+    get
+    set
+  }
+}
+extension IDCardReader.JWEHeader {
+  @available(*, deprecated, message: "Use `JWEHeader.keyManagementAlgorithm` instead")
+  public var algorithm: IDCardReader.AsymmetricKeyAlgorithm? {
+    get
+  }
+  @available(*, deprecated, message: "Use `JWEHeader.contentEncryptionAlgorithm` instead")
+  public var encryptionAlgorithm: IDCardReader.SymmetricKeyAlgorithm? {
+    get
+  }
+  @available(*, deprecated, message: "Use `init(keyManagementAlgorithm:contentEncryptionAlgorithm` instead")
+  public init(algorithm: IDCardReader.AsymmetricKeyAlgorithm, encryptionAlgorithm: IDCardReader.SymmetricKeyAlgorithm)
 }
 @objc @available(iOS 13, *)
 public class PassportReader : ObjectiveC.NSObject {
@@ -806,6 +1494,39 @@ extension IDCardReader.PassportReader : CoreNFC.NFCTagReaderSessionDelegate {
   public func tagReaderSessionDidBecomeActive(_ session: CoreNFC.NFCTagReaderSession)
   public func tagReaderSession(_ session: CoreNFC.NFCTagReaderSession, didInvalidateWithError error: any Swift.Error)
   public func tagReaderSession(_ session: CoreNFC.NFCTagReaderSession, didDetect tags: [CoreNFC.NFCTag])
+}
+extension Security.SecKey : IDCardReader.ExpressibleAsECPublicKeyComponents {
+  public static func representing(ecPublicKeyComponents components: IDCardReader.ECPublicKeyComponents) throws -> Self
+  public func ecPublicKeyComponents() throws -> IDCardReader.ECPublicKeyComponents
+}
+public enum JOSESwiftError : Swift.Error {
+  case signingFailed(description: Swift.String)
+  case verifyingFailed(description: Swift.String)
+  case signatureInvalid
+  case encryptingFailed(description: Swift.String)
+  case decryptingFailed(description: Swift.String)
+  case wrongDataEncoding(data: Foundation.Data)
+  case invalidCompactSerializationComponentCount(count: Swift.Int)
+  case componentNotValidBase64URL(component: Swift.String)
+  case componentCouldNotBeInitializedFromData(data: Foundation.Data)
+  case couldNotConstructJWK
+  case modulusNotBase64URLUIntEncoded
+  case exponentNotBase64URLUIntEncoded
+  case privateExponentNotBase64URLUIntEncoded
+  case symmetricKeyNotBase64URLEncoded
+  case xNotBase64URLUIntEncoded
+  case yNotBase64URLUIntEncoded
+  case privateKeyNotBase64URLUIntEncoded
+  case invalidCurveType
+  case compressedCurvePointsUnsupported
+  case invalidCurvePointOctetLength
+  case localAuthenticationFailed(errorCode: Swift.Int)
+  case compressionFailed
+  case decompressionFailed
+  case compressionAlgorithmNotSupported
+  case rawDataMustBeGreaterThanZero
+  case compressedDataMustBeGreaterThanZero
+  case thumbprintSerialization
 }
 public struct IDCardRawData {
   public var faceString: Swift.String
@@ -908,6 +1629,7 @@ public struct ConfigData : ObjectMapper.Mappable {
   @objc public var message: Swift.String
   @objc public var requestId: Swift.String
   @objc public var data: IDCardReader.PassiveAuthInformation?
+  @objc public var cardData: IDCardReader.IDCardInformation?
   required public init?(map: ObjectMapper.Map)
   public func mapping(map: ObjectMapper.Map)
   @objc deinit
@@ -921,6 +1643,17 @@ public struct ConfigData : ObjectMapper.Mappable {
   @objc public var cardHolderName: Swift.String
   @objc public var address: Swift.String
   @objc public var faceImage: Swift.String
+  required public init?(map: ObjectMapper.Map)
+  public func mapping(map: ObjectMapper.Map)
+  @objc deinit
+}
+@objc @objcMembers public class IDCardReaderRegisterDeviceResponse : ObjectiveC.NSObject, ObjectMapper.Mappable {
+  @objc public var status: Swift.Int
+  @objc public var code: Swift.String
+  @objc public var message: Swift.String
+  @objc public var requestId: Swift.String
+  @objc public var secret: Swift.String
+  @objc public var signature: Swift.String
   required public init?(map: ObjectMapper.Map)
   public func mapping(map: ObjectMapper.Map)
   @objc deinit
@@ -946,6 +1679,8 @@ public struct ConfigData : ObjectMapper.Mappable {
   case noMatchedCard
   case checkCertFailed
   case passiveAuthError
+  case joserError
+  case transactionNotFoundNoMatchMerchant
   case unknowError
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
@@ -956,11 +1691,74 @@ public struct ConfigData : ObjectMapper.Mappable {
     get
   }
 }
+public struct JWKSet {
+  public let keys: [any IDCardReader.JWK]
+  public init(keys: [any IDCardReader.JWK])
+  public init(data: Foundation.Data) throws
+  public func jsonString() -> Swift.String?
+  public func jsonData() -> Foundation.Data?
+}
+extension IDCardReader.JWKSet : Swift.Collection {
+  public typealias ArrayType = [any IDCardReader.JWK]
+  public typealias Element = IDCardReader.JWKSet.ArrayType.Element
+  public typealias Index = IDCardReader.JWKSet.ArrayType.Index
+  public typealias Iterator = IDCardReader.JWKSet.ArrayType.Iterator
+  public var startIndex: IDCardReader.JWKSet.Index {
+    get
+  }
+  public var endIndex: IDCardReader.JWKSet.Index {
+    get
+  }
+  public subscript(index: IDCardReader.JWKSet.Index) -> IDCardReader.JWKSet.Element {
+    get
+  }
+  public func index(after index: IDCardReader.JWKSet.Index) -> IDCardReader.JWKSet.Index
+  public func makeIterator() -> Swift.IndexingIterator<IDCardReader.JWKSet.ArrayType>
+  public typealias Indices = Swift.DefaultIndices<IDCardReader.JWKSet>
+  public typealias SubSequence = Swift.Slice<IDCardReader.JWKSet>
+}
+extension IDCardReader.JWKSet : Swift.ExpressibleByArrayLiteral {
+  public typealias ArrayLiteralElement = IDCardReader.JWKSet.Element
+  public init(arrayLiteral elements: IDCardReader.JWKSet.ArrayLiteralElement...)
+}
 extension IDCardReader.LogLevel : Swift.Equatable {}
 extension IDCardReader.LogLevel : Swift.Hashable {}
 extension IDCardReader.LogLevel : Swift.RawRepresentable {}
+extension IDCardReader.SignatureAlgorithm : Swift.Equatable {}
+extension IDCardReader.SignatureAlgorithm : Swift.Hashable {}
+extension IDCardReader.SignatureAlgorithm : Swift.RawRepresentable {}
+extension IDCardReader.KeyManagementAlgorithm : Swift.Equatable {}
+extension IDCardReader.KeyManagementAlgorithm : Swift.Hashable {}
+extension IDCardReader.KeyManagementAlgorithm : Swift.RawRepresentable {}
+extension IDCardReader.ContentEncryptionAlgorithm : Swift.Equatable {}
+extension IDCardReader.ContentEncryptionAlgorithm : Swift.Hashable {}
+extension IDCardReader.ContentEncryptionAlgorithm : Swift.RawRepresentable {}
+extension IDCardReader.HMACAlgorithm : Swift.Equatable {}
+extension IDCardReader.HMACAlgorithm : Swift.Hashable {}
+extension IDCardReader.HMACAlgorithm : Swift.RawRepresentable {}
+extension IDCardReader.JWKThumbprintAlgorithm : Swift.Equatable {}
+extension IDCardReader.JWKThumbprintAlgorithm : Swift.Hashable {}
+extension IDCardReader.JWKThumbprintAlgorithm : Swift.RawRepresentable {}
+extension IDCardReader.CompressionAlgorithm : Swift.Equatable {}
+extension IDCardReader.CompressionAlgorithm : Swift.Hashable {}
+extension IDCardReader.CompressionAlgorithm : Swift.RawRepresentable {}
+extension IDCardReader.JWKParameter : Swift.Equatable {}
+extension IDCardReader.JWKParameter : Swift.Hashable {}
+extension IDCardReader.JWKParameter : Swift.RawRepresentable {}
+extension IDCardReader.RSAParameter : Swift.Equatable {}
+extension IDCardReader.RSAParameter : Swift.Hashable {}
+extension IDCardReader.RSAParameter : Swift.RawRepresentable {}
+extension IDCardReader.SymmetricKeyParameter : Swift.Equatable {}
+extension IDCardReader.SymmetricKeyParameter : Swift.Hashable {}
+extension IDCardReader.SymmetricKeyParameter : Swift.RawRepresentable {}
+extension IDCardReader.ECParameter : Swift.Equatable {}
+extension IDCardReader.ECParameter : Swift.Hashable {}
+extension IDCardReader.ECParameter : Swift.RawRepresentable {}
 extension IDCardReader.SecureMessagingSupportedAlgorithms : Swift.Equatable {}
 extension IDCardReader.SecureMessagingSupportedAlgorithms : Swift.Hashable {}
+extension IDCardReader.JWKKeyType : Swift.Equatable {}
+extension IDCardReader.JWKKeyType : Swift.Hashable {}
+extension IDCardReader.JWKKeyType : Swift.RawRepresentable {}
 @available(iOS 13, macOS 10.15, *)
 extension IDCardReader.DocTypeEnum : Swift.Equatable {}
 @available(iOS 13, macOS 10.15, *)
@@ -983,11 +1781,19 @@ extension IDCardReader.DataGroupId : Swift.Equatable {}
 extension IDCardReader.DataGroupId : Swift.Hashable {}
 @available(iOS 13, macOS 10.15, *)
 extension IDCardReader.DataGroupId : Swift.RawRepresentable {}
+extension IDCardReader.ECCurveType : Swift.Equatable {}
+extension IDCardReader.ECCurveType : Swift.Hashable {}
+extension IDCardReader.ECCurveType : Swift.RawRepresentable {}
+extension IDCardReader.ECCompression : Swift.Equatable {}
+extension IDCardReader.ECCompression : Swift.Hashable {}
+extension IDCardReader.ECCompression : Swift.RawRepresentable {}
+extension IDCardReader.JWSHeader : IDCardReader.DataConvertible {}
 extension IDCardReader.PACEMappingType : Swift.Equatable {}
 extension IDCardReader.PACEMappingType : Swift.Hashable {}
 extension IDCardReader.PassportAuthenticationStatus : Swift.Equatable {}
 extension IDCardReader.PassportAuthenticationStatus : Swift.Hashable {}
 extension IDCardReader.PassportAuthenticationStatus : Swift.RawRepresentable {}
+extension IDCardReader.JWEHeader : IDCardReader.DataConvertible {}
 extension IDCardReader.CardValidationError : Swift.Equatable {}
 extension IDCardReader.CardValidationError : Swift.Hashable {}
 extension IDCardReader.CardValidationError : Swift.RawRepresentable {}

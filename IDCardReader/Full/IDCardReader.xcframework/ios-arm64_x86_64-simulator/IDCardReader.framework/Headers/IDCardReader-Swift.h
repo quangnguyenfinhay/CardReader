@@ -320,7 +320,9 @@ typedef SWIFT_ENUM(NSInteger, CardValidationError, open) {
   CardValidationErrorNoMatchedCard = 17,
   CardValidationErrorCheckCertFailed = 18,
   CardValidationErrorPassiveAuthError = 19,
-  CardValidationErrorUnknowError = 20,
+  CardValidationErrorJoserError = 20,
+  CardValidationErrorTransactionNotFoundNoMatchMerchant = 21,
+  CardValidationErrorUnknowError = 22,
 };
 static NSString * _Nonnull const CardValidationErrorDomain = @"IDCardReader.CardValidationError";
 
@@ -390,11 +392,13 @@ SWIFT_CLASS("_TtC12IDCardReader35IDCardPassiveAuthenticationResponse")
 @property (nonatomic, copy) NSString * _Nonnull message;
 @property (nonatomic, copy) NSString * _Nonnull requestId;
 @property (nonatomic, strong) PassiveAuthInformation * _Nullable data;
+@property (nonatomic, strong) IDCardInformation * _Nullable cardData;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 enum LogLevel : NSInteger;
+@class IDCardReaderRegisterDeviceResponse;
 
 SWIFT_CLASS("_TtC12IDCardReader19IDCardReaderManager") SWIFT_AVAILABILITY(ios,introduced=13.0)
 @interface IDCardReaderManager : NSObject
@@ -403,10 +407,25 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) IDCardReader
 - (void)setupWithAppId:(NSString * _Nonnull)appId license:(NSString * _Nonnull)license logLevel:(enum LogLevel)logLevel isSanbox:(BOOL)isSanbox;
 - (void)setLocalizeTextsWithRequestPresentCard:(NSString * _Nullable)requestPresentCard authenticating:(NSString * _Nullable)authenticating reading:(NSString * _Nullable)reading errorReading:(NSString * _Nullable)errorReading successReading:(NSString * _Nullable)successReading retry:(NSString * _Nullable)retry;
 - (void)readIDCardWithCardId:(NSString * _Nonnull)cardId dateOfBirth:(NSString * _Nonnull)dateOfBirth dateOfExpiry:(NSString * _Nonnull)dateOfExpiry completionHandler:(void (^ _Nonnull)(IDCardInformationResponse * _Nullable, NSError * _Nullable))completionHandler;
-- (void)checkPassiveAuthWithCardId:(NSString * _Nonnull)cardId dateOfBirth:(NSString * _Nonnull)dateOfBirth dateOfExpiry:(NSString * _Nonnull)dateOfExpiry completionHandler:(void (^ _Nonnull)(IDCardPassiveAuthenticationResponse * _Nullable, NSError * _Nullable))completionHandler;
+- (void)checkPassiveAuthWithCardId:(NSString * _Nonnull)cardId dateOfBirth:(NSString * _Nonnull)dateOfBirth dateOfExpiry:(NSString * _Nonnull)dateOfExpiry otherData:(NSDictionary<NSString *, id> * _Nullable)otherData completionHandler:(void (^ _Nonnull)(IDCardPassiveAuthenticationResponse * _Nullable, NSError * _Nullable))completionHandler;
+- (void)registerDeviceWithParameter:(NSDictionary<NSString *, id> * _Nonnull)parameter completionHandler:(void (^ _Nonnull)(IDCardReaderRegisterDeviceResponse * _Nullable, NSError * _Nullable))completionHandler;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+
+
+SWIFT_CLASS("_TtC12IDCardReader34IDCardReaderRegisterDeviceResponse")
+@interface IDCardReaderRegisterDeviceResponse : NSObject
+@property (nonatomic) NSInteger status;
+@property (nonatomic, copy) NSString * _Nonnull code;
+@property (nonatomic, copy) NSString * _Nonnull message;
+@property (nonatomic, copy) NSString * _Nonnull requestId;
+@property (nonatomic, copy) NSString * _Nonnull secret;
+@property (nonatomic, copy) NSString * _Nonnull signature;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
 
 
 SWIFT_CLASS("_TtC12IDCardReader11ImageAction")
@@ -423,7 +442,7 @@ enum LivenessMode : NSInteger;
 
 SWIFT_CLASS("_TtC12IDCardReader8Liveness") SWIFT_AVAILABILITY(ios,introduced=13.0)
 @interface Liveness : NSObject
-+ (LivenessDetector * _Nonnull)createLivenessDetectorWithPreviewView:(UIView * _Nonnull)previewView threshold:(enum SensitivityThreshold)threshold delay:(double)delay smallFaceThreshold:(double)smallFaceThreshold debugging:(BOOL)debugging delegate:(id <LivenessDetectorDelegate> _Nullable)delegate livenessMode:(enum LivenessMode)livenessMode cardId:(NSString * _Nullable)cardId SWIFT_WARN_UNUSED_RESULT;
++ (LivenessDetector * _Nonnull)createLivenessDetectorWithPreviewView:(UIView * _Nonnull)previewView threshold:(enum SensitivityThreshold)threshold delay:(double)delay smallFaceThreshold:(double)smallFaceThreshold debugging:(BOOL)debugging delegate:(id <LivenessDetectorDelegate> _Nullable)delegate livenessMode:(enum LivenessMode)livenessMode cardId:(NSString * _Nullable)cardId otherParameters:(NSDictionary<NSString *, id> * _Nullable)otherParameters requestId:(NSString * _Nullable)requestId SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -473,6 +492,7 @@ static NSString * _Nonnull const LivenessErrorDomain = @"IDCardReader.LivenessEr
 typedef SWIFT_ENUM(NSInteger, LivenessMode, open) {
   LivenessModeNormal = 0,
   LivenessModeBioAuthentication = 1,
+  LivenessModeBioVectorAuth = 2,
 };
 
 typedef SWIFT_ENUM(NSInteger, LogLevel, open) {
@@ -855,7 +875,9 @@ typedef SWIFT_ENUM(NSInteger, CardValidationError, open) {
   CardValidationErrorNoMatchedCard = 17,
   CardValidationErrorCheckCertFailed = 18,
   CardValidationErrorPassiveAuthError = 19,
-  CardValidationErrorUnknowError = 20,
+  CardValidationErrorJoserError = 20,
+  CardValidationErrorTransactionNotFoundNoMatchMerchant = 21,
+  CardValidationErrorUnknowError = 22,
 };
 static NSString * _Nonnull const CardValidationErrorDomain = @"IDCardReader.CardValidationError";
 
@@ -925,11 +947,13 @@ SWIFT_CLASS("_TtC12IDCardReader35IDCardPassiveAuthenticationResponse")
 @property (nonatomic, copy) NSString * _Nonnull message;
 @property (nonatomic, copy) NSString * _Nonnull requestId;
 @property (nonatomic, strong) PassiveAuthInformation * _Nullable data;
+@property (nonatomic, strong) IDCardInformation * _Nullable cardData;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 enum LogLevel : NSInteger;
+@class IDCardReaderRegisterDeviceResponse;
 
 SWIFT_CLASS("_TtC12IDCardReader19IDCardReaderManager") SWIFT_AVAILABILITY(ios,introduced=13.0)
 @interface IDCardReaderManager : NSObject
@@ -938,10 +962,25 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) IDCardReader
 - (void)setupWithAppId:(NSString * _Nonnull)appId license:(NSString * _Nonnull)license logLevel:(enum LogLevel)logLevel isSanbox:(BOOL)isSanbox;
 - (void)setLocalizeTextsWithRequestPresentCard:(NSString * _Nullable)requestPresentCard authenticating:(NSString * _Nullable)authenticating reading:(NSString * _Nullable)reading errorReading:(NSString * _Nullable)errorReading successReading:(NSString * _Nullable)successReading retry:(NSString * _Nullable)retry;
 - (void)readIDCardWithCardId:(NSString * _Nonnull)cardId dateOfBirth:(NSString * _Nonnull)dateOfBirth dateOfExpiry:(NSString * _Nonnull)dateOfExpiry completionHandler:(void (^ _Nonnull)(IDCardInformationResponse * _Nullable, NSError * _Nullable))completionHandler;
-- (void)checkPassiveAuthWithCardId:(NSString * _Nonnull)cardId dateOfBirth:(NSString * _Nonnull)dateOfBirth dateOfExpiry:(NSString * _Nonnull)dateOfExpiry completionHandler:(void (^ _Nonnull)(IDCardPassiveAuthenticationResponse * _Nullable, NSError * _Nullable))completionHandler;
+- (void)checkPassiveAuthWithCardId:(NSString * _Nonnull)cardId dateOfBirth:(NSString * _Nonnull)dateOfBirth dateOfExpiry:(NSString * _Nonnull)dateOfExpiry otherData:(NSDictionary<NSString *, id> * _Nullable)otherData completionHandler:(void (^ _Nonnull)(IDCardPassiveAuthenticationResponse * _Nullable, NSError * _Nullable))completionHandler;
+- (void)registerDeviceWithParameter:(NSDictionary<NSString *, id> * _Nonnull)parameter completionHandler:(void (^ _Nonnull)(IDCardReaderRegisterDeviceResponse * _Nullable, NSError * _Nullable))completionHandler;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+
+
+SWIFT_CLASS("_TtC12IDCardReader34IDCardReaderRegisterDeviceResponse")
+@interface IDCardReaderRegisterDeviceResponse : NSObject
+@property (nonatomic) NSInteger status;
+@property (nonatomic, copy) NSString * _Nonnull code;
+@property (nonatomic, copy) NSString * _Nonnull message;
+@property (nonatomic, copy) NSString * _Nonnull requestId;
+@property (nonatomic, copy) NSString * _Nonnull secret;
+@property (nonatomic, copy) NSString * _Nonnull signature;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
 
 
 SWIFT_CLASS("_TtC12IDCardReader11ImageAction")
@@ -958,7 +997,7 @@ enum LivenessMode : NSInteger;
 
 SWIFT_CLASS("_TtC12IDCardReader8Liveness") SWIFT_AVAILABILITY(ios,introduced=13.0)
 @interface Liveness : NSObject
-+ (LivenessDetector * _Nonnull)createLivenessDetectorWithPreviewView:(UIView * _Nonnull)previewView threshold:(enum SensitivityThreshold)threshold delay:(double)delay smallFaceThreshold:(double)smallFaceThreshold debugging:(BOOL)debugging delegate:(id <LivenessDetectorDelegate> _Nullable)delegate livenessMode:(enum LivenessMode)livenessMode cardId:(NSString * _Nullable)cardId SWIFT_WARN_UNUSED_RESULT;
++ (LivenessDetector * _Nonnull)createLivenessDetectorWithPreviewView:(UIView * _Nonnull)previewView threshold:(enum SensitivityThreshold)threshold delay:(double)delay smallFaceThreshold:(double)smallFaceThreshold debugging:(BOOL)debugging delegate:(id <LivenessDetectorDelegate> _Nullable)delegate livenessMode:(enum LivenessMode)livenessMode cardId:(NSString * _Nullable)cardId otherParameters:(NSDictionary<NSString *, id> * _Nullable)otherParameters requestId:(NSString * _Nullable)requestId SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -1008,6 +1047,7 @@ static NSString * _Nonnull const LivenessErrorDomain = @"IDCardReader.LivenessEr
 typedef SWIFT_ENUM(NSInteger, LivenessMode, open) {
   LivenessModeNormal = 0,
   LivenessModeBioAuthentication = 1,
+  LivenessModeBioVectorAuth = 2,
 };
 
 typedef SWIFT_ENUM(NSInteger, LogLevel, open) {
