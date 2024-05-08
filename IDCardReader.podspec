@@ -16,16 +16,18 @@ Pod::Spec.new do |spec|
 
   spec.subspec 'Full' do |subspec|
     subspec.vendored_frameworks = 'IDCardReader/Full/IDCardReader.xcframework'
-     # subspec.dependency "ObjectMapper", '~> 4.2'
-     # subspec.dependency "OpenSSL-Universal", '~> 1.1.1100'
+      subspec.dependency "ObjectMapper", '~> 4.2'
+      subspec.dependency "OpenSSL-Universal", '~> 1.1.1100'
   end
 
   spec.subspec 'Lite' do |subspec|
     subspec.vendored_frameworks = 'IDCardReader/Lite/IDCardReader.xcframework'
-     # subspec.dependency "ObjectMapper", '~> 4.2'
-     # subspec.dependency "OpenSSL-Universal", '~> 1.1.1100'
+      subspec.dependency "ObjectMapper", '~> 4.2'
+      subspec.dependency "OpenSSL-Universal", '~> 1.1.1100'
   end
-
+  spec.subspec 'PVCB' do |subspec|
+    subspec.vendored_frameworks = 'IDCardReader/Full/IDCardReader.xcframework'
+  end
   spec.swift_version = "5.0"
   spec.xcconfig          = { 'OTHER_LDFLAGS' => '-weak_framework CryptoKit -weak_framework CoreNFC -weak_framework CryptoTokenKit' }
   spec.pod_target_xcconfig = {
